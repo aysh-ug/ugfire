@@ -367,7 +367,7 @@ h3 {
 .parts {
 display: flex;
 flex-direction: column;
-margin-top: 0px;
+margin: 0px;
 }
 
 .partition{
@@ -375,7 +375,7 @@ margin-top: 0px;
 	border: 0px solid #000;
 	border-style: ridge;
 	width: 400px;
-	margin: 0px auto 20px auto;
+	margin: 0px 0px 20px 0px;
 	box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0.5,0.5,0.5,0.5);
 }
 
