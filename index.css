@@ -339,7 +339,7 @@ h3 {
 	color: #fff;
 	padding: 20px;
 	margin-top: 0px;
-	width: 360px;
+	width: 260px;
 	margin: 0px auto;
 	
 
@@ -368,14 +368,13 @@ h3 {
 .parts {
 display: flex;
 flex-direction: column;
-margin: 0px;
+margin: auto;
 }
 
 .partition{
 	
 	border: 0px solid #000;
 	border-style: ridge;
-	width: 400px;
 	margin: 0px 0px 20px 0px;
 	box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0.5,0.5,0.5,0.5);
 }
