@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design Master</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<meta name="author" content="Aysh Inventions Ltd" />
+<link rel="shortcut icon" type="image/x-icon" href="images/ayshsmall.png" />
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<div class="header">
+	<div class="logo">	<img src="images/aysh.png" width="70px" style="">
+		</div>
+		<div class="heading"><h1><i style="font-style: normal; font-weight: lighter; color: #ffb366;"> Design</i> Master<br></h1><p id="churchname">Teacher Alfred <i style="color: #666666; font-style: normal;"> @Aysh Inventions Ltd</i> </p>  </div>
+	
+</div>
+<body class="main" style="margin: 0px;">
+<div id="navbar">
+<button style="float: left; " onclick="newsdisplay3()">Discounts</button> 
+<script>
+function newsdisplay3() {
+    document.getElementById("welcome").innerHTML = document.getElementById("home").innerHTML;
+
+}
+</script>
+
+<button onclick="newsdisplay4()" style="float: left; ">About me</button>
+<script>
+function newsdisplay4() {
+    document.getElementById("welcome").innerHTML = document.getElementById("aboutme").innerHTML;
+
+}
+</script> 
+
+<button onclick="newsdisplay6()" style="float: left; ">Tools</button>
+<script>
+function newsdisplay6() {
+    document.getElementById("welcome").innerHTML = document.getElementById("tools").innerHTML;
+
+}
+</script>
+
+<button onclick="newsdisplay5()">My CV</button>
+<script>
+function newsdisplay5() {
+    document.getElementById("welcome").innerHTML = document.getElementById("cv").innerHTML;
+
+}
+</script>
+
+<div id="welcome"><h2>Welcome to the leading Design Hub</h2> </div>
+</div>
+
+<div id="tools" style="display: none; margin: 20px;">
+<h2 style="color: #cc6600;background-color: #ffd9b3;padding:10px 20px;">Software technologies that i use</h2>
+<p style="text-align: left;padding:10px 20px;">Adobe Design suite (Photoshop, Illustrator, Aftereffects, PremierePro, Audition, Media Encoder)     |  Maxon Cinema 4D for 3D    |  Netbeans   |  Eclipse    | Sublime Text   | Java 8.0   |  MySQL & Maria DB databases |  HTML  |  CSS  |  JavaScript </p>
+
+  <p style=";background-color: #b3ffff; color: #000;padding: 7px 10px;text-align: center; margin: 0px;width: 300px;">Experience:   <a style="margin: 0px; padding: 7px 10px;color: #008080;"> 9 years (Since 2012)</a> </p>
+  <br>
+ </div>
+
+
+	<div id="home" style="display: none;" >
+
+<h3>CREATE A WEBSITE</h3>
+<p  style="text-align: left;font-size: 14px;padding:5px 20px;">Take your business online with a beautiful responsive and interactive website.<br><br> Fresh cutting edge designs at a low cost.<br><br>
+
+	<em style="color: red; font-weight: bold;">Note: this offer is only valid if you send us a whatsapp message. To do so, simply click on the button below labelled "Get Details"</em>
+<p style="padding:5px 20px; margin: 0px 20px 5px 20px; background-color: #ffd700; text-align: left;">GOLD PACKAGE</p>
+<p style="padding:5px 20px; margin: 0px 20px;  text-align: left;">700,000 UGX per year</p> 
+<a class="getoffer" href="https://wa.me/256704678948" >Get Details</a></p>
+
+
+
+<p  style="text-align: left;font-size: 14px;padding:5px 20px;">
+<p style="padding:5px 20px; margin: 0px 20px 5px 20px; background-color: #ff4d4d; text-align: left;">DELUXE PACKAGE</p>
+<p style="padding:5px 20px; margin: 0px 20px;  text-align: left;">3,700,000 UGX per year</p> 
+<a class="getoffer" href="https://wa.me/256704678948" >Get Details</a><br></p>
+ 
+
+ </div>
+
+
+<div id="cv" style="display: none;"><p>Download my CV</p><a href="https://drive.google.com/file/d/1pqjcCa_ypKfU6eabzyixD-wRfl7XQkdL/view?usp=sharing" style="text-decoration: none; text-align: center; color: #fff; padding: 5px 20px;background-color: #99003d; ">Download CV</a> </div>
+	
+<div id="aboutme" style="display: none;">
+
+	<img src="images/alfie2.jpg" width="150px" style="float: left;padding-right: 10px;"><h2 style="color: #cc6600;background-color: #ffd9b3;padding:10px 20px;">About Tr. Alfred</h2>
+<p  style="text-align: left;font-size: 14px;">Teacher Alfred is a design mogul. He says all his creative ideas are given Him by The Most High God, the maker of Heaven and earth. This explains the deluxe in his work.<br> <br>Alfred founded Aysh Inventions Ltd in June 2018 with the help of his long time friend Gasper. Together they have put together a team of like passioned young talent to accomplish extraordinary creations.</p>
+ </div>
+
+
+<div class="parts">
+
+<div class="partition">
+<div class="video"><p class="aboutvid">Website<i style="font-style: normal; font-weight: lighter; color: #ffff66;"> Design</i> <br> </p><p style="font-size: 16px;padding:0px 20px;  text-align: left;">A great website looks like this one. Hehe. Contact me to create your business or company a dope website. </p><br><button onclick="gold()" style="text-align: center; margin: auto;width: 300px;background-color: #ffd700;color: #000; ">GOLD PACKAGE</button><br>
+<script>
+function gold() {
+    document.getElementById("package").innerHTML = document.getElementById("package1").innerHTML;
+
+}
+</script>
+
+<div id="package"style=" width: 300px; margin: auto;"></div>
+<div id="package1" style="display: none;"> 
+<p style="margin: 0px 20px 20px;text-align: center; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> 900,000 UGX </a> per year<br> <br>Amount includes:Design, Domain Name, 12 Month hosting, Maintenance & Technical support </p>
+<div class="videopart1">
+<a href="Tel: +256 773913902"><img src="images/call.png"> Call us <i style="color: black; background-color: yellow; padding:3px;"> MTN</i> </a> 
+<a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a><br></div>
+</div>
+
+<div id="package2" style="display: none;"> 
+<p style="margin: 0px 20px 20px;text-align: center; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> 4,200,000 UGX </a> per year<br> <br>Amount includes:Design, Domain Name, Maria DB database, Content management system, 12 Month hosting, Maintenance & Technical support </p>
+
+<div class="videopart1">
+<a href="Tel: +256 773913902"><img src="images/call.png"> Call us <i style="color: black; background-color: yellow; padding:3px;"> MTN</i> </a> 
+<a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a><br></div>
+</div>
+
+	<button onclick="deluxe()" style="text-align: center; margin: auto;width: 300px;background-color: #ff4d4d; ">DELUXE PACKAGE</button><br>
+	<div id="packaged"style=" width: 300px; margin: auto;"></div>
+
+	<script>
+function deluxe() {
+    document.getElementById("packaged").innerHTML = document.getElementById("package2").innerHTML;
+
+}
+</script>
+<img class="photo" src="images/aysh2.png" ></div>
+	
+</div>
+
+</div>
+
+
+<div class="videopart">
+<a href="Tel: +256 773913902"><img src="images/call.png"> Call us <i style="color: black; background-color: yellow; padding:3px;"> MTN</i> </a> 
+<a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a><br></div>
+
+
+<div class="footer">
+	Copyright@ Aysh Inventions Ltd, 2020<br>
+	Tel: +256 704678948 <br>Email:  ayshinventions@gmail.com
+</div>
+
+	
+</body>
+</html>
