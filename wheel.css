@@ -1,0 +1,132 @@
+@keyframes spin {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -3px) rotate(36deg);
+  }
+  20% {
+    transform: translate(-2px, 0px) rotate(72deg);
+  }
+  30% {
+    transform: translate(1px, 2px) rotate(108deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(144deg);
+  }
+  50% {
+    transform: translate(-1px, 3px) rotate(180deg);
+  }
+  60% {
+    transform: translate(-1px, 1px) rotate(216deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(252deg);
+  }
+  80% {
+    transform: translate(-2px, -1px) rotate(288deg);
+  }
+  90% {
+    transform: translate(2px, 1px) rotate(324deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(360deg);
+  }
+}
+@keyframes speed {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -3px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-2px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 3px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-1px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-2px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes dots {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 15px;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.fadeIn, .loading-window {
+  animation: fadeIn 0.5s both;
+}
+
+
+.loading-window .text {
+  font-size: 30px;
+  
+  width: auto;
+  margin: 20px auto;
+}
+.loading-window .dots {
+  display: inline-block;
+  width: 5px;
+  overflow: hidden;
+  vertical-align: bottom;
+  animation: dots 1.5s linear infinite;
+  transition: 1;
+}
+
+.car {
+ margin: 20px auto;
+}
+
+.car-detail {
+  
+  display: block;
+  
+  animation: speed 3s linear infinite;
+}
+
+.car-detail.wheel {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+ margin: 20px auto;
+  border: 3px solid #000;
+  background: linear-gradient(45deg, transparent 100%, #fff 46%, #ffe4e1 54%, transparent 55%), linear-gradient(-45deg, transparent 45%, #ffe4e1 46%, #ffe4e1 54%, transparent 55%), linear-gradient(90deg, transparent 45%, #ffe4e1 46%, #ffe4e1 54%, transparent 55%), linear-gradient(0deg, transparent 45%, #ffe4e1 46%, #ffe4e1 54%, transparent 55%), radial-gradient(#ffe4e1 29%, transparent 30%, transparent 50%, #fff 51%);
+  animation-name: spin;
+}
+
+
+
