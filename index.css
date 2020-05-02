@@ -34,7 +34,7 @@ font-family: arial; font-size: 16px;margin: 0px;
 
 #churchname{
 	font-size: 16px; margin-top: 0px;font-style: normal;
-	font-family: Trebuchet ms, Arial; font-weight: lighter;
+	font-family: Trebuchet ms, Arial; 
 }
 
 
@@ -311,7 +311,7 @@ font-family: arial; font-size: 16px; margin: 0px;
 
 #churchname{
 	font-size: 16px; margin: 0px auto 10px;font-style: normal;width: 300px;text-align: center;
-	font-family: Trebuchet ms, Arial; font-weight: lighter; border-top: 1px solid #737373; padding: 5px 20px;
+	font-family: Trebuchet ms, Arial;  border-top: 1px solid #737373; padding: 5px 20px;
 }
 
 #navbar{
