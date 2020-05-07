@@ -24,7 +24,7 @@ theater
   .addScene('client:', 600)
   .addScene('Hi there', 400)
   .addScene('client:Welcome to Aysh (ugfire.com)', 400)
-  .addScene('chat: The Leading website, Desktop App, mobile App and Database developers in Africa. Stationed in Uganda.', 600)
+  .addScene('chat: The Leading website, Desktop App, mobile App and Database Systems developers in Africa. Stationed in Uganda.', 600)
      .addScene('chat:', 600)
    .addScene('client:WE BUILD LIVING...', 400)
   .addScene('Aysh: Websites, Web Apps, Database Systems, Mobile Apps, Desktop Apps...', 600)
