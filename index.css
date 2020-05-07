@@ -112,7 +112,6 @@ h3 {
 	background-color: #fff;
 	opacity: 1;
 	margin: 0px auto;
-	width: 500px;
 	text-align: center;
 	margin-bottom: 0px;
 	
@@ -228,10 +227,9 @@ margin-top: 0px;
 
 
 .videoo {
-	background-color: #fff;
+	
 	opacity: 1;
 	margin: 0px auto;
-	width: 500px;
 	text-align: center;
 	margin-bottom: 0px;
 	
@@ -492,7 +490,7 @@ margin-top: 0px;
 
 
 .videoo {
-	background-color: #fff;
+	
 	opacity: 1;
 	margin: 0px 10px;
 	text-align: center;
@@ -500,11 +498,9 @@ margin-top: 0px;
 	
 }
 .aboutvido {
-	padding:  10px; 
+	padding: 0px 10px; 
 	margin: 0px;
-	background-color: #e9cd96;
 	font-style: normal;  color: #fff;font-size: 24px;
-	margin-bottom: 10px;
 	font-family:  Arial; 
 }
 
