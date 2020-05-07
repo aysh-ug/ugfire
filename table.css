@@ -19,3 +19,10 @@ table#t01 th	{
     background-color: #1c1f14;
     color: white;
 }
+table#t01 tr:nth-child(2) {
+    background-color: #a9e236;
+}
+
+table#t01 tr:nth-child(9) {
+    background-color: #a9e236;
+}
