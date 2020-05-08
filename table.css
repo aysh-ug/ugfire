@@ -23,6 +23,15 @@ table#t01 tr:nth-child(2) {
     background-color: #a9e236;
 }
 
+table#t01 tr:nth-child(6) {
+    background-color: #a9e236;
+}
+
+
 table#t01 tr:nth-child(9) {
+    background-color: #a9e236;
+}
+
+table#t01 tr:nth-child(16) {
     background-color: #a9e236;
 }
