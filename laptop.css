@@ -1,0 +1,87 @@
+.container {width:150px;
+margin: 0px auto;
+}
+
+.path {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 100;
+  animation: dash 6s normal ;
+
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+#info1{ margin-top: 0;
+	background-color: #fff;
+	color: #000;
+}
+
+
+.infobutton{
+	border-radius: 0;
+	background-color: black;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 7px auto;
+	font-size: 16px;
+	font-weight: normal;
+	width: 90%;
+	background-color: #660000;
+}
+
+.infobutton:hover{
+	background-color: #000;
+	color: #663d00;
+
+}
+
+#info1 h2{
+color: red;
+	margin: 0;
+	padding: 10px 20px;
+	text-align: left;
+
+	font-family: times new roman;
+	font-size: 28px;
+}
+
+#info1 h2 i{
+	font-size: 14px;
+	color: #000;
+}
+
+#info1 p{
+	margin: 0;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+#info1 ul{
+	margin: 0px 10px;
+	padding: 10px 20px;
+	text-align: left;
+	background-color: #d9d9d9;
+	border-radius: 5px;
+}
+
+#info1 ul li{
+	margin: 0;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+#info1 h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	color: #005c99;
+	font-family: times new roman;
+}
