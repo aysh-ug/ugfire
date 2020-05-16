@@ -18,9 +18,9 @@ theater
   
 
 theater
-  .addActor('client', { speed: 0.8, accuracy: 0.6 })
-  .addActor('Aysh')
-  .addActor('chat')
+  .addActor('client', { speed: 2, accuracy: 0.6 })
+  .addActor('Aysh',{ speed: 2, accuracy: 0.6 } )
+  .addActor('chat',{ speed: 2, accuracy: 0.6 } )
   .addScene('client:', 600)
   .addScene('Hi there', 400)
   .addScene('client:Welcome to Aysh (ugfire.com)', 400)
