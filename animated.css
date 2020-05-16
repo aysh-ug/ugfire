@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@media only screen and (min-width: 600px) {
+
+.animate{
+background-color: rgb(0, 0, 0,0.5);
+ 	padding: 20px auto 0px;
+ 	border-radius: 0px
+}
+
+#redbox{position:relative;
+	width: 50px;
+	height: 50px;
+	background-color: #1a1a1a;
+	
+	border-radius: 0px;
+
+}
+}
+
+
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+
+.animate{
+background-color:#669900;
+ 	padding: 20px auto 0px;
+ 	border-radius: 0px
+}
+
+#redbox{position:relative;
+	width: 50px;
+	height: 50px;
+	background-color: #8cff66;
+	
+	border-radius: 0px;
+
+}
+}
