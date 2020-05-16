@@ -6,7 +6,7 @@
   width: 100%;
   margin: 0 auto;
   text-align: left;
-  font-family: "consolas", serif;
+  font-family: arial;
    color: #fff;
 background-color: #1a1a1a;
   border-radius: 2px;
@@ -48,7 +48,7 @@ background-color: #1a1a1a;
   max-width: 600px;
   margin: 0 20px;
   text-align: left;
-  font-family: "consolas", serif;
+  font-family: Arial;
    color: #fff;
 background-color: #1a1a1a;
   border-radius: 2px;
