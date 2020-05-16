@@ -1,0 +1,82 @@
+
+@charset "UTF-8";
+@media only screen and (min-width: 600px) {
+.scene {
+  padding:  10px 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "consolas", serif;
+   color: #fff;
+background-color: #1a1a1a;
+  border-radius: 2px;
+}
+
+.actor {
+  font-size: 20px;
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 0;
+
+}
+.actor:last-of-type {
+  color: #96cde9;
+  
+}
+
+.actor__content {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+
+
+
+.actor__content--typing::after {
+  content: '|';
+  -webkit-animation: blink 600ms infinite;
+          animation: blink 600ms infinite;
+}
+}
+
+
+
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+.scene {
+  padding:  10px 20px;
+  max-width: 600px;
+  margin: 0 20px;
+  text-align: left;
+  font-family: "consolas", serif;
+   color: #fff;
+background-color: #1a1a1a;
+  border-radius: 2px;
+}
+
+.actor {
+  font-size: 18px;
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 0;
+
+}
+.actor:last-of-type {
+  color: #96cde9;
+  
+}
+
+.actor__content {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+
+
+
+.actor__content--typing::after {
+  content: '|';
+  -webkit-animation: blink 600ms infinite;
+          animation: blink 600ms infinite;
+}
+}
