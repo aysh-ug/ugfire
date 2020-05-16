@@ -1,22 +1,4 @@
-.container {width:150px;
-margin: 0px auto;
-}
 
-.path {
-  stroke-dasharray: 1600;
-  stroke-dashoffset: 100;
-  animation: dash 6s normal ;
-
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1500;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
 
 
 #info1{ margin-top: 0;
