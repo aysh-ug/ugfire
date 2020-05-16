@@ -1,6 +1,6 @@
 table {
     width:100%; font-size: 14px;
-margin: 0px 5px;
+margin: 0px auto;
 }
 table, th, td {
     border: 0.2px solid black;
