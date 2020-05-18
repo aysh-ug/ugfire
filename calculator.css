@@ -65,7 +65,9 @@ input{
 
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
-
+.ctd{
+	color:#fff;
+}
 #calculator{
 	
 		margin: 10px;
