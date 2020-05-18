@@ -12,10 +12,12 @@ theater
   .on('type:start,  erase:start', function () {
     theater.getCurrentActor().$element.classList.add('actor__content--typing')
   })
+  /*
   delay:3000;
- /* .on('type:end, erase:end', function () {
+.on('type:end, erase:end', function () {
     theater.getCurrentActor().$element.classList.remove('actor__content--typing')
-  })*/
+  })
+  */
   
 
 theater

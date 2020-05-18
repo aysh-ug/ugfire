@@ -6,23 +6,21 @@
 	display: flex; flex-direction: column; background-color: #000;color: #fff; font-family: Trebuchet ms, Arial; font-size: 14px; width: auto; 
  
  }
-#body{position: fixed;
-    top: 300px;
-    left:200px;
-    height: 100%;
-}
+
 
 .mother{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	margin: 0px;
+	
 
 }
 .toptwo{
 	display: flex;
 	flex-direction: row;
 	margin: 0;
-	height: 100%;
+	
 	flex-wrap: wrap;
 }
 
@@ -95,8 +93,11 @@ width: 600px; margin: 20px auto;
 
 
 .getoffer {
-    
-     background-color: #2db300;
+    display: none;
+     }
+
+  .getoffer3{
+  	background-color: #006699;
      
      opacity: 1;
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
@@ -105,23 +106,23 @@ width: 600px; margin: 20px auto;
     display: block;
     border:none;
     text-align: left; color: #fff; 
-    padding: 10px;
+  padding: 10px 20px;
          margin: 0px auto 20px;
-         width: 150px;
+         width: 200px;
+        
+  }
 
-}
-
-.getoffer:hover {background-color:#88cc00 ; }
+.getoffer3:hover {background-color:#00334d ; }
 
 
-button {background-color: #669900; color: #000;float: none;
+button {background-color: #669900; color: #fff;float: none;
 	width: 40%;
 	margin: 0px auto 0px; padding: 10px 20px;
 	font-size: 16px;border-radius: 40px;border:1px solid #000;
 
 }
 
-button:hover {background-color: #e8e87d; }
+button:hover {background-color: #e8e87d;color: #000; }
 
 
 .homepage {background-color: #669900; color: #000;float: none;
@@ -315,8 +316,18 @@ margin-top: 0px;
 	background-color: #fff; padding:10px; 
 }
 
+.powerpart h3{
+	color: red;
+	margin: 0;
+	padding: 10px 20px;
+	text-align: left;
+
+	font-family: times new roman;
+	font-size: 28px;
+}
+
 .gallery{
-	width: 500px;
+	width: 80%;
 }
 
 
@@ -327,7 +338,7 @@ margin-top: 0px;
 	font-size: 12px;
 	text-align: center;
 	position: relative;
-	
+	height: 20%;
 	font-family: arial;
 
 
@@ -349,11 +360,11 @@ h2 {
 	text-align: left; color: #1a1a1a; text-align: center;
 }
 
-#welcome h2{
-
+.menu{
+	background-color: #b30000; color: #fff;float: none;
+	margin: 0px auto 10px ; padding: 10px 20px;
+	font-size: 16px;border-radius: 0px;border:none;
 }
-
-.menu{float:none; margin: 20px auto;width: 100px;}
 
 .main{
 	  /*  background-image: url("images/bg.png");
@@ -407,27 +418,32 @@ font-family: arial; font-size: 16px; margin: 0px;
 }
 
 
+
 button {
     color: #000;
-     background-color: #94d1c2;
+     background-color: #53ff1a;
     /* background-color: #ec9079; */
      
     border-bottom:  0px solid black;
-    padding: 5px 9px ;
+    padding: 10px 9px ;
     text-decoration: none;
     display: block;
     font-size: 14px;
-    border:1px solid #000;
-    
- border-radius: 20px;
+    border:0;
     margin-right: 10px;
     margin-bottom: 10px;
     float: right;
 
 }
 
-button:hover {background-color: #e8e87d; }
+button:hover {background-color: #e8e87d;color: #000; }
 
+.ctd{
+ padding: 20px; background-color: #ff3385;margin: 10px auto; text-align: center; 
+}
+.ctd:hover {
+	background-color: #ff66a3;
+}
 
 .homepage {
     color: #000;
@@ -435,13 +451,13 @@ button:hover {background-color: #e8e87d; }
     /* background-color: #ec9079; */
      
     border-bottom:  0px solid black;
-    padding: 5px 9px ;
+    padding: 10px 9px ;
     text-decoration: none;
     display: block;
     font-size: 14px;
     border:1px solid #000;
     
- border-radius: 20px;
+ border-radius: 0;
     margin-right: 10px;
     margin-bottom: 10px;
     float: right;
@@ -641,7 +657,7 @@ margin-top: 0px;
 	
 	margin-bottom: 5px;
 	border-bottom: 0.5px solid #000;
-	background-color: rgba(255, 255, 255,.05);
+	background-color: rgb(255, 212, 128);
 	color: #000;
 		padding: 10px;
 }
@@ -652,6 +668,15 @@ margin-top: 0px;
 
 .powerpart{
 	background-color: #fff; padding:10px; 
+}
+.powerpart h3{
+	color: red;
+	margin: 0 20px;
+	padding: 10px 20px;
+	text-align: left;
+
+	font-family: times new roman;
+	font-size: 24px;
 }
 
 #part {

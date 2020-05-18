@@ -1,6 +1,5 @@
 table {
     width:100%; font-size: 14px;
-margin: 0px auto;
 }
 table, th, td {
     border: 0.2px solid black;
@@ -33,6 +32,6 @@ table#t01 tr:nth-child(11) {
     background-color: #a9e236;
 }
 
-table#t01 tr:nth-child(18) {
+table#t01 tr:nth-child(19) {
     background-color: #a9e236;
 }

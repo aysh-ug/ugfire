@@ -1,4 +1,22 @@
+.container {width: 100%;
+margin: 0px auto;
+}
 
+.path {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 100;
+  animation: dash 6s normal ;
+
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 
 #info1{ margin-top: 0;
@@ -15,7 +33,7 @@
 	margin: 7px auto;
 	font-size: 16px;
 	font-weight: normal;
-	width: 90%;
+	width: 100%;
 	background-color: #660000;
 }
 
