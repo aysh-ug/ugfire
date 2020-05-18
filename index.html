@@ -32,13 +32,13 @@ theForm.answer.value = result;
 
 var result = eval( theForm.expression.value);
 // put result into form field 'answer'
-theForm.answer.value = result/3100;
+theForm.answer.value = result/3300;
 
 
 
   var x = document.forms["orderform"]["expression"].value;
-    if (x == null || x == "" || x <= 3000) {
-        alert("Please fill in an amount greater than 3000");
+    if (x == null || x == "" || x <= 3299) {
+        alert("Please fill in an amount greater than 3300");
         return false;
     }
 
