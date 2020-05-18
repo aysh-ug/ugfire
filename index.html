@@ -17,9 +17,35 @@
 <link rel="stylesheet" type="text/css"  href="bounce.css">
 <link rel="stylesheet" href="typing.css">
 <link rel="stylesheet" href="laptop.css">
-
-
+<link rel="stylesheet" href="calculator.css">
 <script src='https://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script><script  src="typing.js"></script>
+
+ <script>
+function calc( theForm )
+{
+
+var result = eval( theForm.expression.value);
+// evaluate the text field expression;
+var result = eval(
+theForm.expression.value);
+theForm.answer.value = result;
+
+var result = eval( theForm.expression.value);
+// put result into form field 'answer'
+theForm.answer.value = result/3100;
+
+
+
+  var x = document.forms["orderform"]["expression"].value;
+    if (x == null || x == "" || x <= 3000) {
+        alert("Please fill in an amount greater than 3000");
+        return false;
+    }
+
+
+
+}
+// </script> 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165426784-1"></script>
@@ -106,6 +132,26 @@ function showmenu() {
 
 }
 </script> 
+
+<div class="scene">
+  <div class="actor">
+    
+    <div id="client" class="actor__content"></div>
+  </div>
+
+  <div class="actor">
+    
+    <div id="Aysh" class="actor__content" style="color:#99e600; "></div>
+  </div>
+
+  <div class="actor">
+    <div id="chat" class="actor__content"></div>
+  </div>
+    <script src='https://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script>
+    <script  src="typing.js"></script>
+</div><br>
+
+
  </div> 
 
 
@@ -174,33 +220,55 @@ function newsdisplay5() {
 
 
 <div id="welcome"> 
-
-<div class="scene">
-  <div class="actor">
-    
-    <div id="client" class="actor__content"></div>
-  </div>
-
-  <div class="actor">
-    
-    <div id="Aysh" class="actor__content" style="color:#99e600; "></div>
-  </div>
-
-  <div class="actor">
-    <div id="chat" class="actor__content"></div>
-  </div>
-    <script src='https://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script><script  src="typing.js"></script>
-</div><br>
-<div class="animate" width="100%" height="100%" >
+<div id="animation">
+<div class="animate" >
+  <div id="bluebox"></div> 
  <div id="redbox"></div> 
+ <div id="greenbox"></div> 
+ <div id="purplebox"></div> 
+ <div id="blackbox"></div> 
+ <div id="yellowbox"></div> 
      <script src="anime.min.js" ></script>
      <script  src="animated.js"></script>
      </div>
-<img class="gallery" src="images/comppro.png">
+     <div id="animebuttons">
+       <button class="play">Play</button>
+       <button class="pause">Pause</button>
+        <script src="anime.min.js" ></script>
+     <script  src="animated.js"></script>
+     </div>
+<br><br>
+  <button class="ctd" style="border-radius: 0; border:0;" onclick="convert()">Convert amount to dollars</button>
+  <script>
+function convert() {
+    document.getElementById("animation").innerHTML = document.getElementById("calculator").innerHTML;
 
-
+}
+</script>
 
 </div>
+<div id="calculator" style="display: none;">
+  <div id="dol"><h1>AYSH CALCULATOR</h1>
+<h2>Pay in dollars (optional)</h2>
+<p style="text-align: center;">Our Standard rate = 1USD: 3100 UGX</p>
+    <form id="dollarform" name="orderform">
+<p class="convertwords"> Shillings (UGX): <input TYPE=number NAME=expression ></p>
+<p class="convertbtn"><input style="background-color: #99ff33;color: #000;width: 150px;border: 0px solid #000;" TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
+<p class="convertwords">Dollars (Answer): <input TYPE=text NAME=answer></p>
+
+<p class="convertbtn"><input style="background-color: #99ff33;color: #000;width: 150px;border: 0px solid #000;"  TYPE=reset VALUE="Clear"></p>
+</form></div><br><br>
+
+
+ 
+ <a class="homepagebtn" href="index.html" style="background-color: #0033cc; color: #e1e1d0;  border:0;border-radius: 0; margin: 10px auto;padding: 10px 30px">homepage</a>
+</div>
+     <!--
+<img class="gallery" src="images/comppro.png">
+-->
+
+</div>
+
 
 
  </div></div> <br>
@@ -226,119 +294,124 @@ function newsdisplay7() {
 <table id="t01">
   <tr>
     <th>PRODUCT/ SERVICE</th>
-    <th>COST</th>
-    <th>USD</th>
+    <th>COST(UGX)</th>
+   
 
    </tr>
  <tr>
     <td>WEBSITES</td>
-    <td>PER YEAR</td>
-    <td>USD</td>      
+    <td>PER YEAR (UGX)</td>
+      
   </tr>
 
    <tr>
     <td>Classic Business Website</td>
     <td>UGX 1.8M</td>
-    <td>600</td>      
+      
   </tr>
 
   <tr>
     <td>Corporate Company Website</td>
     <td>UGX 4.2M</td>
-    <td>1200</td>      
+   
     </tr>
  <tr>
     <td>Online Shopping Website</td>
     <td>UGX 90M</td>
-    <td>25,000</td>      
+    
     </tr>
  <tr>
     <td>Online Gaming Website</td>
     <td>UGX 70M</td>
-    <td>20,000</td>      
+        
     </tr>
 
   <tr>
     <td>MOBILE APPS</td>
-    <td>PER YEAR</td>
-    <td>USD</td>      
+    <td>PER YEAR (UGX)</td>
+      
     </tr>
 
 <tr>
     <td>Business Mobile App</td>
     <td>UGX 9M</td>
-    <td>3000</td>      
+         
     </tr>
   <tr>
     <td>Online Shopping App</td>
-    <td>90M</td>
-    <td>25,000</td>      
+    <td> UGX 90M</td>
+        
     </tr>
    <tr>
     <td>Tourism App</td>
-    <td>70M</td>
-    <td>20,000</td>      
+    <td> UGX 90M</td>
+       
     </tr>
 
  <tr>
     <td>GRAPHICS</td>
     <td>UGX</td> 
-    <td>USD</td>   
-    
+       
   </tr>
 
   <tr>
-    <td>e- Flier design</td>
+    <td>Company e- Flier design</td>
     <td>UGX 50,000</td>	
-    <td>20</td>		
-    
+      
   </tr>
+
+<tr>
+    <td>Business e- Flier design</td>
+    <td>UGX 30,000</td> 
+        
+  </tr>
+
   <tr>
     <td>Classic Logo design</td>
     <td>UGX 70,000</td>	
-    <td>30</td>		
+
 
   </tr>
 
    <tr>
     <td>Company profile design</td>
     <td>10,000 / Page </td> 
-    <td>4/page</td>
+   
 
   </tr>
 
  <tr>
     <td>Audio advert (Studio)</td>
     <td>UGX 350,000</td>
-    <td>120</td>      
+       
     
   </tr>
 
   <tr>
     <td>2D Video advert</td>
     <td>UGX 1,300,000</td>
-    <td>400</td>			
+ 		
     
   </tr>
 
   <tr>
     <td>3D product advert</td>
     <td>UGX 2.7M</td>
-    <td>900</td>      
+        
     
   </tr>
 
   <tr>
     <td>DATABASE SYSTEM</td>
     <td>ONE OFF</td>
-    <td>USD</td>      
+     
     
   </tr>
 
 <tr>
     <td>Classic Database System,   Includes: <br> Desktop App(Offline),<br>Web app (Online CMS) and <br>MySql/ MariaDB<br> Database</td>
     <td>UGX 55M</td>
-    <td>18,000</td>      
+     
     
   </tr>
   
@@ -362,8 +435,8 @@ function newsdisplay7() {
 	<div id="home" style="display: none;" >
 		<br>
 <div class="powerpart">
-<h3 style="color:#006699;font-size: 17px;padding-left: 20px;margin-top: 20px; ">THE POWER OF OUR WEBSITES</h3>
-<h4 style="color:#000; margin: 0px; font-size: 22px;background-color:#cce699;padding: 5px 40px;text-align: left; "> What is special ?  </h4>
+<h3 >THE POWER OF OUR WEBSITES</h3>
+<h4 style="color:#fff; margin: 0px; font-size: 22px;background-color:red;padding: 5px 40px;text-align: left; "> What is special ?  </h4>
 <ul style="text-align: left;list-style-type:none;">
 	
 	<li><i style="color: #b30000;font-style: normal;">TRACK :</i><br>Monitor your website performance daily using our website tracker. See how many people visited your website </li><br>
@@ -499,7 +572,7 @@ function newsdisplay8() {
 <div id="cv" style="display: none;"><h2 style="font-family:Trebuchet MS,arial; color:#ff1a1a; font-size: 28px;">Amazing Website Offers</h2> </div>
 
 <div id="aboutme" style="display: none;">
-<br>
+<h3>Our Core Team</h3>
 <div class="me">
 	<img src="images/alfie.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Teacher Alfred</h4>
 <p  style="text-align: left;font-size: 16px;">
@@ -508,17 +581,17 @@ function newsdisplay8() {
 </p></div>
 
 <div class="me">
-<img src="images/claire.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px;font-weight: normal; margin-bottom: 0px;">Claire</h4>
-<p  style="text-align: left;font-size: 16px;">
-	Full Name:<em style="color:#005580; font-style: normal; "> Claire Nanyanzi</em><br><br>Studio, Aysh Inventions Ltd </p>
-<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (8 Years)</em> </h4><p style="text-align: left">Talented musician and voice artist. Claire is also a creative script writer for movies and short advertisements. She is in charge of our Studio productions at Aysh. 
-</p></div>
-
-<div class="me">
 <img src="images/gasper.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Gasper</h4>
 <p  style="text-align: left;font-size: 16px;">
 	Full Name:<em style="color:#005580; font-style: normal; "> Gasper Aduka</em><br><br>Co-Founder, Aysh Inventions Ltd </p>
 <h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (4 Years)</em> </h4><p style="text-align: left">Gasper Aduka is a passionate Civil engineer. He is also an auditor and loves Innovation. He is the co-founder of Aysh Inventions Ltd, and as such is at the heart of the company's progress. 
+</p></div>
+
+<div class="me">
+<img src="images/claire.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px;font-weight: normal; margin-bottom: 0px;">Claire</h4>
+<p  style="text-align: left;font-size: 16px;">
+  Full Name:<em style="color:#005580; font-style: normal; "> Claire Nanyanzi</em><br><br>Studio, Aysh Inventions Ltd </p>
+<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (8 Years)</em> </h4><p style="text-align: left">Talented musician and voice artist. Claire is also a creative script writer for movies and short advertisements. She is in charge of our Studio productions at Aysh. 
 </p></div>
 
 <div class="me">
@@ -605,7 +678,7 @@ function gold() {
 <a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a><br></div>
 </div>
 
-	<button onclick="deluxe()" style="text-align: center; margin: auto;width: 300px;background-color: #ff8080;float: none;font-size: 16px; ">corporate web package</button><br>
+	<button onclick="deluxe()" style="text-align: center; margin: auto;width: 300px;background-color: #ff8080;float: none;font-size: 16px;color: #000; ">corporate web package</button><br>
 	<div id="packaged"style=" width: 300px; margin: auto;"></div>
 
 	<script>
@@ -648,7 +721,7 @@ function deluxe() {
 <a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a><br></div>
 </div>
 
-  <button onclick="shopping()" style="text-align: center; margin: auto;float: none;width: 300px;background-color: #00e600;font-size: 16px; ">Shopping website package</button><br>
+  <button onclick="shopping()" style="text-align: center; margin: auto;float: none;width: 300px;background-color: #00e600;font-size: 16px;color: #000; ">Shopping website package</button><br>
   <div id="shoppingpack"style=" width: 300px; margin: auto;"></div>
 
   <script>
@@ -722,7 +795,8 @@ function shopping() {
 
 </div>
 </div></body>
-<div class="footer"><a class="getoffer" href="https://wa.me/256704678948" >Whatsapp us <img src="images/whatsapp.png" width="20px"> </a>
+<div class="footer"><h2>Please contact us</h2>
+
   Copyright@ Aysh Inventions Ltd, 2020<br>
   Tel: +256 704678948 <br>Email:  ayshinventions@gmail.com
 </div>
