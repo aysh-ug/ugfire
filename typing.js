@@ -27,22 +27,10 @@ theater
   .addScene('client:', 600)
   .addScene('Hi there', 400)
   .addScene('client:Welcome to Aysh (ugfire.com)', 1000)
-  .addScene('chat: The Leading website, Desktop App, mobile App and Database developers in Africa. Stationed in Uganda.', 1200)
-     .addScene('chat:', 2000)
-  .addScene('client:WE USE:', 2000)
-    .addScene('Aysh: Java, HTML, CSS, Javascript,& MYSQL, MariaDB databases', 2000)
-    .addScene('client:', 400)
-    .addScene('Aysh:', 600)
-     .addScene('chat:YES , OUR SYSTEMS ARE ALIVE!', 3000)
-      .addScene('chat:', 100)
+  .addScene('chat: The Leading website, Desktop App, mobile App and Database developers in Africa. Stationed in Uganda.', 10000)
+     .addScene('chat:', 200)
+       .addScene('client:', 100)
+  .addScene('client:Please contact us now for a design offer !', 10000)
+   .addScene('client:', 100)
 
-  .addScene('client:WE BUILD LIVING...', 1000)
-  .addScene('Aysh: Websites, Web Apps, Database Systems, Mobile Apps, Desktop Apps and Beautiful Graphics...', 4000)
- .addScene('chat:Please contact us now for a design offer !', 4000)
-   .addScene('Chat:', 400)
    
-  .addScene('client:', 400)
-  .addScene('Aysh: ', 600)
- 
-
-    .addScene(theater.replay.bind(theater))

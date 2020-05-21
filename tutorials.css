@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@media only screen and (min-width: 600px) {
+
+.animatorbtn{
+	height: 100px;
+	border:0;
+	border-radius: 0;
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.animatorprice{
+	height: 100px;
+	width: 90%;
+	border:0;
+	border-radius: 0;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 35px;
+	background-color: #669900;
+	
+}
+.animatorbtn:hover{
+	background-color: #77b300;
+	color: #fff;
+}
+.animatorprice:hover{
+	background-color: #77b300;
+	color: #fff;
+}
+
+.codingbtn{
+	height: 100px;
+	border:0;
+	border-radius: 0;
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	background-color: #cc2900;
+}
+
+.codingbtn:hover{
+	background-color: #ff3300;
+	color: #fff;
+}
+
+.codingprice{
+	height: 100px;
+	width: 90%;
+	border:0;
+	border-radius: 0;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 35px;
+	background-color: #cc2900;
+	
+}
+.codingprice:hover{
+	background-color: #ff3300;
+	color: #fff;
+}
+
+#tut1{
+	margin-bottom: 20px;
+}
+
+#coding h2{
+	color: red;
+	font-family: times new roman;
+}
+#animator h2{
+	color: red;
+	font-family: times new roman;
+}
+#tuts h1{
+	font-family: times new roman;
+}
+
+.codeimg{
+	width: 20%;
+	float: left;
+}
+
+.codetxt{
+	padding: 0px 20px;
+	text-align: left;
+	margin: 20px 20px;
+}
+
+
+}
+
+
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+
+.animatorbtn{
+	height: 100px;
+	width: 50%;
+	border:0;
+	border-radius: 0;
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	background-color: #669900;
+	
+}
+
+.animatorprice{
+	height: 100px;
+	width: 100%;
+	border:0;
+	border-radius: 0;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 35px;
+	background-color: #669900;
+	
+}
+
+.animatorprice{
+	background-color: #669900;color: #fff;
+}
+
+.animatorbtn:hover{
+	background-color: #77b300;
+	color: #fff;
+}
+
+.codingbtn{
+	height: 100px;
+	width: 50%;
+	border:0;
+	border-radius: 0;
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	background-color: #cc2900;
+	color: #fff;
+}
+
+.codingbtn:hover{
+	background-color: #ff3300;
+	color: #fff;
+}
+.codingprice{
+	height: 100px;
+	width: 100%;
+	border:0;
+	border-radius: 0;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 35px;
+	background-color: #cc2900;
+}
+.codingprice:hover{
+	background-color: #cc2900;
+}
+
+#tut1{
+	margin-bottom: 20px;
+}
+
+#coding h2{
+	color: red;
+	font-family: times new roman;
+}
+#animator h2{
+	color: red;
+	font-family: times new roman;
+}
+
+.buythewhole{
+	font-family: times new roman;
+	margin: 10px auto 0px;
+	font-size: 24px;
+	color: #669900;
+}
+
+#coding{
+	margin: 0px;
+}
+
+.codeimg{
+	width: 80%;
+
+}
+.codetxt{
+	padding: 0px 20px;
+	text-align: left;
+	margin: 20px 20px;
+}
+#tuts{
+	background-color: #ffdd99;
+}
+}
