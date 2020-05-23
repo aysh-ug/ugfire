@@ -65,6 +65,9 @@ font-family: arial; font-size: 16px;margin: 0px;
 	border:none;
 	width: 100%;
 }
+.frontpic{
+	width: 50%;
+}
 
 .websites{
 	display: inline-block;
@@ -127,6 +130,25 @@ width: 600px; margin: 20px auto;
          width: 200px;
         
   }
+
+.ctd{display: inline-block;height: 100%;
+ width: 40%;padding: 20px;color: #fff; 
+ background-color: #a50d0d;margin: 0; text-align: center; 
+}
+.ctd:hover {
+	background-color: #d41111;color: #fff;border:none;
+}
+
+.gme{display: inline-block;height: 100%;
+ width: 40%;height: padding: 20px;color: #fff; 
+ background-color: #760a0a;margin: 0; text-align: center; 
+}
+.gme:hover {
+	background-color: #5e0808;color: #fff;border:none;
+}
+.optionbtns{display: inline-table;height: 100px;
+
+}
 
 .getoffer3:hover {background-color:#00334d ; }
 
@@ -497,7 +519,7 @@ button:hover {background-color: #333333;color: #ffdb4d; }
  background-color: #760a0a;margin: 0; text-align: center; 
 }
 .gme:hover {
-	background-color: #a50d0d;color: #fff;border:none;
+	background-color:#5e0808;color: #fff;border:none;
 }
 .optionbtns{display: inline-table;height: 100px;
 
@@ -529,6 +551,9 @@ button:hover {background-color: #333333;color: #ffdb4d; }
 
 #home p{
 	  text-align: left;
+}
+.frontpic{
+	display: none;
 }
 
 .getoffer {
