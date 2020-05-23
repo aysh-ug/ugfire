@@ -35,7 +35,7 @@ var result = eval( theForm.expression.value);
 // put result into form field 'answer'
 var c = result/3100;
 
-var roundedC = Math.round( c * 100) / 100; 
+var roundedC = Math.round( c * 1) / 1; 
 
 // put result into form field 'answer'
 theForm.answer.value = roundedC;
@@ -125,7 +125,7 @@ theForm.answer.value = roundedC;
 </div>
 		</div>
 		<div class="heading"><h1><i style="font-style: normal; font-weight: lighter; color: 
-		#c9731d;"> Aysh</i><br></h1><p id="churchname">21st Century Website creators<br> <i style="color: #ffb84d; font-style: normal;"> Aysh Inventions Ltd</i> </p>  </div>
+		#b39800;"> Aysh</i><br></h1><p id="churchname">21st Century Website creators<br> <i style="color: #b39800; font-style: normal;"> Aysh Inventions Ltd</i> </p>  </div>
 
     <!-------BUTTONS-------------->
 
@@ -147,10 +147,10 @@ function showmenu() {
 
   <div class="actor">
     
-    <div id="Aysh" class="actor__content" style="color:#99e600; "></div>
+    <div id="Aysh" class="actor__content" style="color:#ff4d4d; "></div>
   </div>
 
-  <div class="actor">
+  <div class="actor" style="color:#ff4d4d; ">
     <div id="chat" class="actor__content"></div>
   </div>
     <script src='https://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script>
@@ -171,7 +171,7 @@ function newsdisplay4() {
 </script> 
 
 
-<button style="background-color: #66ccb8;color: #000; " onclick="newsdisplay3()">Services</button> 
+<button style="" onclick="newsdisplay3()">Services</button> 
 <script>
 function newsdisplay3() {
     document.getElementById("welcome").innerHTML = document.getElementById("tools").innerHTML;
@@ -179,7 +179,7 @@ function newsdisplay3() {
 }
 </script>
 
-<button onclick="newsdisplay6()" style="color: #000 ">Power</button>
+<button onclick="newsdisplay6()" style="">Power</button>
 <script>
 function newsdisplay6() {
     document.getElementById("welcome").innerHTML = document.getElementById("home").innerHTML;
@@ -187,7 +187,7 @@ function newsdisplay6() {
 }
 </script>
 
-<button onclick="newsdisplay7()" style="background-color: #b30000; color: #e1e1d0; ">Websites</button>
+<button onclick="newsdisplay7()" style="background-color: #b30000;  ">Websites</button>
 <script>
 function newsdisplay7() {
     document.getElementById("welcome").innerHTML = document.getElementById("parts").innerHTML;
@@ -196,7 +196,7 @@ function newsdisplay7() {
 </script>
 
 
-<button onclick="newsdisplay8()" style="background-color: #5c5c3d; color: #e1e1d0;  border:none;">tech info</button>
+<button onclick="newsdisplay8()" style="   border:none;">tech info</button>
 <script>
 function newsdisplay8() {
     document.getElementById("welcome").innerHTML = document.getElementById("info").innerHTML;
@@ -204,20 +204,18 @@ function newsdisplay8() {
 }
 </script>
 
-<a class="homepage" href="index.html" style="background-color: #5c5c3d; color: #e1e1d0;  border:none;">homepage</a>
-
-<button onclick="newsdisplay5()" style="background-color: #b30000; color: #fff;float: none;margin: 0px auto 10px; padding: 10px 20px;font-size: 16px;border-radius: 40px;">Special offers</button>
+<button onclick="tuts()" style=" ">Tutorials</button>
 <script>
-function newsdisplay5() {
-    document.getElementById("welcome").innerHTML = document.getElementById("partoffers").innerHTML;
+function tuts() {
+    document.getElementById("welcome").innerHTML = document.getElementById("tuts").innerHTML;
 
 }
 </script>
 
-<button onclick="tuts()" style="background-color: #5c5c3d; color: #fff;float: none;margin: 0px auto 10px; padding: 10px 20px;font-size: 16px;">Tutorials</button>
+<button onclick="newsdisplay5()" style="background-color: #b30000; ">Special offers</button>
 <script>
-function tuts() {
-    document.getElementById("welcome").innerHTML = document.getElementById("tuts").innerHTML;
+function newsdisplay5() {
+    document.getElementById("welcome").innerHTML = document.getElementById("partoffers").innerHTML;
 
 }
 </script>
@@ -234,17 +232,32 @@ function tuts() {
 
 
 <div id="welcome"> 
-	<h1 class="wtext">WE DESIGN <i class="websites"> WEBSITES</i></h1>
-<p style="margin: 0;">Kindly check the menu for more details</p>
-<div id="animation">
-	<button class="ctd" style="border-radius: 0; border:0;" onclick="convert()">Convert amount to dollars (optional)</button>
+	<h1 class="wtext">WE DESIGN <i class="websites1"><br>WEBSITES</i> <i class="websites"> WEBSITES</i></h1>
+<p style="margin: 0px auto 10px;">Kindly check the menu for more details</p>
+
+<div class="optionbtns">
+<button class="ctd" style="border-radius: 0; border:0;float: none;" onclick="convert()">Convert amount to dollars (optional)</button>
   <script>
 function convert() {
     document.getElementById("animation").innerHTML = document.getElementById("calculator").innerHTML;
 
 }
 </script>
-<div class="animate" >
+
+<button class="gme" style="border-radius: 0; border:0;float: none;" onclick="game()">Play Aysh Game</button>
+  <script>
+function game() {
+    document.getElementById("animation").innerHTML = document.getElementById("game").innerHTML;
+
+}
+</script>
+<br>
+</div>
+<div id="animation"></div>
+
+<div id="game" style="display: none;"><br>
+  <h4>Play Game</h4>
+	<div class="animate" >
   <div id="bluebox"></div> 
  <div id="redbox"></div> 
  <div id="greenbox"></div> 
@@ -260,25 +273,23 @@ function convert() {
         <script src="anime.min.js" ></script>
      <script  src="animated.js"></script>
      </div>
-<br><br>
+<br><br></div>
   
-</div>
+
 <div id="calculator" style="display: none;">
   <div id="dol"><h1>AYSH CALCULATOR</h1>
 <h2>Pay in dollars (optional)</h2>
 <p style="text-align: center;">Our Standard rate = 1USD: 3100 UGX</p>
     <form id="dollarform" name="orderform">
-<p class="convertwords"> Shillings (UGX): <input TYPE=number NAME=expression ></p>
-<p class="convertbtn"><input style="background-color: #99ff33;color: #000;width: 150px;border: 0px solid #000;" TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
-<p class="convertwords">Dollars (Answer): <input TYPE=text NAME=answer></p>
+<p class="convertwords"> Shillings (UGX): <input style="border: 1px solid #000;border-radius: 10px;" TYPE=number NAME=expression ></p>
+<p class="convertbtn"><input style="background-color: #ffcc66;color: #000;width: 150px;border: 1px solid #000;border-radius: 10px;" TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
+<p class="convertwords">Dollars (Answer): <input style="border: 1px solid #000;border-radius: 10px;" TYPE=text NAME=answer></p>
 
-<p class="convertbtn"><input style="background-color: #99ff33;color: #000;width: 150px;border: 0px solid #000;"  TYPE=reset VALUE="Clear"></p>
+<p class="convertbtn"><input style="background-color: #ffcc66;color: #000;width: 150px;border: 1px solid #000;border-radius: 10px;"  TYPE=reset VALUE="Clear"></p>
 </form></div><br><br>
 
 
- 
- <a class="homepagebtn" href="index.html" style="background-color: #0033cc; color: #e1e1d0;  border:0;border-radius: 0; margin: 10px auto;padding: 10px 30px">homepage</a>
-</div>
+ </div>
      <!--
 <img class="gallery" src="images/comppro.png">
 -->
@@ -321,8 +332,8 @@ function newsdisplay7() {
   </tr>
 
  <tr>
-    <td>Professional Personal Website</td>
-    <td>UGX 750,000</td>
+    <td>public Celebrity Website</td>
+    <td>UGX 1.3M</td>
       
   </tr>
 
@@ -632,6 +643,8 @@ LEARN ALL THESE:</h2>
  
  <h2 style="text-align: left;margin-left: 40px;">You don't need internet</h2>
  <p class="codetxt">Install once and Learn Offline with over 500 examples step by step</p>
+  <h2 style="text-align: left;margin-left: 40px;">Extra Benefits</h2>
+ <p class="codetxt">Get 12 hour one-on-one training with our coding experts online (video).</p>
  
  <button class="codingprice" >UGX 350,000</button>
 <!-----BACK TOP TOP---->
@@ -654,8 +667,8 @@ function animation() {
 
  <div id="animator" style="display: none;">
 
- <h2 style="color: red;text-align: left;
-	font-family: times new roman;margin:0;padding: 20px;padding-left: 10%;">ANIMATIONS</h2> 
+ <h2 style="color: #669900;text-align: left;
+	font-family: times new roman;margin:0;padding: 20px;padding-left: 10%;">CREATE 3D ANIMATIONS</h2> 
 	<br>
 <img class="codeimg" src="images/dvd.png">
 <h2 class="codetxt" >
@@ -669,6 +682,8 @@ LEARN 3D ANIMATION:</h2>
  
  <h2 style="text-align: left;margin-left: 40px;">You don't need internet</h2>
  <p class="codetxt">Install once and Learn Offline with over 50 examples step by step</p>
+ <h2 style="text-align: left;margin-left: 40px;">Extra Benefits</h2>
+ <p class="codetxt">Get 6 hour one-on-one training with our coding experts online (video).</p>
 
 <button class="animatorprice" >UGX 150,000</button>
 <!-----BACK TOP TOP---->
@@ -698,7 +713,7 @@ function animation() {
 <div id="aboutme" style="display: none;">
 <h3>Our Core Team</h3>
 <div class="me">
-	<img src="images/alfie.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Tr. Alfred</h4>
+	<img src="images/alfie.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Teacher Alfred</h4>
 <p  style="text-align: left;font-size: 16px;">
 	Full Name:<em style="color:#005580; font-style: normal; "> Alfred Ochola</em><br><br>CEO, Aysh Inventions Ltd </p>
 <h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (9 Years)</em> </h4><p style="text-align: left">Adobe Design suite (Photoshop, Illustrator, Aftereffects, PremierePro, Audition, Media Encoder)     |  Maxon Cinema 4D for 3D    |  Netbeans   |  Eclipse    | Sublime Text   | Java 8.0   |  MySQL & Maria DB databases |  HTML  |  CSS  |  JavaScript 
@@ -740,7 +755,7 @@ function animation() {
 <div class="partition">
 <div class="video"><p class="aboutvid">Website Design<i style="font-style: normal; font-weight: lighter; color: #ffff66;">  Packages</i> <br> </p><p style="font-size: 16px;padding:0px 20px;  text-align: center;">  Please select any of the packages below to see the package details  </p>
 
-<button onclick="prof()" style="text-align: center;float: none; margin: auto;width: 300px;background-color: #66c2ff;color: #000;font-size: 16px; ">Professional Personal web</button><br>
+<button onclick="prof()" style="text-align: center;float: none; margin: auto;width: 300px;background-color: #66c2ff;color: #000;font-size: 16px; ">public celebrity web</button><br>
 <script>
 function prof() {
     document.getElementById("profpack").innerHTML = document.getElementById("profpackage").innerHTML;
@@ -754,7 +769,7 @@ function prof() {
 
 <div id="profpackage" style="display: none;"> 
 
-<p style="text-align: left;margin-left: 0px;margin-top: 0px; background-color: #d2d7c1;padding: 5px;padding-left: 40px;">Professional features: </p>
+<p style="text-align: left;margin-left: 0px;margin-top: 0px; background-color: #d2d7c1;padding: 5px;padding-left: 40px;">celebrity features: </p>
 
 <ul style="text-align: left;">
 	<li>Domain Name & 12 Month hosting</li>
@@ -765,7 +780,7 @@ function prof() {
    <li>Maintenance & Technical support</li>
 
 </ul> 
-<h4 style="margin: 0px 20px 20px;text-align: center; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> UGX 750,000</a> per year </h4>
+<h4 style="margin: 0px 20px 20px;text-align: center; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> UGX 1,300,000</a> per year </h4>
 <p style="color: #ff6600;text-align: ">BONUS SERVICE</p>
 <ul style="text-align: left;">
 <li>3 e-Flier advert Designs for your website</li>
@@ -962,7 +977,11 @@ function shopping() {
 </div>
 
 </div>
-</div></body>
+</div>
+
+ <a class="homepagebtn" href="index.html" style="font-family: arial;text-align: center; background-color: #b39800; color: #e1e1d0;  border:0;border-radius: 0; margin: 10px auto;padding: 10px 30px">homepage</a>
+</body>
+
 <div class="footer"><h2>Please contact us</h2>
 
   Copyright&copy; Aysh Inventions Ltd, 2020<br>

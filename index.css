@@ -70,6 +70,9 @@ font-family: arial; font-size: 16px;margin: 0px;
 	display: inline-block;
 	font-style: normal;
 }
+.websites1{
+	display: none;
+}
 
 .churchtop{
 	display: none;
@@ -139,13 +142,18 @@ button:hover {background-color: #e8e87d;color: #000; }
 
 
 .homepage {background-color: #669900; color: #000;float: none;
-	width: 100%;
-	margin: 0px auto 0px; padding: 10px 20px;
+	 font-family: arial;
+      color: #e1e1d0;
+	padding: 10px 20px ;
+     border-radius: 0;
+     text-align: center;
+    margin: 0px auto;
+    margin-bottom: 5px;
 	font-size: 16px;border-radius: 40px;border:1px solid #000;
 text-decoration: none;
 }
 
-.homepage:hover {background-color: #e8e87d; }
+.homepage:hover {background-color:#446600; }
 
 
 #tools img {
@@ -378,8 +386,11 @@ h2 {
 
 .menu{
 	background-color: #b30000; color: #fff;float: none;
-	margin: 0px auto 10px ; padding: 10px 20px;
+	margin: 0px auto ; padding: 10px 20px;
 	font-size: 16px;border-radius: 0px;border:none;
+}
+#menu{
+	background-color: #1a1a1a;
 }
 
 .main{
@@ -417,9 +428,10 @@ font-family: arial; font-size: 16px; margin: 0px;
 }
 .wtext{
 	font-weight: bolder;
-	font-family: times new roman;
+	font-family: Arial;
+	font-weight: lighter;
 	color: #000;
-	font-size: 45px;
+	font-size: 35px;
 	border:none;
 	width: 100%;
 	margin: 5px auto;
@@ -428,8 +440,14 @@ font-family: arial; font-size: 16px; margin: 0px;
 .websites{
 	display: none;
 	}
+	.websites1{
+		font-weight: bold;
+	color: red;
+	font-style: normal;
+	font-size: 55px;
+}
 #navbar{
-	background-color: #ffc266;padding: 10px; height: 100%;margin: 0px ;
+background-color: #1a1a1a; padding: 10px; height: 100%;margin: 0px ;
 }
 
 #topbuttons {
@@ -446,53 +464,64 @@ font-family: arial; font-size: 16px; margin: 0px;
 }
 
 
-
 button {
-    color: #000;
-     background-color: #53ff1a;
+    color:#cccccc;
+     background-color: #262626;
     /* background-color: #ec9079; */
      
     border-bottom:  0px solid black;
-    padding: 10px 9px ;
+    padding: 10px 13px ;
     text-decoration: none;
     display: block;
     font-size: 14px;
     border:0;
-    margin-right: 10px;
+    border-right:1px solid #666666;
+    margin: 0px;
     margin-bottom: 5px;
     float: right;
 
 }
 
-button:hover {background-color: #e8e87d;color: #000; }
+button:hover {background-color: #333333;color: #ffdb4d; }
 
-.ctd{
- padding: 20px; background-color: #ff3385;margin: 10px auto; text-align: center; 
+.ctd{display: inline-block;height: 100%;
+ width: 40%;padding: 20px;color: #fff; background-color: #d41111;margin: 0; text-align: center; 
 }
 .ctd:hover {
-	background-color: #ff66a3;
+	background-color: #df4620;color: #fff;border:none;
 }
 
+.gme{display: inline-block;height: 100%;
+ width: 40%;height: padding: 20px;color: #fff; background-color: #a50d0d;margin: 0; text-align: center; 
+}
+.gme:hover {
+	background-color: #df4620;color: #fff;border:none;
+}
+.optionbtns{display: inline-table;height: 100px;
+
+}
 .homepage {
-    color: #000;
-     background-color: #94d1c2;
+  
+     background-color: #262626;
     /* background-color: #ec9079; */
-     
+     font-family: arial;
+      color: #e1e1d0;
     border-bottom:  0px solid black;
-    padding: 10px 9px ;
+    padding: 10px 20px ;
+     border-radius: 0;
+     text-align: center;
+    margin: 0px auto;
+    margin-bottom: 5px;
     text-decoration: none;
-    display: block;
+      display: block;
     font-size: 14px;
     border:1px solid #000;
-    
- border-radius: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    float: right;
+    border-right:1px solid #666666;
 
+    
 }
 
-.homepage:hover {background-color: #e8e87d; }
+.homepage:hover {background-color: #446600; }
 
 
 

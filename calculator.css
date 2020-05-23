@@ -1,11 +1,5 @@
 @charset "UTF-8";
 @media only screen and (min-width: 600px) {
-.ctd{
-	width: 85%;height: 200px;background-color: #99003d; 
-}
-.ctd:hover {
-	background-color: #cc0052; color: #fff;
-}
 
 #calculator{
 	
@@ -65,9 +59,7 @@ input{
 
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
-.ctd{
-	color:#fff;
-}
+
 #calculator{
 	
 		margin: 10px;
@@ -88,7 +80,7 @@ input{
 }
 #dol h1{
 	text-align: center;
-	color: #fff;
+	color: #d41111;
 	font-weight: normal;
 	font-size: 16px;
 	border:none;
@@ -99,7 +91,7 @@ input{
 	}
 
 #dol{
-	background-color: #ff8080;
+	background-color: #ffcc66;
 	font-size: 16px;
 	width: 100%;
 	height: 100%;

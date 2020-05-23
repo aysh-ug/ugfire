@@ -33,7 +33,7 @@ background-color: #1a1a1a;
 
 
 .actor__content--typing::after {
-  content: '|';
+  content: '|';color: #333333;
   -webkit-animation: blink 600ms infinite;
           animation: blink 600ms infinite;
 }
@@ -47,22 +47,22 @@ background-color: #1a1a1a;
   padding:  10px 20px;
   max-width: 600px;
   margin: 0 20px;
-  text-align: left;
+  text-align: center;
   font-family: arial;
    color: #fff;
-background-color: #1a1a1a;
+
   border-radius: 2px;
 }
 
 .actor {
-  font-size: 18px;
+  font-size: 14px;
   display: -webkit-box;
   display: flex;
   margin-bottom: 0;
 
 }
 .actor:last-of-type {
-  color: #96cde9;
+  color: #4d0000;
   
 }
 
@@ -76,6 +76,7 @@ background-color: #1a1a1a;
 
 .actor__content--typing::after {
   content: '|';
+  color: #333333;
   -webkit-animation: blink 600ms infinite;
           animation: blink 600ms infinite;
 }
