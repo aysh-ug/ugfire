@@ -485,17 +485,19 @@ button {
 button:hover {background-color: #333333;color: #ffdb4d; }
 
 .ctd{display: inline-block;height: 100%;
- width: 40%;padding: 20px;color: #fff; background-color: #d41111;margin: 0; text-align: center; 
+ width: 40%;padding: 20px;color: #fff; 
+ background-color: #a50d0d;margin: 0; text-align: center; 
 }
 .ctd:hover {
-	background-color: #df4620;color: #fff;border:none;
+	background-color: #d41111;color: #fff;border:none;
 }
 
 .gme{display: inline-block;height: 100%;
- width: 40%;height: padding: 20px;color: #fff; background-color: #a50d0d;margin: 0; text-align: center; 
+ width: 40%;height: padding: 20px;color: #fff; 
+ background-color: #760a0a;margin: 0; text-align: center; 
 }
 .gme:hover {
-	background-color: #df4620;color: #fff;border:none;
+	background-color: #a50d0d;color: #fff;border:none;
 }
 .optionbtns{display: inline-table;height: 100px;
 
