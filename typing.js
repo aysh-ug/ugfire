@@ -24,7 +24,7 @@ theater
   .addActor('client', { speed: 3, accuracy: 0.6 })
   .addActor('Aysh',{ speed: 3, accuracy: 0.6 })
   .addActor('chat',{ speed: 3, accuracy: 0.6 })
-  .addScene('client:', 7000)
+  .addScene('client:', 3000)
   .addScene('Hi there', 400)
   .addScene('client:Welcome to Aysh (ugfire.com)', 1000)
   .addScene('chat: The Leading website, Desktop App, mobile App and Database developers in Africa. Stationed in Uganda.', 10000)
