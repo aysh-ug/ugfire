@@ -16,7 +16,7 @@
 }
 #dol h1{
 	text-align: center;
-	color: #fff;
+	color: #800000;
 	font-size: 20px;
 	border:none;
 }
@@ -27,9 +27,14 @@
 	}
 
 #dol{
-	background-color: #ff4d4d;
+	background:#f9f9b9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9f9b9, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
+
 	font-size: 16px;
-	width: 50%;
+	width: 70%;
 	
 	margin:0;
 	display: inline-block;
@@ -64,8 +69,8 @@ input{
 	
 		margin: 10px;
 	display: inline-table;
+	margin-bottom: 0px;
 
-	
 	}
 
 #dol{margin: 0px auto;
@@ -91,9 +96,14 @@ input{
 	}
 
 #dol{
-	background-color: #ffdd99;
+	background:#f9f9b9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9f9b9, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
+
 	font-size: 16px;
-	width: 80%;
+	width: 85%;
 	height: 100%;
 
 

@@ -44,7 +44,7 @@ background-color: #1a1a1a;
 
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
-.scene {
+.scene {display: none;
   padding:  10px 20px;
   max-width: 600px;
   margin: 0 20px;
