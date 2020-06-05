@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @media only screen and (min-width: 600px) {
+	.tutbuttons{
+		display: inline-table;
+	}
 
 .animatorbtn{
 	height: 100px;
@@ -8,26 +11,12 @@
 	margin:0;
 	margin-top: 20px;
 	margin-bottom: 5px;
-}
-.animatorprice{
-	height: 100px;
-	width: 90%;
-	border:0;
-	border-radius: 0;
-	margin:auto;
-	margin-top: 20px;
-	margin-bottom: 5px;
-	color: #fff;
-	font-size: 35px;
-	background-color: #669900;
-	
+	display: inline-block;
+	width: 50%;
+	float: none;
 }
 .animatorbtn:hover{
-	background-color: #77b300;
-	color: #fff;
-}
-.animatorprice:hover{
-	background-color: #77b300;
+	background-color: #1a1a1a;
 	color: #fff;
 }
 
@@ -36,38 +25,62 @@
 	border:0;
 	border-radius: 0;
 	margin:0;
+	float: none;
 	margin-top: 20px;
 	margin-bottom: 5px;
-	background-color: #cc2900;
+	width: 50%;
+	display: inline-block;
+	background-color: #b30000;
 }
-
 .codingbtn:hover{
-	background-color: #ff3300;
+	background-color: #cc0000;
 	color: #fff;
 }
 
-.codingprice{
+
+.animatorprice{
 	height: 100px;
-	width: 90%;
+	width: 80%;
 	border:0;
+	float: none;
 	border-radius: 0;
 	margin:auto;
 	margin-top: 20px;
 	margin-bottom: 5px;
 	color: #fff;
 	font-size: 35px;
-	background-color: #cc2900;
+	background-color:#b39800;
 	
 }
-.codingprice:hover{
-	background-color: #ff3300;
+
+.animatorprice:hover{
+	background-color: #806c00;
 	color: #fff;
 }
 
-#tut1{
-	margin-bottom: 20px;
+
+.codingprice{
+	height: 100px;
+	width: 80%;
+	border:0;
+	float: none;
+	border-radius: 0;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 35px;
+	background-color: #b39800;
+	
+}
+.codingprice:hover{
+	background-color: #806c00;
+	color: #fff;
 }
 
+#tuts{
+	 width: 80%; margin: 20px auto;
+}
 #coding h2{
 	color: red;
 	font-family: times new roman;
@@ -86,11 +99,15 @@
 }
 
 .codetxt{
-	padding: 0px 20px;
+	padding: 10px auto;
 	text-align: left;
-	margin: 20px 20px;
+	width: 80%;
+	
 }
-
+#coding{
+		width: 80%;
+	margin: 10px auto;
+}
 
 }
 
@@ -100,70 +117,73 @@
 
 .animatorbtn{
 	height: 100px;
+	border:0;
+	border-radius: 0;
+	margin-right: 0;
+	margin-left: 10px
+	margin-top: 20px;
+	margin-bottom: 5px;
 	width: 50%;
-	border:0;
-	border-radius: 0;
-	margin:0;
-	margin-top: 20px;
-	margin-bottom: 5px;
-	color: #fff;
-	background-color: #669900;
-	
+	float: none;
 }
-
-.animatorprice{
-	height: 100px;
-	width: 100%;
-	border:0;
-	border-radius: 0;
-	margin:auto;
-	margin-top: 20px;
-	margin-bottom: 5px;
-	color: #fff;
-	font-size: 35px;
-	background-color: #669900;
-	
-}
-
-.animatorprice{
-	background-color: #669900;color: #fff;
-}
-
 .animatorbtn:hover{
-	background-color: #77b300;
+	background-color: #1a1a1a;
 	color: #fff;
 }
 
 .codingbtn{
 	height: 100px;
-	width: 50%;
 	border:0;
 	border-radius: 0;
-	margin:0;
+	margin-left: 0px
 	margin-top: 20px;
 	margin-bottom: 5px;
-	background-color: #cc2900;
+	width: 50%;
+	background-color: #b30000;
+}
+.codingbtn:hover{
+	background-color: #cc0000;
 	color: #fff;
 }
 
-.codingbtn:hover{
-	background-color: #8e0b0b;
-	color: #fff;
-}
-.codingprice{
+.animatorprice{
 	height: 100px;
-	width: 100%;
+	width: 80%;
 	border:0;
+	float: none;
 	border-radius: 0;
 	margin:auto;
 	margin-top: 20px;
 	margin-bottom: 5px;
 	color: #fff;
-	font-size: 35px;
-	background-color: #cc2900;
+	font-size: 25px;
+	background-color:#b39800;
+	
+}
+
+.animatorprice:hover{
+	background-color: #806c00;
+	color: #fff;
+}
+
+
+.codingprice{
+	height: 100px;
+	width: 80%;
+	border:0;
+	float: none;
+	border-radius: 0;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 25px;
+	background-color: #b39800;
+	
 }
 .codingprice:hover{
-	background-color: #cc2900;
+	background-color: #806c00;
+	color: #fff;
 }
 
 #tut1{
@@ -183,7 +203,7 @@
 	font-family: times new roman;
 	margin: 10px auto 0px;
 	font-size: 24px;
-	color: #669900;
+	color: #b39800;
 }
 
 #coding{
