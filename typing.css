@@ -16,6 +16,7 @@ background-color: #1a1a1a;
   font-size: 20px;
   display: -webkit-box;
   display: flex;
+  color: #fff;
   margin-bottom: 0;
 
 }
@@ -49,7 +50,7 @@ background-color: #1a1a1a;
   margin: 0 20px;
   text-align: center;
   font-family: arial;
-   color: #fff;
+   color: #148fb8;
 
   border-radius: 2px;
 }
@@ -72,12 +73,22 @@ background-color: #1a1a1a;
 }
 
 
-
+#chat{
+  color: #148fb8;
+}
 
 .actor__content--typing::after {
   content: '|';
   color: #333333;
   -webkit-animation: blink 600ms infinite;
           animation: blink 600ms infinite;
+}
+
+#Aysh{
+  color:#148fb8;
+}
+
+.actor{
+  color:#148fb8;
 }
 }

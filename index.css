@@ -3,29 +3,26 @@
 .header{flex:1;  
     width: 100%;
     left: 0px;margin: 0px;
-	display: flex; flex-direction: column; background-color: #000;color: #fff; font-family: Trebuchet ms, Arial; font-size: 14px; width: auto; 
+	display: flex; flex-direction: column; background-color: #fff;color: #000; font-family: Trebuchet ms, Arial; font-size: 14px; width: auto; 
  
  }
 
 
 .mother{
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	margin: 0px;
 	
 
 }
-.toptwo{
-	display: flex;
-	flex-direction: row;
-	margin: 0;
-	
-	flex-wrap: wrap;
+.toptwo{ flex: 1;
+		margin: 0px 20px;
+	min-height: 500px;
+
 }
 
 h1{
-width: 400px; margin: 20px auto;	font-size: 30px; text-align: center; border-bottom: 1px solid #fff; 
+ margin: 40px auto 20px;	font-size: 30px; text-align: center;  
 }
 h2 {
 	text-align: left; color: #404040; text-align: center;
@@ -33,24 +30,26 @@ h2 {
 
 .menu{
 	background-color: #b30000; color: #fff;float: none;
-	margin: 0px auto 10px 20%; padding: 10px 20px;
+	margin: 0px auto 10px; padding: 10px 20px;
 	font-size: 16px;border-radius: 0px;
 }
 
 .menu:hover{
 	background-color: #ffbb33; color: #000;
 }
+#menu{
+	background-color:  #1a1a1a;
+}
 
 .main{flex:1;  
-  
-    
-    height: 100%;
+  border-left: 3px dotted #000;
+   min-height: 500px;
     width: 100%;
     bottom: 0px;
 	 /*  background-image: url("images/code.png");
      background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat; */
-     background-color: #ffd480;
+    background-repeat: no-repeat, repeat; #ffec80*/
+     background-color: #fff;
      
     padding: 15px; 
 text-align: center;
@@ -97,7 +96,7 @@ font-family: arial; font-size: 16px;margin: 0px;
 
 
 #navbar{
-	background-color: #000;padding: 10px; height: 100%;margin: 0px ;
+	background-color: #fff;color: #000;padding: 10px; height: 100%;margin: 0px ;
 width: 600px; margin: 20px auto;
 }
 #topbuttons {
@@ -105,11 +104,6 @@ width: 600px; margin: 20px auto;
 }
 
 /*---------DROPDOWN MENU---------*/
-
-#home {
-	margin-left: auto;
-}
-
 
 .getoffer {
     display: none;
@@ -136,7 +130,7 @@ width: 600px; margin: 20px auto;
  background-color: #a50d0d;margin: 0; text-align: center; 
 }
 .ctd:hover {
-	background-color: #d41111;color: #fff;border:none;
+	background-color: #d41111;color: #dcd3a3;border:none;
 }
 
 .gme{display: inline-block;height: 100%;
@@ -144,7 +138,7 @@ width: 600px; margin: 20px auto;
  background-color: #760a0a;margin: 0; text-align: center; 
 }
 .gme:hover {
-	background-color: #5e0808;color: #fff;border:none;
+	background-color: #5e0808;color: #dcd3a3;border:none;
 }
 .optionbtns{display: inline-table;height: 100px;
 
@@ -152,15 +146,29 @@ width: 600px; margin: 20px auto;
 
 .getoffer3:hover {background-color:#00334d ; }
 
-
-button {background-color: #669900; color: #fff;float: none;
-	width: 40%;
-	margin: 0px auto 0px; padding: 10px 20px;
-	font-size: 16px;border-radius: 40px;border:1px solid #000;
+#welcome {
 
 }
 
-button:hover {background-color: #e8e87d;color: #000; }
+button {
+    color:#cccccc;
+     background-color: #262626;
+    /* background-color: #ec9079; */
+     
+    border-bottom:  0px solid black;
+    padding: 10px 13px ;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border:0;
+    border-right:1px solid #666666;
+    margin: 0px;
+    margin-bottom: 5px;
+    float: right;
+
+}
+
+button:hover {background-color: #333333;color: #ffdb4d; }
 
 
 .homepage {background-color: #669900; color: #000;float: none;
@@ -176,10 +184,17 @@ text-decoration: none;
 }
 
 .homepage:hover {background-color:#446600; }
-
+#tools{
+	width: 90%;
+	margin: 10px auto;
+}
 
 #tools img {
 padding-bottom: 20px;
+}
+#info1{
+	width: 90%;
+	margin: 10px auto;
 }
 
 h3 {
@@ -269,12 +284,7 @@ margin-top: 0px;
 }
 
 .videopart1{
-	background-color: #fff;
-	color: #fff;
-	padding: 20px;
-	margin-top: 0px;
-	
-	margin: 0px auto;
+	display: none;
 	
 
 }
@@ -352,14 +362,19 @@ margin-top: 0px;
 	background-color: rgba(255, 255, 255,.05);
 	color: #000;
 		padding: 10px;
+		width: 80%;
 }
 	
 .me img{
 	margin: 20px 10px 0px 0px;
 }
+#aboutme{
+	width: 80%;
+}
 
 .powerpart{
-	background-color: #fff; padding:10px; 
+	background-color: #fff; padding:10px; 	width: 80%;
+	margin: 10px auto;
 }
 
 .powerpart h3{
@@ -386,8 +401,9 @@ margin-top: 0px;
 	position: relative;
 	height: 20%;
 	font-family: arial;
-
-
+}
+.footer2{
+	display: none;
 }
 
 }
@@ -397,7 +413,10 @@ margin-top: 0px;
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
 .header{
-	display: flex; flex-direction: column; background-color: #000; color: #fff; font-family: Trebuchet ms, Arial; font-size: 14px; width: auto; 
+	
+	background-color: #fff; color: #000; 
+	font-family: Trebuchet ms, Arial; font-size: 14px; 
+	width: auto; 
  }
 h1{
  margin: 20px auto;	font-size: 30px; text-align: center; 
@@ -410,9 +429,6 @@ h2 {
 	background-color: #b30000; color: #fff;float: none;
 	margin: 0px auto ; padding: 10px 20px;
 	font-size: 16px;border-radius: 0px;border:none;
-}
-#menu{
-	background-color: #1a1a1a;
 }
 
 .main{
@@ -428,12 +444,12 @@ font-family: arial; font-size: 16px; margin: 0px;
 .churchtop{
 	display: none;
 }
-.logo{
-	flex: 1;text-align: center;
+.ayshlogo{
+	text-align: center; width: 30%; margin: 0px;float: left;
 }
 
 .heading{
-	flex:1;
+
 	margin: 20px auto 20px;
 }
 .mother{
@@ -445,8 +461,10 @@ font-family: arial; font-size: 16px; margin: 0px;
 }
 
 #churchname{
-	font-size: 16px; margin: 0px auto 10px;font-style: normal;width: 300px;text-align: center;
-	font-family: Trebuchet ms, Arial; font-weight: normal; border-top: 1px solid #737373; padding: 5px 20px;
+	font-size: 16px; margin: 20px auto 10px;
+	font-style: normal;width: 80%;text-align: center;
+	font-family: Trebuchet ms, Arial; font-weight: normal;
+	 border-top: 1px solid #737373; padding: 5px 20px;
 }
 .wtext{
 	font-weight: bolder;
@@ -469,7 +487,7 @@ font-family: arial; font-size: 16px; margin: 0px;
 	font-size: 55px;
 }
 #navbar{
-background-color: #1a1a1a; padding: 10px; height: 100%;margin: 0px ;
+ padding: 10px; margin: 0px ;
 }
 
 #topbuttons {
@@ -484,7 +502,9 @@ background-color: #1a1a1a; padding: 10px; height: 100%;margin: 0px ;
 	background-color: rgba(255, 255, 255,.05);
 	color: #cccccc;
 }
-
+.ctd2{
+	display: none;
+}
 
 button {
     color:#cccccc;
@@ -772,7 +792,7 @@ margin-top: 0px;
 	
 	margin-bottom: 5px;
 	border-bottom: 0.5px solid #000;
-	background-color: #ffdd99;
+	background-color: #ebebad;
 	color: #000;
 		padding: 10px;
 }
@@ -805,16 +825,16 @@ margin-top: 0px;
 	display: none;
 }
 
-.footer {
+.footer2 {
 	background-color: #fff;
 	color: #000;
 	padding: 20px;
 	font-size: 12px;
 	text-align: center;
 	position: relative;
-	
 	font-family: arial;
-
-
+}
+.footer{
+	display: none;
 }
 }
