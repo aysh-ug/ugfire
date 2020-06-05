@@ -1,3 +1,4 @@
+
 table {
       width: 90%;
   margin: 10px auto; font-size: 14px; color: #fff; 
@@ -24,18 +25,18 @@ table#t01 tr:nth-child(2) {
     background-color: #b39c19;
 }
 
-table#t01 tr:nth-child(8) {
+table#t01 tr:nth-child(9) {
      background-color: #998200;
     color: #fff;
 }
 
 
-table#t01 tr:nth-child(12) {
+table#t01 tr:nth-child(13) {
      background-color: #998200;
     color: #fff;
 }
 
-table#t01 tr:nth-child(20) {
+table#t01 tr:nth-child(21) {
      background-color: #998200;
     color: #fff;
 }
