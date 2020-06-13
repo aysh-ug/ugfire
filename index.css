@@ -17,12 +17,12 @@
 }
 .toptwo{ flex: 1;
 		margin: 0px 20px;
-	min-height: 500px;
+	min-height: 250px;
 
 }
 
 h1{
- margin: 40px auto 20px;	font-size: 30px; text-align: center;  
+ margin: 10px auto 20px;	font-size: 30px; text-align: center;  
 }
 h2 {
 	text-align: left; color: #404040; text-align: center;
@@ -38,12 +38,12 @@ h2 {
 	background-color: #ffbb33; color: #000;
 }
 #menu{
-	background-color:  #1a1a1a;
+	background-color:  #1a1a1a; margin-top: 0px;
 }
 
 .main{flex:1;  
   border-left: 3px dotted #000;
-   min-height: 500px;
+   min-height: 250px;
     width: 100%;
     bottom: 0px;
 	 /*  background-image: url("images/code.png");
@@ -56,10 +56,11 @@ text-align: center;
 font-family: arial; font-size: 16px;margin: 0px;
 
 }
+
 .wtext{
 	font-weight: bolder;
 	font-family: times new roman;
-	color: red;
+	color: #666666;
 	font-size: 45px;
 	border:none;
 		width: 100%;
@@ -71,21 +72,46 @@ font-family: arial; font-size: 16px;margin: 0px;
 .websites{
 	display: inline-block;
 	font-style: normal;
+	font-family: Times New Roman, Arial;
+	font-style: normal;
+	font-size: 100%;
+	color: #000;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
 }
 .websites1{
 	display: none;
+}
+.webi{
+		font-weight: bold;
+	font-family: Times New Roman, Arial;
+	font-style: normal;
+	color:#d94a26;
+	font-size: 100%;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
 }
 
 .churchtop{
 	display: none;
 }
 .logo{
-	flex: 1;text-align: center;
+	flex: 1;text-align: center; 
 }
+.ayshlogo{
+	text-align: center; width: 40%; margin: 0px auto;
+}
+
 
 .heading{
 	flex:3;
-	margin: 80px auto 20px;
+	margin: 10px auto 0px;
+}
+
+.heading2{
+	display: none;
 }
 
 
@@ -126,21 +152,52 @@ width: 600px; margin: 20px auto;
   }
 
 .ctd{display: inline-block;height: 100%;
- width: 80%;padding: 20px;color: #fff; 
- background-color: #a50d0d;margin: 0; text-align: center; 
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #a9e236;margin: 0; text-align: center; 
 }
 .ctd:hover {
-	background-color: #d41111;color: #dcd3a3;border:none;
+	background-color: #80b319;color: #000;border:none;
 }
 
+.adv{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #aaa7a1;margin: 0; text-align: center; 
+}
+.adv:hover {
+	background-color: #6b6861;color: #000;border:none;
+}
+
+
+.adv2{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #fff; 
+ background-color:#1d9ec9;margin: 0; text-align: center; 
+}
+.adv2:hover {
+	background-color: #167b9c;color: #fff;border:none;
+}
+
+.adv3{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;background-color:#b31919;
+ color: #fff;margin: 0; text-align: center; 
+}
+.adv3:hover {
+	background-color:#861313 ;color: #fff;border:none;
+}
+
+.websitepackages{
+	display: none;
+}
+.highquality{
+	font-weight: bold;
+}
 .gme{display: inline-block;height: 100%;
- width: 40%;height: padding: 20px;color: #fff; 
+ width: 40%; padding: 20px;color: #fff; 
  background-color: #760a0a;margin: 0; text-align: center; 
 }
 .gme:hover {
 	background-color: #5e0808;color: #dcd3a3;border:none;
 }
-.optionbtns{display: inline-table;height: 100px;
+.optionbtns{display: inline-table;
 
 }
 
@@ -151,7 +208,7 @@ width: 600px; margin: 20px auto;
 }
 
 button {
-    color:#cccccc;
+    color:#000;
      background-color: #262626;
     /* background-color: #ec9079; */
      
@@ -160,15 +217,15 @@ button {
     text-decoration: none;
     display: block;
     font-size: 14px;
-    border:0;
-    border-right:1px solid #666666;
+   
+    border:1px solid #666666;
     margin: 0px;
     margin-bottom: 5px;
     float: right;
 
 }
 
-button:hover {background-color: #333333;color: #ffdb4d; }
+button:hover {color: #d94a26; }
 
 
 .homepage {background-color: #669900; color: #000;float: none;
@@ -197,10 +254,6 @@ padding-bottom: 20px;
 	margin: 10px auto;
 }
 
-h3 {
-	color: #000; font-size: 24px;font-family: Trebuchet ms, Arial;
-	margin: 20px 20px 10px 20px;  text-align: left;
-}
 
 
 /*-------------VIDEO OF THE WEEK---------*/
@@ -237,7 +290,7 @@ h3 {
 	color: #fff;
 	padding: 20px;
 	margin-top: 0px;
-	width: 360px;
+	
 	margin: 0px auto;
 	
 
@@ -251,7 +304,6 @@ h3 {
 	color: #000;
 	padding:7px;
 	margin-top: 0px;
-	margin-right: 20px;
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
 
 
@@ -297,7 +349,6 @@ margin-top: 0px;
 	color: #000;
 	padding:7px;
 	margin-top: 0px;
-	margin-right: 10px;
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
 
 
@@ -398,8 +449,8 @@ margin-top: 0px;
 	padding: 20px;
 	font-size: 12px;
 	text-align: center;
-	position: relative;
-	height: 20%;
+	
+	
 	font-family: arial;
 }
 .footer2{
@@ -415,7 +466,7 @@ margin-top: 0px;
 .header{
 	
 	background-color: #fff; color: #000; 
-	font-family: Trebuchet ms, Arial; font-size: 14px; 
+	font-family: 'Source Sans Pro', sans-serif, Arial; font-size: 14px; 
 	width: auto; 
  }
 h1{
@@ -445,12 +496,16 @@ font-family: arial; font-size: 16px; margin: 0px;
 	display: none;
 }
 .ayshlogo{
-	text-align: center; width: 30%; margin: 0px;float: left;
+	text-align: center; width: 20%; margin: 3px;float: left;
 }
 
 .heading{
 
-	margin: 20px auto 20px;
+	display: none;
+}
+.heading2{
+ background-color: #000;
+	margin: auto ;min-height: 70px;
 }
 .mother{
 	display: flex;
@@ -461,36 +516,50 @@ font-family: arial; font-size: 16px; margin: 0px;
 }
 
 #churchname{
-	font-size: 16px; margin: 20px auto 10px;
-	font-style: normal;width: 80%;text-align: center;
+	font-size: 16px; margin: 10px auto 10px; color: #d8d6d6;
+	font-style: normal;width: 67%;text-align: center;
 	font-family: Trebuchet ms, Arial; font-weight: normal;
-	 border-top: 1px solid #737373; padding: 5px 20px;
+	 border-bottom: 1px solid #737373; padding: 5px 0px;
 }
+
 .wtext{
 	font-weight: bolder;
-	font-family: Arial;
-	font-weight: lighter;
+	font-family: Times New Roman, Arial;
+	
 	color: #000;
-	font-size: 28px;
-	border:none;
-	padding: 0;
-	margin: 0px auto;
-}
+	font-size: 100%;
+	padding: 5px;
+	margin: 0px auto 10px;
+	border:1px dotted #000;
+	border-right: none;
+	border-left: none;
+} 
 
 .websites{
 	display: none;
 	}
 	.websites1{
 		font-weight: bolder;
-	font-family: Arial;
+	font-family: Times New Roman, Arial;
 	font-style: normal;
 	color: #a50d0d;
-	font-size: 28px;
+	font-size: 100%;
 	border:none;
-	padding: 0;
+	padding: 5px;
 	margin: 0px auto;
 }
-#navbar{
+
+	.webi{
+		font-weight: normal;
+	font-family: Times New Roman, Arial;
+	font-style: normal;
+	color: #00804d;
+	font-size: 100%;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
+}
+#navbar{display: none;
  padding: 10px; margin: 0px ;
 }
 
@@ -521,24 +590,62 @@ button {
     display: block;
     font-size: 14px;
     border:0;
-    border-right:1px solid #666666;
-    margin: 0px;
-    margin-bottom: 5px;
-    float: right;
-
+    margin: 0px auto 5px;
+   
 }
 
 button:hover {background-color: #333333;color: #ffdb4d; }
+.docsection{
+	flex-direction: column;
+}
 
 .ctd{display: inline-block;height: 100%;
- width: 80%;padding: 20px;color: #fff; 
- background-color: #a50d0d;margin: 0; text-align: center; 
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #a9e236;margin: 0; text-align: center; 
 }
 .ctd:hover {
-	background-color: #d41111;color: #fff;border:none;
+	background-color: #80b319;color: #000;border:none;
 }
 
-.optionbtns{display: inline-table;height: 100px;margin: 0;
+.adv{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #aaa7a1;margin: 0; text-align: center; 
+}
+.adv:hover {
+	background-color: #6b6861;color: #000;border:none;
+}
+
+
+.adv2{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #fff; 
+ background-color:#1d9ec9;margin: 0; text-align: center; 
+}
+.adv2:hover {
+	background-color: #167b9c;color: #fff;border:none;
+}
+
+.adv3{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;background-color:#b31919;
+ color: #fff;margin: 0; text-align: center; 
+}
+.adv3:hover {
+	background-color:#861313 ;color: #fff;border:none;
+}
+
+.websitepackages h2{
+	padding: 2px; margin: 0px;
+}
+.grap{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #8fd7ef;margin: 5px; text-align: center; 
+}
+.grap:hover {
+	background-color: #1d9ec9;color: #000;border:none;
+}
+.highquality{
+	font-weight: normal;
+}
+.optionbtns{display: inline-table;margin: 0;
 
 }
 #welcome {
@@ -653,7 +760,6 @@ h3 {
 	color: #000;
 	padding:7px;
 	margin-top: 0px;
-	margin-right: 20px;
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
 
 
@@ -705,14 +811,7 @@ margin-top: 0px;
 
 }
 
-.partition{
-	
-	border: 0px solid #000;
-	border-style: ridge;
-	width: 100%;
-	margin: 0px auto 20px auto;
-	
-}
+
 
 .partitiono{
 	
@@ -759,6 +858,7 @@ margin-top: 0px;
 }
 
 
+
 .videopart1 a{
 	 font-size: 13px;
 	text-decoration: none;
@@ -766,7 +866,7 @@ margin-top: 0px;
 	color: #000;
 	padding:7px;
 	margin-top: 0px;
-	margin-right: 10px;
+	margin-left: 10px;
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
 
 
@@ -793,15 +893,15 @@ margin-top: 0px;
 	
 margin: 20px;
 	border-radius: 10px;
-	background:#f9f9b9; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f9f9b9, #e6e6e6); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); /* For Firefox 3.6 to 15 */
+	background:#e6e6e6; /* For browsers that do not support gradients */
+   /* background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); 
+    background: -o-linear-gradient(#f9f9b9, #e6e6e6); 
+    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); 
     background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
-
+*/
 	color: #000;
 		padding: 10px;
-		border:1px inset #000;
+		
 
 }
 	

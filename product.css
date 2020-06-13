@@ -1,22 +1,42 @@
 @charset "UTF-8";
 @media only screen and (min-width: 600px) {
-.product{
-	background-color: #e9d97c;
-	margin: 0px 20px 20px ;
-	border-radius: 10px;
-	color: #000;
-	border: 1px solid #000;
-}
 
+	.webproducts{font-family:  Arial;
+	padding-top: 20px;
+	background-color: #bfbfbf;width: 100%;
+	display: flex; flex-direction: row;
+	display: -webkit-flex; /* Safari */
+	flex-wrap: wrap;
+}
+.product{
+	flex:1; min-width: 400px;
+}
 .product img{
-	width: 50%;margin: 0;
+margin: 0px 20px 5px 0px;
+	height: 150px;padding-top: 0px;
 }
 
 .product h2{
-	color:#fff;
-	background-color: #800000;
+	padding:10px 20px;
+}
+.product{font-family: Arial;
+	background-color:#eeeeaa ; 
+	margin: 0px 20px 20px ;
+	
+	color: #000;
+	
+	flex:1;
+	width: 100%;
+}
+
+.mofferspic{
+height: 100%;
+}
+.product h2{
+	color:#eeeeaa;
+	background-color: #1a1a1a;
 	font-family: Trebuchet MS, Arial;
-	font-size: 200%;
+	font-size: 150%;
 	margin: 0px 10px;
 	text-align: left;
 	padding: 5px;
@@ -30,6 +50,7 @@
 	padding-top:0;
 	padding-left: 20px;
 	text-align: left;
+	margin-bottom: 0px;
 }
 .product p em{
 	color: red;
@@ -37,22 +58,23 @@
 	font-size: 120%;
 }
 
-.product h3{
+.productin h3{
 	color:#800000;
-	background-color:#fff ;
+	background-color:#dddd88;
 	font-family:  Arial;
 	font-size: 150%;
-	margin: 10px;
+	margin: 10px auto;
 	text-align: center;
-	padding: 10px 20px;
+	padding: 10px ;
 	font-weight: bolder;
+	width: 90%;
 
 
 }
 
 .product h3 i{
 	color:#000;
-	background-color:#fff ;
+	font-size:70%;
 	font-family:  Arial;
 	margin: 10px;
 	text-align: left;
@@ -60,6 +82,34 @@
 	font-weight: normal;
 
 }
+
+.pdetails{
+padding: 10px 20px;
+margin: 0px 0px 20px 20px;
+text-align: center;
+background-color: #669900; color: #fff;
+}
+.pdetails:hover{
+	background-color: #446600;
+}
+
+.pdetails2{
+padding: 10px 20px ;
+margin: 0px ;
+text-align: center;
+background-color: #fff; color: #000;
+}
+
+ .downloadbtn{
+font-family: arial;
+padding: 5px 20px;
+margin: 10px 50px ;
+text-align: center;
+background-color:#e6e6e6; color: #000;
+text-decoration: none;
+border:0.5px solid #000;
+border-radius: 20px;
+ }
 }
 
 /*-----------------PHONE---------------*/
@@ -67,25 +117,32 @@
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
 
-.product{
-	background-color: #e9d97c;
+.webproducts{
+	padding-top: 20px;
+	background-color: #f2f2f2;width: 100%;
+	display: flex; flex-direction: row;
+	flex-wrap: wrap;
+}
+.product{font-family:  Arial;
+	font-family:  Arial;
+	background-color:#e8e8b0; /*---#e6e6e6*/
 	margin: 0px 20px 20px;
 	border-radius: 10px;
 	color: #000;
 }
 
 .product img{
-	width: 100%;margin: 0;
+	width: 70%;margin: 0 auto;
 }
 
 .product h2{
-	color:#fff;
-	background-color: #800000;
+	color:#e8e8b0;
+	background-color: #1a1a1a;
 	font-family: Trebuchet MS, Arial;
-	font-size: 150%;
+	font-size: 140%;
 	margin: 0px 10px;
 	text-align: left;
-	padding: 5px;
+	padding: 10px 5px;
 	padding-left: 20px;
 
 }
@@ -125,4 +182,40 @@
 	font-weight: bolder;
 	font-size: 120%;
 }
+.pdetails{
+padding: 10px 20px;
+margin: 0px 0px 20px 20px;
+text-align: center;
+background-color: #669900; color: #fff;
+}
+.pdetails:hover{
+	background-color: #446600;
+}
+
+.pdetails2{
+padding: 10px 20px;
+margin: 0px ;
+text-align: center;
+background-color: #fff; color: #000;
+}
+
+.partition{
+	
+	border: 0px solid #000;
+	border-style: ridge;
+	width: 100%;
+	margin: 0px  ;
+	
+}
+ .downloadbtn{
+font-family: arial;
+padding: 5px 20px;
+margin: 10px 50px;
+text-align: center;
+background-color:#e6e6e6; color: #000;
+text-decoration: none;
+border:0.5px solid #000;
+border-radius: 20px;
+ }
+
 }
