@@ -335,12 +335,9 @@ margin-top: 0px;
 	margin: 0px auto 20px auto;
 }
 
-.videopart1{
+.callusairtel {
 	display: none;
-	
-
 }
-
 
 .videopart1 a{
 	 font-size: 13px;
@@ -496,7 +493,7 @@ font-family: arial; font-size: 16px; margin: 0px;
 	display: none;
 }
 .ayshlogo{
-	text-align: center; width: 20%; margin: 3px;float: left;
+	text-align: center; width: 20%; margin: 2px 10px;float: left;
 }
 
 .heading{

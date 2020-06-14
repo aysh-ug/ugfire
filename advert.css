@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@media only screen and (min-width: 600px) {
+
+	.adproducts{font-family:  Arial;
+	padding-top: 20px;
+	background-color: #000;width: 100%;
+	color: #f2f2f2;
+	display: flex; flex-direction: row;
+	display: -webkit-flex; /* Safari */
+	flex-wrap: wrap;
+}
+.adheading{
+	width: 100%; 
+}
+.adheading h2{
+	color:#f2f2f2; font-size: 200%;font-family:  Arial;
+}
+
+.advert{
+	
+}
+.advert img{
+margin: 0px 20px 5px 0px;
+	height: 70px;padding-top: 0px;
+}
+
+.advert h4{
+	color: #000;
+}
+
+.advert h4 i{
+	color: #800000; font-size: 150%; font-style: normal;
+}
+.advert h2{
+	padding:10px 20px;
+}
+.advert{
+	font-family:  Arial;
+		margin: 20px 50px;
+	border-radius: 0px 0px 20px 20px;
+			background-color:#f2f2f2; 
+			color: #000;
+	flex:1; min-width: 250px;
+	width: 100%;
+}
+
+.mofferspic{
+height: 100%;
+}
+.advert h2{
+	color:#d9d9d9;
+	background-color: #800000;
+	font-family: Trebuchet MS, Arial;
+	font-size: 160%;
+	margin: 0px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding: 10px 20px;
+	
+
+}
+
+
+
+.advert p{
+	padding:10px;
+	padding-top:0px;
+	padding-left: 20px;
+	text-align: left;
+	margin-top: 0px;
+}
+.advert ul{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.advert  ul li{
+	padding-top: 0px;
+	margin-bottom: 5px;
+}
+
+.pdetailsb{
+padding: 10px 20px;
+font-size: 130%;
+margin: 10px 0px 20px 20px;
+text-align: center;
+background-color: #000; color: #fff;
+}
+.pdetailsc{
+	display: none;
+}
+
+.advertin h3{
+	color:#800000;
+	background-color:#dddd88;
+	font-family:  Arial;
+	font-size: 150%;
+	margin: 10px auto;
+	text-align: center;
+	padding: 20px ;
+	font-weight: bolder;
+	width: 90%;
+
+
+}
+
+.advert h3 i{
+	color:#000;
+	font-size:70%;
+	font-family:  Arial;
+	margin: 10px;
+	text-align: left;
+	padding-left: 0px;
+	font-weight: normal;
+
+}
+
+.pdetailsc{
+padding: 10px 20px;
+margin: 0px 0px 20px 20px;
+text-align: center;
+background-color: #669900; color: #fff;
+}
+.pdetailsc:hover{
+	background-color: #446600;
+}
+
+ .downloadbtn{
+font-family: arial;
+padding: 5px 20px;
+margin: 10px 50px ;
+text-align: center;
+background-color:#e6e6e6; color: #000;
+text-decoration: none;
+border:0.5px solid #000;
+border-radius: 20px;
+ }
+}
+
+/*-----------------PHONE---------------*/
+
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+
+.adproducts{
+	padding-top: 30px;
+	background-color: #000;width: 100%;
+	display: flex; flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.adheading{
+	width: 100%; background-color: #1a1a1a;
+	background-image: url("images/tvbg.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.adheading h2{
+	color:#cccccc; font-size: 200%;font-family:  Arial; 
+}
+.advert{
+	font-family:  Arial;
+		margin: 20px 30px;
+	border-radius: 0px 0px 20px 20px;
+			background-color:#f2f2f2; 
+			color: #000;
+}
+
+.advert img{
+	width: 100%;margin: 0 auto;
+}
+
+.advert h4{
+	color: #000;
+}
+
+.advert h4 i{
+	color: #800000; font-size: 150%; font-style: normal;
+}
+
+.advert h2{
+	color:#f2f2f2;
+	background-color:#800000; 
+	font-family: Trebuchet MS, Arial;
+	font-size: 140%;
+	margin: 0px;
+	margin-bottom: 10px;
+	text-align: left;
+	padding: 10px 0px;
+	padding-left: 20px;
+
+}
+
+.advert h3{
+	color:#800000;
+	background-color:#fff ;
+	font-family:  Arial;
+	font-size: 150%;
+	margin: 10px;
+	text-align: center;
+	padding: 10px 20px;
+	font-weight: bolder;
+
+
+}
+
+.advert h3 i{
+	color:#000;
+	background-color:#fff ;
+	font-family:  Arial;
+	margin: 10px;
+	text-align: left;
+	padding-left: 0px;
+	font-weight: normal;
+
+}
+
+.advert p{
+	padding:10px;
+	padding-top:0px;
+	padding-left: 20px;
+	text-align: left;
+	margin-top: 0px;
+}
+.advert ul{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.advert  ul li{
+	padding-top: 0px;
+	margin-bottom: 5px;
+}
+
+.pdetailsc{
+padding: 10px 20px;
+font-size: 130%;
+margin: 10px 0px 20px 20px;
+text-align: center;
+background-color: #000; color: #fff;
+}
+.pdetailsc:hover{
+	background-color: #446600;
+}
+.pdetailsb{
+	display: none;
+}
+
+ .downloadbtn{
+font-family: arial;
+padding: 5px 20px;
+margin: 10px 50px;
+text-align: center;
+background-color:#e6e6e6; color: #000;
+text-decoration: none;
+border:0.5px solid #000;
+border-radius: 20px;
+ }
+
+}
