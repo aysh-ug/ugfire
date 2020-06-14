@@ -186,6 +186,7 @@ border-radius: 20px;
 padding: 10px 20px;
 margin: 0px 0px 20px 20px;
 text-align: center;
+font-size: 100%;
 background-color: #669900; color: #fff;
 }
 .pdetails:hover{
@@ -193,9 +194,10 @@ background-color: #669900; color: #fff;
 }
 
 .pdetails2{
-padding: 10px 20px;
+padding: 10px 5px;
 margin: 0px ;
 text-align: center;
+font-size: 100%;
 background-color: #fff; color: #000;
 }
 
@@ -209,8 +211,8 @@ background-color: #fff; color: #000;
 }
  .downloadbtn{
 font-family: arial;
-padding: 5px 20px;
-margin: 10px 20px;
+padding: 5px 7px;
+margin: 10px ;
 text-align: center;
 background-color:#e6e6e6; color: #000;
 text-decoration: none;
