@@ -67,15 +67,14 @@ input{
 
 #calculator{
 	
-		margin: 10px;
+	
 	display: inline-table;
-	margin-bottom: 20px;
-min-height: 700px;
+	margin: 10px auto 20px;
 
 	}
 
 #dol{margin: 0px auto;
-	padding: 20px;
+	padding: 5px 20px;
 	text-align: left;
 
 }
@@ -83,14 +82,15 @@ min-height: 700px;
 #dol h2{
 	text-align: center;
 	color: #000;
-	font-size: 130%;
+	font-size: 16px;
+padding:5px 20px
 }
 #dol h1{
 	text-align: center;
 	color: #d41111;
 	font-weight: normal;
-	font-size: 16px;
-	border:none;
+	font-size: 12px;
+	border:none; padding:5px 20px;
 }
 
 #dollarform p{
@@ -104,9 +104,8 @@ min-height: 700px;
     background: -moz-linear-gradient(#f9f9b9, #e6e6e6); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
 
-	font-size: 16px;
+	font-size: 12px;
 	width: 85%;
-	Min-height: 700px;
 margin-bottom:10px;
 
 
