@@ -3,7 +3,7 @@
 .header{flex:1;  
     width: 100%;
     left: 0px;margin: 0px;
-	display: flex; flex-direction: column; background-color: #fff;color: #000; font-family: Trebuchet ms, Arial; font-size: 14px; width: auto; 
+	display: flex; flex-direction: column; background-color: #fff;color: #000; font-family:'Nunito Sans', sans-serif, Arial; font-size: 14px; width: auto; 
  
  }
 
@@ -53,7 +53,7 @@ h2 {
      
     padding: 15px; 
 text-align: center;
-font-family: arial; font-size: 16px;margin: 0px;
+font-family:'Nunito Sans', sans-serif, arial; font-size: 16px;margin: 0px;
 
 }
 
@@ -117,7 +117,7 @@ font-family: arial; font-size: 16px;margin: 0px;
 
 #churchname{
 	font-size: 16px; margin-top: 0px;font-style: normal;
-	font-family: Trebuchet ms, Arial; font-weight: normal;
+	font-family: 'Nunito Sans', sans-serif,Trebuchet ms, Arial; font-weight: normal;
 }
 
 
@@ -229,7 +229,7 @@ button:hover {color: #d94a26; }
 
 
 .homepage {background-color: #669900; color: #000;float: none;
-	 font-family: arial;
+	 font-family:'Nunito Sans', sans-serif, arial;
       color: #e1e1d0;
 	padding: 10px 20px ;
      border-radius: 0;
@@ -272,7 +272,7 @@ padding-bottom: 20px;
 	background-color: #1c1e15;
 	font-style: normal;  color: #fff;font-size: 30px;
 	margin-bottom: 10px;
-	font-family: Trebuchet ms, Arial; 
+	font-family:'Nunito Sans', sans-serif, Trebuchet ms, Arial; 
 }
 
 .photo{
@@ -383,7 +383,7 @@ margin-top: 0px;
 	background-color: #fff;
 	font-style: normal;  color: #fff;font-size: 24px;
 	margin-bottom: 10px;
-	font-family:  Arial; 
+	font-family:'Nunito Sans', sans-serif,  Arial; 
 }
 .videopartadvert a{
 	 
@@ -448,7 +448,7 @@ margin-top: 0px;
 	text-align: center;
 	
 	
-	font-family: arial;
+	font-family:'Nunito Sans', sans-serif, arial;
 }
 .footer2{
 	display: none;
@@ -463,7 +463,7 @@ margin-top: 0px;
 .header{
 	
 	background-color: #fff; color: #000; 
-	font-family: 'Source Sans Pro', sans-serif, Arial; font-size: 14px; 
+	font-family:'Nunito Sans', sans-serif, Arial; font-size: 14px; 
 	width: auto; 
  }
 h1{
@@ -485,7 +485,7 @@ h2 {
     background-color:  #fff; /*#d2d7c1; */
     height: 100%;
 text-align: center;
-font-family: arial;padding-bottom:20px; font-size: 16px;margin:0px; margin-bottom: 20px;
+font-family:'Nunito Sans', sans-serif, arial;padding-bottom:20px; font-size: 16px;margin:0px; margin-bottom: 20px;
 }
 
 .churchtop{
@@ -514,7 +514,7 @@ font-family: arial;padding-bottom:20px; font-size: 16px;margin:0px; margin-botto
 #churchname{
 	font-size: 16px; margin: 10px auto 10px; color: #d8d6d6;
 	font-style: normal;width: 67%;text-align: center;
-	font-family: Trebuchet ms, Arial; font-weight: normal;
+	font-family:'Nunito Sans', sans-serif, Trebuchet ms, Arial; font-weight: normal;
 	 border-bottom: 1px solid #737373; padding: 5px 0px;
 }
 
@@ -652,7 +652,7 @@ margin-bottom: 0px;
   
      background-color: #262626;
     /* background-color: #ec9079; */
-     font-family: arial;
+     font-family:'Nunito Sans', sans-serif, arial;
       color: #e1e1d0;
     border-bottom:  0px solid black;
     padding: 10px 20px ;
@@ -709,7 +709,7 @@ padding-bottom: 20px;
 }
 
 h3 {
-	color: #000; font-size: 24px;font-family: Arial;
+	color: #000; font-size: 24px;font-family:'Nunito Sans', sans-serif, Arial;
 	margin: 20px 20px 10px 20px;  text-align: left;
 }
 /*-------------VIDEO OF THE WEEK---------*/
@@ -732,7 +732,7 @@ h3 {
 	background-color: #1a1a1a;
 	font-style: normal;  color: #fff;font-size: 22px;
 	margin-bottom: 10px;
-	font-family:  Arial; 
+	font-family: 'Nunito Sans', sans-serif, Arial; 
 }
 
 .photo{
@@ -832,7 +832,7 @@ margin-top: 0px;
 	padding: 0px 10px; 
 	margin: 0px;
 	font-style: normal;  color: #fff;font-size: 24px;
-	font-family:  Arial; 
+	font-family:'Nunito Sans', sans-serif,  Arial; 
 }
 
 .deal{
@@ -935,7 +935,7 @@ margin: 20px;
 	padding: 20px;
 	font-size: 12px;
 	text-align: center;
-	font-family: arial;
+	font-family: 'Nunito Sans', sans-serif,arial;
 }
 .footer{
 	display: none;
