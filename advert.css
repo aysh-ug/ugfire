@@ -141,11 +141,11 @@ border-radius: 20px;
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
 
-.adproducts{
+.adproducts{display: none;/*
 	padding-top: 30px;
 	background-color: #000;width: 100%;
 	display: flex; flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 }
 
 .adheading{

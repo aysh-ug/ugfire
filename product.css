@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @media only screen and (min-width: 600px) {
 
-	.webproducts{font-family:  Arial;
+	.webproducts{
 	padding-top: 20px;
 	background-color: #bfbfbf;width: 100%;
 	display: flex; flex-direction: row;
@@ -19,7 +19,7 @@ margin: 0px 20px 5px 0px;
 .product h2{
 	padding:10px 20px;
 }
-.product{font-family: Arial;
+.product{
 	background-color:#eeeeaa ; 
 	margin: 0px 20px 20px ;
 	
@@ -35,7 +35,6 @@ height: 100%;
 .product h2{
 	color:#eeeeaa;
 	background-color: #1a1a1a;
-	font-family: Trebuchet MS, Arial;
 	font-size: 150%;
 	margin: 0px 10px;
 	text-align: left;
@@ -61,7 +60,6 @@ height: 100%;
 .productin h3{
 	color:#800000;
 	background-color:#dddd88;
-	font-family:  Arial;
 	font-size: 150%;
 	margin: 10px auto;
 	text-align: center;
@@ -75,7 +73,6 @@ height: 100%;
 .product h3 i{
 	color:#000;
 	font-size:70%;
-	font-family:  Arial;
 	margin: 10px;
 	text-align: left;
 	padding-left: 0px;
@@ -101,7 +98,6 @@ background-color: #fff; color: #000;
 }
 
  .downloadbtn{
-font-family: arial;
 padding: 5px 20px;
 margin: 10px 50px ;
 text-align: center;
@@ -119,16 +115,16 @@ border-radius: 20px;
 
 .webproducts{
 	padding-top: 20px;
-	background-color: #f2f2f2;width: 100%;
+	background-color: #f3f1d8;width: 100%;
 	display: flex; flex-direction: row;
 	flex-wrap: wrap;
 }
-.product{font-family:  Arial;
-	font-family:  Arial;
-	background-color:#e8e8b0; /*---#e6e6e6*/
+.product{
+	background-color:#edeac4; /*---#e6e6e6*/
 	margin: 0px 20px 20px;
 	border-radius: 10px;
 	color: #000;
+	border:1px dotted #000;
 }
 
 .product img{
@@ -136,9 +132,8 @@ border-radius: 20px;
 }
 
 .product h2{
-	color:#e8e8b0;
+	color:#edeac4;
 	background-color: #1a1a1a;
-	font-family: Trebuchet MS, Arial;
 	font-size: 140%;
 	margin: 0px 10px;
 	text-align: left;
@@ -150,7 +145,6 @@ border-radius: 20px;
 .product h3{
 	color:#800000;
 	background-color:#fff ;
-	font-family:  Arial;
 	font-size: 150%;
 	margin: 10px;
 	text-align: center;
@@ -163,7 +157,6 @@ border-radius: 20px;
 .product h3 i{
 	color:#000;
 	background-color:#fff ;
-	font-family:  Arial;
 	margin: 10px;
 	text-align: left;
 	padding-left: 0px;
@@ -210,7 +203,6 @@ background-color: #fff; color: #000;
 	
 }
  .downloadbtn{
-font-family: arial;
 padding: 5px 7px;
 margin: 10px ;
 text-align: center;
