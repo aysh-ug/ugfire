@@ -82,9 +82,9 @@ theForm.answer.value = roundedC;
 
 <div id="navbar">
 <div id="topbuttons" style="">
-<button onclick="newsdisplay4()" style="background-color: transparent; ">Our Team</button>
+<button onclick="newsdisplay4b()" style="background-color: transparent; ">Our Team</button>
 <script>
-function newsdisplay4() {
+function newsdisplay4b() {
     document.getElementById("welcome").innerHTML = document.getElementById("aboutme").innerHTML;
 
 }
@@ -99,25 +99,19 @@ function newsdisplay8() {
 </script>
 
 
-<button onclick="newsdisplay6()" style="background-color: transparent;">Power</button>
+<button onclick="newsdisplay6b()" style="background-color: transparent;">Power</button>
 <script>
-function newsdisplay6() {
+function newsdisplay6b() {
     document.getElementById("welcome").innerHTML = document.getElementById("home").innerHTML;
 
 }
 </script>
 
-<button onclick="tuts()" style="background-color: transparent; ">Tutorials</button>
-<script>
-function tuts() {
-    document.getElementById("welcome").innerHTML = document.getElementById("tuts").innerHTML;
 
-}
-</script>
 
-<button onclick="newsdisplay5()" style="background-color: transparent; ">Special offers</button>
+<button onclick="newsdisplay5b()" style="background-color: transparent; ">Special offers</button>
 <script>
-function newsdisplay5() {
+function newsdisplay5b() {
     document.getElementById("welcome").innerHTML = document.getElementById("partoffers").innerHTML;
 
 }
@@ -153,54 +147,7 @@ function convert() {
 
 </div>
 
-<div id="animation"></div>
-
-
-<div id="calculator" style="display: none;">
-  <div id="dol">
-<h2>Pay in Uganda Shillings<br>(Applicable within Africa)</h2>
-<p style="text-align: center;">Our Standard rate = 1USD: 3300 UGX</p>
-    <form id="dollarform" name="orderform">
-<p class="convertwords"> US Dollars (enter value): <input style="border: 1px solid #000; width: 100%;background-color: #fff;" TYPE=number NAME=expression ></p>
-<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000; " TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
-<p class="convertwords">Uganda Shillings (Answer): <input style="border: 1px solid #000;width: 100%;background-color: #fff;" TYPE=text NAME=answer></p>
-
-<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000;"  TYPE=reset VALUE="Clear"></p>
-</form></div>
-
-<div id="calcdocs">
-<div class="optionbtns2" style="display: margin: 10px; float: none;">
- 
- 
- <a href="adverts.pdf"  style=" padding: 18px;" >Advertisement Offers</a></div>
-  
-  <div class="optionbtns2" style="display: margin: 10px; float: none;">
- 
- 
- <a href="websites.pdf"  style=" padding: 18px;" >Web Design Offers</a></div>
-  
- <!------------END OF ADVERT BUTTON----->
-
- <div class="optionbtns2" style="margin: 10px; float: none;">
-  
-  
-
- 
- <a href="graphics.pdf"  style=" padding: 18px;" >Graphics Designs</a></div>
- 
-
-<!------------END OF Graphics BUTTON----->
-</div>
-
- </div>
-
-<br>
-     <!--
-<img class="gallery" src="images/comppro.png">
---><p class="highquality" style="margin:5px auto 0px; color: red;">HIGH QUALITY |<i class="webi" style="font-family: arial;color: #000"> LOW COST </i>| LEGIT
-</p> 
-
-<div id="choose">
+<div id="animation"><div id="choose">
   <div class="choose">
     <a href="websites.pdf">
       <img src="images/websites.png"><br>Websites
@@ -226,6 +173,10 @@ function convert() {
   </div>
 
 </div>
+<p class="highquality" style="margin:5px auto 0px; color: red;">HIGH QUALITY |<i class="webi" style="font-family: arial;color: #000"> LOW COST </i>| LEGIT
+</p> 
+
+
 
 <div class="docsection" style="display: flex; margin: 0px 29px;">
 <!------------Beginning OF ADVERT BUTTON----->
@@ -242,6 +193,41 @@ function convert() {
  </div>
 
 <!------------END OF Graphics BUTTON----->
+</div>
+
+
+<div id="calculator" style="display: none;">
+  <div id="dol">
+<h2>Pay in Uganda Shillings<br>(Applicable within Africa)</h2>
+<p style="text-align: center;">Our Standard rate = 1USD: 3300 UGX</p>
+    <form id="dollarform" name="orderform">
+<p class="convertwords"> US Dollars (enter value): <input style="border: 1px solid #000; width: 100%;background-color: #fff;" TYPE=number NAME=expression ></p>
+<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000; " TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
+<p class="convertwords">Uganda Shillings (Answer): <input style="border: 1px solid #000;width: 100%;background-color: #fff;" TYPE=text NAME=answer></p>
+
+<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000;"  TYPE=reset VALUE="Clear"></p>
+</form></div>
+
+<div id="calcdocs">
+  <ul style="list-style-type:none; ">
+ 
+ <li>  <a href="adverts.pdf"  style=" " >Advertisement Offers</a></li>
+  
+ <!------------END OF ADVERT BUTTON----->
+
+ 
+ <li><a href="websites.pdf"  style=" " >Web Design Offers</a></li>
+ 
+
+<li> <a href="graphics.pdf"  style=" " >Graphics Designs</a></li> </ul>
+</div>
+
+ </div>
+
+<br>
+     <!--
+<img class="gallery" src="images/comppro.png">
+-->
 
 
 <div class="docsection3" style="display: flex;">
@@ -260,6 +246,42 @@ function convert() {
 
 <!------------END OF Graphics BUTTON----->
  <br>
+</div>
+
+    <!-------BUTTONS-------------->
+
+<div id="navbar2">
+
+<a onclick="newsdisplay4()" style="background-color: transparent; ">Our Team</a>
+<script>
+function newsdisplay4() {
+    document.getElementById("othertabs").innerHTML = document.getElementById("aboutme").innerHTML;
+
+}
+</script> 
+
+
+<a onclick="newsdisplay6()" style="background-color: transparent;">Power</a>
+<script>
+function newsdisplay6() {
+    document.getElementById("othertabs").innerHTML = document.getElementById("home").innerHTML;
+
+}
+</script>
+
+
+
+<a onclick="newsdisplay5()" style="background-color: transparent; ">Special offers</a>
+<script>
+function newsdisplay5() {
+    document.getElementById("othertabs").innerHTML = document.getElementById("partoffers").innerHTML;
+
+}
+</script>
+
+
+    <!----------END OF BUTTONS--------->
+  
 </div>
 
   <div id="home" style="display: none;" >
@@ -425,40 +447,40 @@ function animation() {
 <div id="cv" style="display: none;"><h2 style="font-family:Trebuchet MS,arial; color:#ff1a1a; font-size: 28px;">Amazing Website Offers</h2> </div>
 
 <div id="aboutme" style="display: none;">
-<h3>Our Core Team</h3>
+<h3 style="color:#c32222; text-align: left;">Our Core Team</h3>
 <div class="me">
-  <img src="images/alfred.jpg" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Alfred</h4>
+  <img src="images/alfred.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Alfred</h4>
 <p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style="color:#005580; font-style: normal; "> Alfred Ochola</em><br><br>CEO, Aysh Inventions Ltd </p>
-<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (9 Years)</em> </h4><p style="text-align: left">Adobe Design suite (Photoshop, Illustrator, Aftereffects, PremierePro, Audition, Media Encoder)     |  Maxon Cinema 4D for 3D    |  Netbeans   |  Eclipse    | Sublime Text   | Java 8.0   |  MySQL & Maria DB databases |  HTML  |  CSS  |  JavaScript 
+  Full Name:<em style=" font-style: normal; "> Alfred Ochola</em><br><br>CEO, Aysh Inventions Ltd </p><br>
+<h4 style=" margin: 0px 10px;font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (9 Years)</em> </h4><p style="text-align: left">Adobe Design suite (Photoshop, Illustrator, Aftereffects, PremierePro, Audition, Media Encoder)     |  Maxon Cinema 4D for 3D    |  Netbeans   |  Eclipse    | Sublime Text   | Java 8.0   |  MySQL & Maria DB databases |  HTML  |  CSS  |  JavaScript 
 </p></div>
 
 <div class="me">
-<img src="images/gasper.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Gasper</h4>
+<img src="images/gasper.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Gasper</h4>
 <p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style="color:#005580; font-style: normal; "> Gasper Aduka</em><br><br>Co-Founder, Aysh Inventions Ltd </p>
-<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (4 Years)</em> </h4><p style="text-align: left">Gasper Aduka is a passionate Civil engineer. He is also an auditor and loves Innovation. He is the co-founder of Aysh Inventions Ltd, and as such is at the heart of the company's progress. 
+  Full Name:<em style=" font-style: normal; "> Gasper Aduka</em><br><br>Co-Founder, Aysh Inventions Ltd </p>
+<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (4 Years)</em> </h4><p style="text-align: left">Gasper Aduka is a passionate Civil engineer. He is also an auditor and loves Innovation. He is the co-founder of Aysh Inventions Ltd, and as such is at the heart of the company's progress. 
 </p></div>
 
 <div class="me">
-<img src="images/claire2.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px;font-weight: normal; margin-bottom: 0px;">Claire</h4>
+<img src="images/claire2.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px;font-weight: normal; margin-bottom: 0px;">Claire</h4>
 <p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style="color:#005580; font-style: normal; "> Claire Nanyanzi</em><br><br>Studio, Aysh Inventions Ltd </p>
-<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (8 Years)</em> </h4><p style="text-align: left">Talented musician and voice artist. Claire is also a creative script writer for movies and short advertisements. She is in charge of our Studio productions at Aysh. 
+  Full Name:<em style="font-style: normal; "> Claire Nanyanzi</em><br><br>Studio, Aysh Inventions Ltd </p>
+<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (8 Years)</em> </h4><p style="text-align: left">Talented musician and voice artist. Claire is also a creative script writer for movies and short advertisements. She is in charge of our Studio productions at Aysh. 
 </p></div>
 
 <div class="me">
-<img src="images/sue.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Susan</h4>
+<img src="images/sue.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Susan</h4>
 <p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style="color:#005580; font-style: normal; "> Susan Nkwanzi</em><br><br>Lawyer, Aysh Inventions Ltd </p>
-<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal; "> (5 Years)</em> </h4><p style="text-align: left">Susan is a lover of justice, and this motivates her to ensure that our clients get what they pay for without being cheated or compromised by ensuring that all the legal company requirements are met. She also helps Aysh to serve favorably as an honorable and trustworthy entity in the market.
+  Full Name:<em style=" font-style: normal; "> Susan Nkwanzi</em><br><br>Lawyer, Aysh Inventions Ltd </p>
+<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (5 Years)</em> </h4><p style="text-align: left">Susan is a lover of justice, and this motivates her to ensure that our clients get what they pay for without being cheated or compromised by ensuring that all the legal company requirements are met. She also helps Aysh to serve favorably as an honorable and trustworthy entity in the market.
 </p></div>
 
 <div class="me" style="border-bottom: 0px;">
-<img src="images/victor.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="color: #e1e1d0;background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">ShiningStar</h4>
+<img src="images/victor.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">ShiningStar</h4>
 <p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style="color:#005580; font-style: normal; "> Victor Shiningstar Waisswa</em><br><br>Chief Software engineer, Aysh Inventions Ltd </p>
-<h4 style="color:#ff1a1a; margin: 0px;font-weight: normal; "> EXPERTISE <em style="color:#005580; font-style: normal;font-weight: normal;"> (4 Years)</em> </h4><p style="text-align: left">A serial computer programmer<br>Java back-end programming | Javascript | Html | and MySQL & MariaDB databases. Victor means business !
+  Full Name:<em style=" font-style: normal; "> Victor Shiningstar Waisswa</em><br><br>Chief Software engineer, Aysh Inventions Ltd </p>
+<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal;"> (4 Years)</em> </h4><p style="text-align: left">A serial computer programmer<br>Java back-end programming | Javascript | Html | and MySQL & MariaDB databases. Victor means business !
 </p></div>
 <br><a class="getoffer" href="https://wa.me/256704678948" >Whatsapp us <img src="images/whatsapp.png" width="20px"> </a>
 
@@ -525,6 +547,8 @@ function animation() {
 
 </div>
 </div>
+
+<div id="othertabs"></div>
 
 <!------------------BEGINING OF WEBPRODUCTS------>
 

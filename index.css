@@ -139,6 +139,9 @@ font-family: 'Nunito Sans', sans-serif,arial; font-size: 16px;margin: 0px;
 	font-family:  'Nunito Sans', sans-serif,arial; font-weight: normal;
 }
 
+#navbar2{
+	display: none;
+}
 
 #navbar{
 	background-color: #fff;color: #000;padding: 10px; height: 100%;margin: 0px ;
@@ -429,18 +432,35 @@ margin-top: 0px;
 	
 	margin-bottom: 5px;
 	border-bottom: 0.5px solid #000;
-	background-color: rgba(255, 255, 255,.05);
+	background-color: #000;
 	color: #000;
 		padding: 10px;
 		width: 80%;
 }
 	
-.me img{
-	margin: 20px 10px 0px 0px;
+.me h4{
+	color: #ff8566; margin: 40px 10px 10px;
 }
+	.me p{
+		color: #fff; padding:10px;
+	}
+	.me p em{
+		color: #ffd966;
+	}
+
+	.me h4 em{
+		color: #c4ff4d;
+	}
+	
+.me img{
+	margin: 40px 10px  0px;
+}
+
+
 #aboutme{
 	width: 80%;
 }
+
 
 .powerpart{
 	background-color: #fff; padding:10px; 	width: 80%;
@@ -493,6 +513,18 @@ margin-top: 0px;
 	margin: 7px auto;
 }
 	.optionbtns2 a {
+	padding: 5px 20px;  text-decoration: none;
+	color: #fff; background-color: #1a1a1a;border-radius: 15px;
+}
+
+#calcdocs {
+	margin: 7px auto;
+}
+#calcdocs ul li{
+	margin-bottom: 15px;
+}
+
+	#calcdocs li a {
 	padding: 5px 20px;  text-decoration: none;
 	color: #fff; background-color: #1a1a1a;border-radius: 15px;
 }
@@ -587,7 +619,7 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
 	font-size: 16px; margin: 10px auto 10px; color: #d8d6d6;
 	font-style: normal;width: 67%;text-align: center;
 	font-family:  'Nunito Sans', sans-serif,arial; font-weight: normal;
-	 border-bottom: 1px solid #737373; padding: 5px 0px;
+	 border-bottom: 0px solid #d8d6d6; padding: 15px 0px 5px;
 }
 
 .wtext{
@@ -628,7 +660,10 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
 	margin: 0px auto;
 }
 #navbar{display: none;
- padding: 10px; margin: 0px ;
+ 
+}
+#navbar2 a{
+padding: 5px 10px; border:1px dotted #000;
 }
 
 #topbuttons {
@@ -647,7 +682,7 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
 	display: none;
 }
 #calcdocs{
-	display: none;
+	
 }
 button {
     color:#cccccc;
@@ -959,20 +994,32 @@ margin-top: 0px;
 	
 margin: 20px;
 	border-radius: 10px;
-	background:#e6e6e6; /* For browsers that do not support gradients */
+	background:#000; /* For browsers that do not support gradients */
    /* background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); 
     background: -o-linear-gradient(#f9f9b9, #e6e6e6); 
     background: -moz-linear-gradient(#f9f9b9, #e6e6e6); 
     background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
 */
-	color: #000;
+	
 		padding: 10px;
-		
+	}
 
+.me h4{
+	color: #ff8566; margin: 40px 10px 10px;
 }
+	.me p{
+		color: #fff; padding:10px;
+	}
+	.me p em{
+		color: #ffd966;
+	}
+
+	.me h4 em{
+		color: #c4ff4d;
+	}
 	
 .me img{
-	margin: 20px 10px 0px 0px;
+	margin: 40px 10px  0px;
 }
 
 .powerpart{
