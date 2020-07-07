@@ -530,7 +530,7 @@ margin-top: 0px;
 }
 #choose{font-size: 13px;
 	display: flex; margin: 5px 20px;text-align: center;
-	background-color: #ff9999;flex-wrap: wrap;padding: 10px;
+	background-color: #ffd700;flex-wrap: wrap;padding: 10px;
 }
 
 .choose{padding: 0px 5px;
@@ -544,9 +544,6 @@ margin-top: 0px;
 padding: 5px 5px 10px; margin-bottom:10px;text-align: center;
 }
 
-.choose a:hover {
-	background-color: #f3f1d8;
-}
 
 .choose1{padding: 0px 5px;
 	width: 20%; margin: 10px 5px; border-left: 1px solid #000;

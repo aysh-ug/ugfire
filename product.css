@@ -3,7 +3,7 @@
 
 	.webproducts{
 	padding-top: 20px;
-	background-color: #bfbfbf;width: 100%;
+	background-color: #f4f4f4;width: 100%;
 	display: flex; flex-direction: row;
 	display: -webkit-flex; /* Safari */
 	flex-wrap: wrap;
@@ -11,16 +11,22 @@
 .product{
 	flex:1; min-width: 400px;
 }
+.ppic {
+	background-color: #000; margin-bottom: 5px;
+}
+
 .product img{
 margin: 0px 20px 5px 0px;
 	height: 150px;padding-top: 0px;
+	background-color: #000;
 }
 
 .product h2{
 	padding:10px 20px;
 }
 .product{
-	background-color:#eeeeaa ; 
+background-color:#ffd700; /*---#e6e6e6*/
+	background: rgba(255, 215, 0, 0.5);  
 	margin: 0px 20px 20px ;
 	
 	color: #000;
@@ -34,7 +40,7 @@ height: 100%;
 }
 .product h2{
 	color:#eeeeaa;
-	background-color: #1a1a1a;
+	background-color: #b30000;
 	font-size: 150%;
 	margin: 0px 10px;
 	text-align: left;
@@ -120,21 +126,22 @@ border-radius: 20px;
 	flex-wrap: wrap;
 }
 .product{
-	background-color:#edeac4; /*---#e6e6e6*/
+	background-color:#ffd700; /*---#e6e6e6*/
+	background: rgba(255, 215, 0, 0.5); 
 	margin: 0px 20px 20px;
 	border-radius: 10px;
 	color: #000;
-	border:1px dotted #000;
+	border:2px ridge #000;
 }
 
 .product img{
-	width: 70%;margin: 0 auto;
+	width: 100%;margin: 0 auto 5px;background-color: #000;
 }
 
 .product h2{
 	color:#edeac4;
-	background-color: #8e0b0b;
-	font-size: 140%;
+	background-color: #b30000;
+	font-size: 120%;
 	margin: 0px 10px;
 	text-align: left;
 	padding: 10px 5px;
