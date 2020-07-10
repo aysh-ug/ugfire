@@ -439,7 +439,7 @@ margin-top: 0px;
 }
 	
 .me h4{
-	color: #ff8566; margin: 40px 10px 10px;
+	color: #ffd700; margin: 40px 10px 10px;
 }
 	.me p{
 		color: #fff; padding:10px;
@@ -514,7 +514,7 @@ margin-top: 0px;
 }
 	.optionbtns2 a {
 	padding: 5px 20px;  text-decoration: none;
-	color: #fff; background-color: #1a1a1a;border-radius: 15px;
+	color: #fff; background-color: #b30000;
 }
 
 #calcdocs {
@@ -659,8 +659,12 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
 #navbar{display: none;
  
 }
+#navbar2 {display: flex;flex-wrap: wrap; margin: 0px 10px;
+	
+}
+
 #navbar2 a{
-padding: 5px 10px; border:1px dotted #000;
+padding: 5px 10px; border:1px dotted #000;margin-bottom: 10px;
 }
 
 #topbuttons {
@@ -698,7 +702,7 @@ button {
 
 button:hover {background-color: #333333;color: #ffdb4d; }
 .docsection{
-	flex-direction: column;
+	flex-direction: row;flex-wrap: wrap;
 }
 
 .ctd{display: inline-block;height: 100%;
@@ -816,6 +820,8 @@ h3 {
 	color: #000; font-size: 24px;font-family: 'Nunito Sans', sans-serif,arial;
 	margin: 20px 20px 10px 20px;  text-align: left;
 }
+
+
 /*-------------VIDEO OF THE WEEK---------*/
 
 .video {
@@ -1002,7 +1008,7 @@ margin: 20px;
 	}
 
 .me h4{
-	color: #ff8566; margin: 40px 10px 10px;
+	color: #ffd700; margin: 40px 10px 10px;
 }
 	.me p{
 		color: #fff; padding:10px;
@@ -1054,4 +1060,9 @@ margin: 20px;
 .footer{
 	display: none;
 }
+
+#adverts h3{
+	margin: 0; padding: 0;
+}
+
 }

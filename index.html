@@ -180,22 +180,12 @@ function convert() {
 </p> 
 
 
+    <!-------BUTTONS-------------->
 
-<div class="docsection" style="display: flex; margin: 0px 29px;">
-<!------------Beginning OF ADVERT BUTTON----->
-<div class="optionbtns2" style=" float: none;">
-   <a href="adverts.pdf"  style=" " >Advertisement Offers</a></div>
+
   
- <!------------END OF ADVERT BUTTON----->
 
-  <div class="optionbtns2" style=" float: none;"> 
- <a href="websites.pdf"  style=" " >Web Design Offers</a></div>
- 
-  <div class="optionbtns2" style=" float: none;">
- <a href="graphics.pdf"  style=" " >Graphics Designs</a></div>
- </div>
 
-<!------------END OF Graphics BUTTON----->
 </div>
 
 
@@ -255,6 +245,37 @@ function convert() {
 
 <div id="navbar2">
 
+<a href="adverts.pdf" style="background-color: transparent;text-decoration: none;color: #000; ">Adverts</a>
+<script>
+function showadverts() {
+    document.getElementById("othertabs").innerHTML = document.getElementById("adverts").innerHTML;
+
+}
+</script> 
+
+
+<a href="graphics.pdf" style="background-color: transparent;text-decoration: none;color: #000; ">Graphics</a>
+<script>
+function showgraphics() {
+    document.getElementById("othertabs").innerHTML = document.getElementById("home").innerHTML;
+
+}
+</script>
+
+
+
+<a href="index.html" style="background-color: transparent;text-decoration: none;color: #000; ">Websites</a>
+<script>
+function showwebsites() {
+    document.getElementById("othertabs").innerHTML = document.getElementById("partoffers").innerHTML;
+
+}
+</script>
+
+
+    <!----------END OF BUTTONS--------->
+
+
 <a onclick="newsdisplay4()" style="background-color: transparent; ">Our Team</a>
 <script>
 function newsdisplay4() {
@@ -305,7 +326,7 @@ function newsdisplay5() {
 
   
  
-<a class="getoffer" href="https://wa.me/256704678948" >Whatsapp us <img src="images/whatsapp.png" width="20px"> </a>
+<a class="getoffer" href="https://wa.me/256773913902" >Whatsapp us <img src="images/whatsapp.png" width="20px"> </a>
 
  </div>
 </div>
@@ -557,10 +578,13 @@ function animation() {
 
 <div class="webproducts">
 
+<div class="webdesigno">
+  <h2 >WEB DESIGN OFFERS</h2>
+</div>
 
 <div class="product">
   <div class="ppic">
-  <img src="images/basic.png"></div>
+  <img src="images/basic.jpg"></div>
 
   <div class="productin">
    <h2>Basic Website</h2>
@@ -636,7 +660,7 @@ function prof() {
 
 <ul style="text-align: left;">
   <li>Domain Name & 12 Month hosting</li>
-   <li>Fresh code: HTML, Bootstrap, Javascript</li>
+   <li>Fresh code: HTML, CSS, Javascript</li>
 <li>Photo Gallery</li>
   <li>Links to your social media platforms</li>
   <li>Blog</li>
@@ -696,7 +720,7 @@ function gold() {
 <ul style="text-align: left;">
   <li>12 Month hosting</li>
   <li>Fresh Design & Domain Name</li>
-  <li>Fresh code: HTML, Bootstrap, Javascript</li>
+  <li>Fresh code: HTML, CSS, Javascript</li>
 <li>Photo Gallery</li>
   <li>Instant feedback from your clients</li>
   <li>Website analytics</li>
@@ -727,7 +751,7 @@ function gold() {
 
 <div class="product">
   <div class="ppic">
-  <img src="images/corporate.png"></div>
+  <img src="images/corporate.jpg"></div>
 
   <div class="productin">
    <h2>Corporate Website</h2>
@@ -752,7 +776,7 @@ function deluxe() {
 
 <ul style="text-align: left;">
   <li>Fresh Design</li>
-  <li>Original code: HTML, Bootstrap, Javascript, Java, Maria DB/ MySQL</li>
+  <li>Original code: HTML, CSS, Javascript, Java, Maria DB/ MySQL</li>
   <li>Maria DB database</li>
 <li>Instant feedback </li>
 <li> Gallery pro (photo, video, documents) </li>
@@ -790,7 +814,7 @@ function deluxe() {
 
 <div class="product">
   <div class="ppic">
-  <img src="images/shopping.png"></div>
+  <img src="images/shopping.jpg"></div>
 
   <div class="productin">
    <h2>Mini Shopping Website</h2>
@@ -817,7 +841,7 @@ function shopping() {
 
 <ul style="text-align: left;">
 <li>Fresh Design & Domain Name,</li>
-  <li>Fresh code: HTML, Bootstrap, Javascript, Java, Maria DB/ MySQL</li>
+  <li>Fresh code: HTML, CSS, Javascript, Java, Maria DB/ MySQL</li>
   <li>Maria DB large database</li>
 <li>Efficient Shopping system</li>
 <li>Secure Online payment plugins</li>
@@ -832,14 +856,14 @@ function shopping() {
    <li>Maintenance & Technical support</li>
 
 </ul> 
-<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> $ 10,000 Only </a> per year </h4>
+<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> $ 29,000 Only </a> per year </h4>
 <p style="color: #b30000;text-align: ">BONUS SERVICE</p>
 <ul style="text-align: left;">
 <li>E- Flier Designs for the website advert for 3 months</li>
 <li>Search Engine Optimization</li>
  <li>Video advert (30s)</li>
  <li>Audio advert (30s)</li>
-  <li>Up to 500,000 advert views on Facebook (3 months)</li>
+  <li>Up to 1 Million advert views on Facebook (3 months)</li>
 </ul>
 
 </div> </div>
@@ -906,257 +930,22 @@ function shopping() {
 
 <!------END OF WEB PRODUCTS----->
 
+<!------ADVERTS----->
+<div id="adverts" style="display: none;">
+  <h3>POCKET</h3>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<!------------------BEGINING OF ADVERTS------>
-<div class="adproducts" style="">
-  <div class="adheading"><h2>ADVERTISEMENT PACKAGES</h2></div> 
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 22K </i>views </h4> </div>
-    </div>
-   <h2>Pocket</h2><br>
-   <a class="pdetailsc">$ 27</a> <a class="pdetailsb">$ 27</a> 
-   <p>
-<ul>
-  <li>One e-flier advert artistic design</li>
-  <li>Advert duration: up to 5 days</li>
-  <li>Advert shown to: 7K - 22K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 33K </i>views </h4> </div>
-    </div>
-   <h2>Basic </h2><br>
-   <a class="pdetailsc">$ 36</a> <a class="pdetailsb">$ 36</a> 
-   <p>
-<ul>
-  <li>One e-flier advert artistic design</li>
-  <li>Advert duration: up to 5 days</li>
-  <li>Advert shown to: 11K - 33K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 66K </i>views </h4> </div>
-    </div>
-   <h2>Classic</h2><br>
-   <a class="pdetailsc">$ 70</a> <a class="pdetailsb">$ 70</a> 
-   <p>
-<ul>
-  <li>One e-flier advert artistic design</li>
-  <li>Advert duration: up to 5 days</li>
-  <li>Advert shown to: 23K - 66K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 120K </i>views </h4> </div>
-    </div>
-   <h2>Legit</h2><br>
-   <a class="pdetailsc">$ 127</a> <a class="pdetailsb">$ 127</a> 
-   <p>
-<ul>
-  <li>2 e-flier advert artistic designs</li>
-  <li>Advert duration: up to 10 days</li>
-  <li>Advert shown to: 42K - 120K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 240K </i>views </h4> </div>
-    </div>
-   <h2>Modern</h2><br>
-   <a class="pdetailsc">$ 242</a> <a class="pdetailsb">$ 242</a> 
-   <p>
-<ul>
-  <li>3 e-flier advert artistic designs</li>
-  <li>Advert duration: up to 5 days</li>
-  <li>Advert shown to: 83K - 240K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 480K </i>views </h4> </div>
-    </div>
-   <h2>Platinum</h2><br>
-   <a class="pdetailsc">$ 424</a> <a class="pdetailsb">$ 424</a> 
-   <p>
-<ul>
-  <li>5 e-flier advert artistic designs</li>
-  <li>Advert duration: up to 10 days</li>
-  <li>Advert shown to: 165K - 480K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 550K </i>views </h4> </div>
-    </div>
-   <h2>Gold</h2><br>
-   <a class="pdetailsc">$ 697</a> <a class="pdetailsb">$ 697</a> 
-   <p>
-<ul>
-  <li>5 e-flier advert artistic designs</li>
-  <li>Advert duration: up to 14 days</li>
-  <li>Advert shown to: 190K - 550K people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
-<div class="advert">
-  <div class="advertin">
-    <div style="display: flex;">
-      <div style="flex:1;"><img ></div><div style="flex:3; padding-left: 0px;"><h4>Up to<i> 1.8 Million </i>views </h4> </div>
-    </div>
-   <h2>Royal</h2><br>
-   <a class="pdetailsc">$ 1,667</a> <a class="pdetailsb">$ 1,667</a> 
-   <p>
-<ul>
-  <li>10 e-flier advert artistic design</li>
-  <li>Advert duration: up to 14 days</li>
-  <li>Advert shown to: 650K - 1.8M people</li>
-</ul>
-   </p>
-   
-
-
-   <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF ADVERT----->
 </div>
 <!------END OF ADVERTS----->
+
+
+
 
 <div class="footer">
  <a class="homepagebtn" href="index.html" style="font-family: arial;text-align: center; background-color: #b39800; color: #e1e1d0;  border:0;border-radius: 0; margin: 10px auto;padding: 10px 30px">homepage</a>
