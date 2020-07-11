@@ -1,0 +1,1070 @@
+@charset "UTF-8";
+@media only screen and (min-width: 600px) {
+
+.optionbtns3 {
+	margin: 7px auto;
+}
+.optionbtns2 {
+	display: none;
+}
+#choose{
+	display: none;
+}
+
+	.optionbtns3 a {
+	padding: 5px 20px;  text-decoration: none;
+	color: #fff; background-color: #b30000;border-radius: 15px;
+}
+body {
+	font-family: 'Nunito Sans', sans-serif,'Nunito Sans', sans-serif,arial;
+}
+
+.header{flex:1;  
+    width: 100%;
+    left: 0px;margin: 0px;
+	display: flex; flex-direction: column; background-color: #fff;color: #000; font-family:  'Nunito Sans', sans-serif,arial; font-size: 14px; width: auto; 
+ 
+ }
+
+
+.mother{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px;
+	
+
+}
+.toptwo{ flex: 1;
+		margin: 0px 20px;
+	min-height: 250px;
+
+}
+
+h1{
+ margin: 10px auto 20px;	font-size: 30px; text-align: center;  
+}
+h2 {
+	text-align: left; color: #404040; text-align: center;
+}
+
+.menu{
+	background-color: #b30000; color: #fff;float: none;
+	margin: 0px auto 10px; padding: 10px 20px;
+	font-size: 16px;border-radius: 0px;
+}
+
+.menu:hover{
+	background-color: #ffbb33; color: #000;
+}
+#menu{
+	background-color:  #1a1a1a; margin-top: 0px;
+}
+
+.main{flex:1;  
+  border-left: 3px dotted #000;
+   min-height: 250px;
+    width: 100%;
+    bottom: 0px;
+	 /*  background-image: url("images/code.png");
+     background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat; #ffec80*/
+     background-color: #fff;
+     
+    padding: 15px; 
+text-align: center;
+font-family: 'Nunito Sans', sans-serif,arial; font-size: 16px;margin: 0px;
+
+}
+
+.wtext{
+	font-weight: bolder;
+	font-family: times new roman;
+	color: #666666;
+	font-size: 45px;
+	border:none;
+		width: 100%;
+}
+.frontpic{
+	width: 50%;
+}
+
+.websites{
+	display: inline-block;
+	font-style: normal;
+	font-family: 'Nunito Sans', sans-serif,arial 'Nunito Sans', sans-serif,arial;
+	font-style: normal;
+	font-size: 100%;
+	color: #000;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
+}
+.websites1{
+	display: none;
+}
+.webi{
+		font-weight: bold;
+	font-family: 'Nunito Sans', sans-serif,arial 'Nunito Sans', sans-serif,arial;
+	font-style: normal;
+	color:#d94a26;
+	font-size: 100%;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
+}
+
+.churchtop{
+	display: none;
+}
+.logo{
+	flex: 1;text-align: center; 
+}
+.ayshlogo{
+	text-align: center; width: 40%; margin: 0px auto;
+}
+
+
+.heading{
+	flex:3;
+	margin: 10px auto 0px;
+}
+
+.heading2{
+	display: none;
+}
+
+
+#churchname{
+	font-size: 16px; margin-top: 0px;font-style: normal;
+	font-family:  'Nunito Sans', sans-serif,arial; font-weight: normal;
+}
+
+#navbar2{
+	display: none;
+}
+
+#navbar{
+	background-color: #fff;color: #000;padding: 10px; height: 100%;margin: 0px ;
+width: 600px; margin: 20px auto;
+}
+#topbuttons {
+	margin-bottom: 20px;
+}
+
+/*---------DROPDOWN MENU---------*/
+
+.getoffer {
+    display: none;
+     }
+
+  .getoffer3{
+  	background-color: #006699;
+     
+     opacity: 1;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
+    border-bottom:  1px solid black;
+    text-decoration: none;
+    display: block;
+    border:none;
+    text-align: left; color: #fff; 
+  padding: 10px 20px;
+         margin: 0px auto 20px;
+         width: 200px;
+        
+  }
+
+.ctd{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #a9e236;margin: 0; text-align: center; 
+}
+.ctd:hover {
+	background-color: #80b319;color: #000;border:none;
+}
+#calcdocs{
+	display: none;
+}
+
+.adv{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #aaa7a1;margin: 0; text-align: center; 
+}
+.adv:hover {
+	background-color: #6b6861;color: #000;border:none;
+}
+
+
+.adv2{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #fff; 
+ background-color:#1d9ec9;margin: 0; text-align: center; 
+}
+.adv2:hover {
+	background-color: #167b9c;color: #fff;border:none;
+}
+
+.adv3{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;background-color:#b31919;
+ color: #fff;margin: 0; text-align: center; 
+}
+.adv3:hover {
+	background-color:#861313 ;color: #fff;border:none;
+}
+
+.websitepackages{
+	display: none;
+}
+.highquality{
+	font-weight: bold;
+}
+.gme{display: inline-block;height: 100%;
+ width: 40%; padding: 20px;color: #fff; 
+ background-color: #760a0a;margin: 0; text-align: center; 
+}
+.gme:hover {
+	background-color: #5e0808;color: #dcd3a3;border:none;
+}
+.optionbtns{display: inline-table;
+
+}
+
+.getoffer3:hover {background-color:#00334d ; }
+
+#welcome {
+
+}
+
+button {
+    color:#000;
+     background-color: #262626;
+    /* background-color: #ec9079; */
+     
+    border-bottom:  0px solid black;
+    padding: 10px 13px ;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+   
+    border:1px solid #666666;
+    margin: 0px;
+    margin-bottom: 5px;
+    float: right;
+
+}
+
+button:hover {color: #d94a26; }
+
+
+.homepage {background-color: #b30000; color: #000;float: none;
+	 font-family: 'Nunito Sans', sans-serif,arial;
+      color: #e1e1d0;
+	padding: 10px 20px ;
+     border-radius: 0;
+     text-align: center;
+    margin: 0px auto;
+    margin-bottom: 5px;
+	font-size: 16px;border-radius: 40px;border:1px solid #000;
+text-decoration: none;
+}
+
+.homepage:hover {background-color:#446600; }
+#tools{
+	width: 90%;
+	margin: 10px auto;
+}
+
+#tools img {
+padding-bottom: 20px;
+}
+#info1{
+	width: 90%;
+	margin: 10px auto;
+}
+
+
+
+/*-------------VIDEO OF THE WEEK---------*/
+
+.video {
+	background-color: #fff;
+	opacity: 1;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+.aboutvid {
+	padding:  10px; 
+	margin: 0px;
+	background-color: #1c1e15;
+	font-style: normal;  color: #fff;font-size: 30px;
+	margin-bottom: 10px;
+	font-family:  'Nunito Sans', sans-serif,arial; 
+}
+
+.photo{
+	width: 200px;opacity: 1;
+}
+.video img{
+	opacity: 1;
+}
+
+.videoparttut{
+	display: none;
+}
+.videopart{
+	
+	color: #fff;
+	padding: 20px;
+	margin-top: 0px;
+	
+	margin: 0px auto;
+	
+
+}
+
+
+.videopart a{
+	 
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin-top: 0px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+
+}
+
+.videopart a:hover {
+	
+	background-color:#99cc00;
+	color: black;
+	
+}
+#parts {
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+
+#partoffers {
+display: flex;
+flex-direction: row;
+margin-top: 0px;
+}
+
+.partition{
+	
+	border: 0px solid #000;
+	border-style: ridge;
+	width: 500px;
+	margin: 0px auto 20px auto;
+}
+
+.callusairtel {
+	display: none;
+}
+
+.videopart1 a{
+	 font-size: 13px;
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin-top: 0px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+
+}
+
+.videopart1 a:hover {
+	
+	background-color:#ccff66;
+	color: black;}
+	
+
+.partitiono{
+	
+	border: 0px solid #000;
+	border-style: ridge;
+	width: 500px;
+	margin: 0px auto 20px auto;
+	
+}
+
+
+
+
+.videoo {
+	
+	opacity: 1;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+.aboutvido {
+	padding:  10px; 
+	margin: 0px;
+	background-color: #fff;
+	font-style: normal;  color: #fff;font-size: 24px;
+	margin-bottom: 10px;
+	font-family:  'Nunito Sans', sans-serif,arial; 
+}
+.videopartadvert a{
+	 
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin: 0px auto ;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+}
+
+.deal{
+	width: 280px;
+	margin:10px auto 20px;
+	background-color: #fff;
+	padding: 10px;
+}
+
+.me {
+	
+	margin-bottom: 5px;
+	border-bottom: 0.5px solid #000;
+	background-color: #000;
+	color: #000;
+		padding: 10px;
+		width: 80%;
+}
+	
+.me h4{
+	color: #ffd700; margin: 40px 10px 10px;
+}
+	.me p{
+		color: #fff; padding:10px;
+	}
+	.me p em{
+		color: #ffd966;
+	}
+
+	.me h4 em{
+		color: #c4ff4d;
+	}
+	
+.me img{
+	margin: 40px 10px  0px;
+}
+
+
+#aboutme{
+	width: 80%;
+}
+
+
+.powerpart{
+	background-color: #fff; padding:10px; 	width: 80%;
+	margin: 10px auto;
+}
+
+.powerpart h3{
+	color: red;
+	margin: 0;
+	padding: 10px 20px;
+	text-align: left;
+
+	font-family: times new roman;
+	font-size: 28px;
+}
+
+.gallery{
+	width: 80%;
+}
+
+
+.footer {
+	background-color: #fff;
+	color: #000;
+	padding: 20px;
+	font-size: 12px;
+	text-align: center;
+	
+	
+	font-family: 'Nunito Sans', sans-serif,arial;
+}
+.footer2{
+	display: none;
+}
+
+}
+
+/*--------SMALLER SCREENS----------------*/
+
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+
+	.docsection3 {
+		display: none;
+	}
+.optionbtns3{
+	display: none;
+}
+.optionbtns2 {
+	margin: 7px auto;
+}
+	.optionbtns2 a {
+	padding: 5px 20px;  text-decoration: none;
+	color: #fff; background-color: #b30000;
+}
+
+#calcdocs {
+	margin: 7px auto;
+}
+#calcdocs ul li{
+	margin-bottom: 15px;
+}
+
+	#calcdocs li a {
+	padding: 5px 20px;  text-decoration: none;
+	color: #fff; background-color: #1a1a1a;border-radius: 15px;
+}
+#choose{font-size: 13px;
+	display: flex; margin: 5px 20px;text-align: center;
+	background-color: #ffd700;flex-wrap: wrap;padding: 10px;
+}
+
+.choose{padding: 0px 5px;
+	width: 20%; margin: 10px 5px; 
+}
+.choose img{
+	width: 80%;
+}
+
+.choose a {padding: 0px 10px;text-decoration: none;color: #000;
+padding: 5px 5px 10px; margin-bottom:10px;text-align: center;
+}
+
+
+.choose1{padding: 0px 5px;
+	width: 20%; margin: 10px 5px; border-left: 1px solid #000;
+}
+.choose1 img{
+	width: 80%;
+}
+
+.choose1 a {padding: 0px 10px;text-decoration: none;color: #000;
+padding: 5px 5px 10px; margin-bottom:10px;text-align: center;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif,'Nunito Sans', sans-serif,arial;
+}
+
+.header{
+	
+	background-color: #fff; color: #000; 
+	font-family: 'Nunito Sans', sans-serif, 'Nunito Sans', sans-serif,arial; font-size: 14px; 
+	width: auto; 
+ }
+h1{
+ margin: 20px auto;	font-size: 30px; text-align: center; 
+}
+h2 {
+	text-align: left; color: #1a1a1a; text-align: center;
+}
+
+.menu{
+	background-color: #b30000; color: #fff;float: none;
+	margin: 0px auto ; padding: 10px 20px;
+	font-size: 16px;border-radius: 0px;border:none;
+}
+
+.main{
+	  /*  background-image: url("images/bg.png");
+    background-repeat: repeat-y; */
+    background-color:  #fff; /*#d2d7c1; */
+    height: 100%;
+text-align: center;
+font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16px;margin:0px; margin-bottom: 20px;
+}
+
+
+.churchtop{
+	display: none;
+}
+.ayshlogo{
+	text-align: center; width: 20%; margin: 2px 10px;float: left;
+}
+
+.heading{
+
+	display: none;
+}
+.heading2{
+ background-color: #b30000;
+	margin: auto ;min-height: 70px;
+}
+.mother{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	margin: 0;
+	height: 100%;
+}
+
+#churchname{
+	font-size: 16px; margin: 10px auto 10px; color: #d8d6d6;
+	font-style: normal;width: 67%;text-align: center;
+	font-family:  'Nunito Sans', sans-serif,arial; font-weight: normal;
+	 border-bottom: 0px solid #d8d6d6; padding: 15px 0px 5px;
+}
+
+.wtext{
+	font-weight: bolder;
+	font-family: 'Nunito Sans', sans-serif,arial 'Nunito Sans', sans-serif,arial;
+	
+	color: #000;
+	font-size: 100%;
+	padding: 5px;
+	margin: 0px auto 10px;
+	border:1px dotted #000;
+	border-right: none;
+	border-left: none;
+} 
+
+.websites{
+	display: none;
+	}
+	.websites1{
+		font-weight: bolder;
+	font-family: 'Nunito Sans', sans-serif,arial 'Nunito Sans', sans-serif,arial;
+	font-style: normal;
+	color: #a50d0d;
+	font-size: 100%;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
+}
+
+	.webi{
+		font-weight: normal;
+	font-family: 'Nunito Sans', sans-serif,arial 'Nunito Sans', sans-serif,arial;
+	font-style: normal;
+	color: #00804d;
+	font-size: 100%;
+	border:none;
+	padding: 5px;
+	margin: 0px auto;
+}
+#navbar{display: none;
+ 
+}
+#navbar2 {display: flex;flex-wrap: wrap; margin: 0px;
+	background-color: #1a1a1a;padding: 20px;
+	
+}
+
+#navbar2 a{
+padding: 5px 10px; border:1px ridge #ac9b39;
+margin-bottom: 10px; color: #f0e9c2;
+}
+
+#topbuttons {
+	margin-bottom: 20px;
+}
+
+
+/*---------DROPDOWN MENU---------*/
+
+#home {
+	margin: 5px auto;
+	background-color: rgba(255, 255, 255,.05);
+	color: #cccccc;
+}
+.ctd2{
+	display: none;
+}
+#calcdocs{
+	
+}
+button {
+    color:#cccccc;
+     background-color: #262626;
+    /* background-color: #ec9079; */
+     
+    border-bottom:  0px solid black;
+    padding: 10px 13px ;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border:0;
+    margin: 0px auto 5px;
+   
+}
+
+button:hover {background-color: #333333;color: #ffdb4d; }
+.docsection{
+	flex-direction: row;flex-wrap: wrap;
+}
+
+.ctd{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #a9e236;margin: 0; text-align: center; 
+}
+.ctd:hover {
+	background-color: #80b319;color: #000;border:none;
+}
+
+.adv{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #aaa7a1;margin: 0; text-align: center; 
+}
+.adv:hover {
+	background-color: #6b6861;color: #000;border:none;
+}
+
+
+.adv2{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #fff; 
+ background-color:#1d9ec9;margin: 0; text-align: center; 
+}
+.adv2:hover {
+	background-color: #167b9c;color: #fff;border:none;
+}
+
+.adv3{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;background-color:#b31919;
+ color: #fff;margin: 0; text-align: center; 
+}
+.adv3:hover {
+	background-color:#861313 ;color: #fff;border:none;
+}
+
+.websitepackages h2{
+	padding: 2px; margin: 0px;
+}
+.grap{display: inline-block;height: 100%;
+ width: 100%;padding: 10px;color: #000; 
+ background-color: #8fd7ef;margin: 5px; text-align: center; 
+}
+.grap:hover {
+	background-color: #1d9ec9;color: #000;border:none;
+}
+.highquality{
+	font-weight: normal;
+}
+.optionbtns{display: inline-table;margin: 0;
+
+}
+#welcome {
+margin-bottom: 0px;
+}
+
+.homepage {
+  
+     background-color: #262626;
+    /* background-color: #ec9079; */
+     font-family: 'Nunito Sans', sans-serif,arial;
+      color: #e1e1d0;
+    border-bottom:  0px solid black;
+    padding: 10px 20px ;
+     border-radius: 0;
+     text-align: center;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    text-decoration: none;
+      display: block;
+    font-size: 14px;
+    border:1px solid #000;
+    border-right:1px solid #666666;
+}
+
+.homepage:hover {background-color: #446600; }
+
+
+
+#home p{
+	  text-align: left;
+}
+.frontpic{
+	display: none;
+}
+
+.getoffer {
+    
+     background-color: #53ff1a;
+     font-size: 14px;
+     opacity: 1;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5);
+    border-bottom:  1px solid black;
+    text-decoration: none;
+    display: block;
+    border:none;
+    text-align: left; color: #000; 
+    padding: 10px;
+         margin: 0px auto 20px ;
+         width: 130px;
+
+}
+
+.getoffer:hover {background-color:#88cc00 ; }
+
+
+#tools img {
+padding-bottom: 20px;
+}
+
+#tools h3{
+	color: #ff9933;
+}
+
+h3 {
+	color: #000; font-size: 24px;font-family: 'Nunito Sans', sans-serif,arial;
+	margin: 20px 20px 10px 20px;  text-align: left;
+}
+
+
+/*-------------VIDEO OF THE WEEK---------*/
+
+.video {
+	background-color: #fff;
+	opacity: 1;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+.video img{
+	opacity: 1;
+}
+
+.aboutvid {
+	padding:  10px; 
+	margin: 0px;
+	background-color: #1a1a1a;
+	font-style: normal;  color: #fff;font-size: 22px;
+	margin-bottom: 10px;
+	font-family:  'Nunito Sans', sans-serif,arial; 
+}
+
+.photo{
+	width: 150px;opacity: 1;
+}
+
+.videopart{
+	
+	color: #fff;
+	padding: 20px;
+	margin-top: 0px;
+		margin: 0px auto;
+	
+}
+
+
+.videopart a{
+	 
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin-top: 0px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+
+}
+
+.videopart a:hover {
+	
+	background-color:#ccff66;
+	color: black;
+	
+}
+
+
+
+
+.videoparttut{
+	
+	color: #fff;
+	padding: 20px;
+	margin-top: 0px;
+		margin: 0px auto;
+	
+}
+
+
+.videoparttut a{
+	 
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin-top: 0px;
+	margin-right: 20px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+
+}
+
+.videoparttut a:hover {
+	
+	background-color:#ccff66;
+	color: black;
+	
+}
+#parts {
+display: flex;
+flex-direction: column;
+margin-top: 0px;
+
+}
+
+
+
+.partitiono{
+	
+	border: 0px solid #000;
+	border-style: ridge;
+	margin: 0px auto 20px auto;
+	
+}
+
+
+.videoo {
+	
+	opacity: 1;
+	margin: 0px 10px;
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+.aboutvido {
+	padding: 0px 10px; 
+	margin: 0px;
+	font-style: normal;  color: #fff;font-size: 24px;
+	font-family:  'Nunito Sans', sans-serif,arial; 
+}
+
+.deal{
+	width: 280px;
+	margin:10px auto 20px;
+	background-color: #fff;
+	padding: 10px;
+}
+
+.videopart1{
+	background-color: #fff;
+	color: #fff;
+	padding: 20px;
+	margin-top: 0px;
+	
+	margin: 0px auto;
+	
+
+}
+
+
+
+.videopart1 a{
+	 font-size: 13px;
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin-top: 0px;
+	margin-left: 10px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+
+}
+
+.videopart1 a:hover {
+	
+	background-color:#ccff66;
+	color: black;}
+
+
+	.videopartadvert a{
+	 
+	text-decoration: none;
+	background-color: #53ff1a;
+	color: #000;
+	padding:7px;
+	margin: 0px auto ;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9);
+
+}
+
+.me {
+	
+margin: 20px;
+	border-radius: 10px;
+	background:#000; /* For browsers that do not support gradients */
+   /* background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); 
+    background: -o-linear-gradient(#f9f9b9, #e6e6e6); 
+    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); 
+    background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
+*/
+	
+		padding: 10px;
+	}
+
+.me h4{
+	color: #ffd700; margin: 40px 10px 10px;
+}
+	.me p{
+		color: #fff; padding:10px;
+	}
+	.me p em{
+		color: #ffd966;
+	}
+
+	.me h4 em{
+		color: #c4ff4d;
+	}
+	
+.me img{
+	margin: 40px 10px  0px;
+}
+
+.powerpart{
+	background-color: #fff; padding:10px; 
+}
+.powerpart h3{
+	color: red;
+	margin: 0 20px;
+	padding: 10px 20px;
+	text-align: left;
+
+	font-family: times new roman;
+	font-size: 24px;
+}
+
+#part {
+	margin-top: 0px;
+}
+
+.gallery{ width: 100%;
+	
+}
+.eframe{
+	display: none;
+}
+
+.footer2 {display:none;
+	background-color: #fff;
+	color: #000;
+	padding: 20px;
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif,arial;
+}
+.footer{
+	display: none;
+}
+
+#adverts h3{
+	margin: 0; padding: 0;
+}
+
+}

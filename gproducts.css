@@ -3,10 +3,11 @@
 
 	.webproducts{
 	padding-top: 20px;
-	background-color: #bfbfbf;width: 100%;
+	background-color: #1a1a1a;width: 100%;
 	display: flex; flex-direction: row;
 	display: -webkit-flex; /* Safari */
 	flex-wrap: wrap;
+	color: #fff;
 }
 
 .webdesigno {
@@ -20,33 +21,33 @@
 }
 
 .product img{
-margin: 0px;
-	width: 100%; padding: 0px;
+margin: 20px;
+	width: 90%; padding: 0px;
 	background-color: #000;
 }
 
 
 .product{
-background-color:#fff; /*---#e6e6e6*/
-	
-	margin: 0px 20px 20px ;
-	
-	color: #000;
-	
+background-color: #000;
+color: #fff;
+		margin: 0px 20px 20px ;
 	flex:1;
 	width: 100%;
+	overflow-y: scroll;
+	max-height: 550px;
+	border:1px solid #ccad00;
 }
 
 .mofferspic{
 height: 100%;
 }
 .product h2{
-	color:#eeeeaa;
-	background-color: #b30000;
+	color:#e6c300;
+
 	font-size: 150%;
 	margin: 0px ;
 	text-align: left;
-	padding: 5px;
+	padding: 0;
 	padding-left: 20px;
 
 }
@@ -57,12 +58,13 @@ height: 100%;
 	padding-top:0;
 	padding-left: 20px;
 	text-align: left;
-	margin-bottom: 10px;
+	margin-bottom: 10px
 }
 .product p em{
-	color: red;
-	font-weight: bolder;
-	font-size: 120%;
+	color: #29a3a3;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
 }
 
 .productin h3{
@@ -79,7 +81,7 @@ height: 100%;
 }
 
 .product h3 i{
-	color:#000;
+	
 	font-size:70%;
 	margin: 10px;
 	text-align: left;
@@ -92,7 +94,7 @@ height: 100%;
 padding: 10px 20px;
 margin: 0px 0px 20px 20px;
 text-align: center;
-background-color: #669900; color: #fff;
+ color: #fff;
 }
 .pdetails:hover{
 	background-color: #446600;
@@ -123,7 +125,7 @@ border-radius: 20px;
 
 .webproducts{
 	
-	background-color: #f3f1d8;width: 100%;
+	background-color: #000;width: 100%;
 	display: flex; flex-direction: row;
 	flex-wrap: wrap;
 }
@@ -135,8 +137,8 @@ border-radius: 20px;
 
 
 .webdesigno h2{
-	color:#b30000;
-	font-size: 150%;
+	color:#ffd700;
+	font-size: 130%;
 	margin: 0px ;
 	text-align: center;
 	padding: 10px 5px; width: 100%;
@@ -145,21 +147,23 @@ border-radius: 20px;
 
 
 .product{
-	background-color:#fff; /*---#e6e6e6*/
+	background-color:#000; /*---#e6e6e6*/
 
 	margin: 0px 20px 20px;
-	border-radius: 10px;
-	color: #000;
-	border:2px ridge #000;
+		color: #fff;
+		border-radius: 10px;
+	border:1px solid #ccad00;
 }
 
 .product img{border-radius: 8px 8px 0px 0px;
-	width: 100%;margin: 0 auto ;background-color: #000;
+	margin: 20px;
+	width: 90%; padding: 0px;
+	background-color: #000;
 }
 
 .product h2{
-	color:#edeac4;
-	background-color: #b30000;
+	color:#e6c300;
+	
 	font-size: 120%;
 	margin: 0px ;
 	text-align: left;
@@ -197,8 +201,9 @@ border-radius: 20px;
 	text-align: left;
 }
 .product p em{
-	color: red;
-	font-weight: bolder;
+	color: #29a3a3;
+	font-weight: normal;
+	font-style: normal;
 	font-size: 120%;
 }
 .pdetails{
