@@ -510,7 +510,7 @@ margin-top: 0px;
 	display: none;
 }
 .optionbtns2 {
-	margin: 7px auto;
+	margin: 0px auto;
 }
 	.optionbtns2 a {
 	padding: 5px 20px;  text-decoration: none;
@@ -521,7 +521,7 @@ margin-top: 0px;
 	margin: 7px auto;
 }
 #calcdocs ul li{
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 
 	#calcdocs li a {
@@ -582,7 +582,7 @@ h2 {
 .main{
 	  /*  background-image: url("images/bg.png");
     background-repeat: repeat-y; */
-    background-color:  #fff; /*#d2d7c1; */
+    background-color:  #f2f2f2; /*#d2d7c1; */
     height: 100%;
 text-align: center;
 font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16px;margin:0px; margin-bottom: 20px;
@@ -602,7 +602,7 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
 }
 .heading2{
  background-color: #b30000;
-	margin: auto ;min-height: 70px;
+	margin:0px auto ;min-height: 70px;
 }
 .mother{
 	display: flex;
@@ -626,7 +626,7 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
 	color: #000;
 	font-size: 100%;
 	padding: 5px;
-	margin: 0px auto 10px;
+	margin: 0px auto ;
 	border:1px dotted #000;
 	border-right: none;
 	border-left: none;
@@ -660,24 +660,20 @@ font-family: 'Nunito Sans', sans-serif,arial;padding-bottom:20px; font-size: 16p
  
 }
 #navbar2 {display: flex;flex-wrap: wrap; margin: 0px;
-	background-color: #1a1a1a;padding: 20px;
+	background-color: #000;padding: 20px;
 	
 }
 
 #navbar2 a{
 padding: 5px 10px; border:1px ridge #ac9b39;
-margin-bottom: 10px; color: #f0e9c2;
-}
-
-#topbuttons {
-	margin-bottom: 20px;
+ color: #f0e9c2;
 }
 
 
 /*---------DROPDOWN MENU---------*/
 
 #home {
-	margin: 5px auto;
+	margin: 0px auto;
 	background-color: rgba(255, 255, 255,.05);
 	color: #cccccc;
 }
@@ -698,7 +694,7 @@ button {
     display: block;
     font-size: 14px;
     border:0;
-    margin: 0px auto 5px;
+    margin: 0px auto ;
    
 }
 
@@ -757,7 +753,7 @@ button:hover {background-color: #333333;color: #ffdb4d; }
 
 }
 #welcome {
-margin-bottom: 0px;
+margin-bottom: 0px; 
 }
 
 .homepage {
@@ -771,7 +767,6 @@ margin-bottom: 0px;
      border-radius: 0;
      text-align: center;
     margin: 0px auto;
-    margin-bottom: 5px;
     text-decoration: none;
       display: block;
     font-size: 14px;
@@ -802,7 +797,7 @@ margin-bottom: 0px;
     border:none;
     text-align: left; color: #000; 
     padding: 10px;
-         margin: 0px auto 20px ;
+         margin: 0px auto ;
          width: 130px;
 
 }
@@ -1004,7 +999,7 @@ margin: 20px;
     background: -o-linear-gradient(#f9f9b9, #e6e6e6); 
     background: -moz-linear-gradient(#f9f9b9, #e6e6e6); 
     background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
-*/
+
 	
 		padding: 10px;
 	}

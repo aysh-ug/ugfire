@@ -127,12 +127,12 @@ border-radius: 20px;
 	
 	background-color: #000;width: 100%;
 	display: flex; flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: wrap; margin: 0px;
 }
 
 
 .webdesigno{
-	margin: 0px;margin-bottom: 10px;width: 100%;
+	margin: 0px;width: 100%;
 }
 
 
