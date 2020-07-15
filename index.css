@@ -748,6 +748,10 @@ button:hover {background-color: #333333;color: #ffdb4d; }
 .grap:hover {
 	background-color: #1d9ec9;color: #000;border:none;
 }
+#animation p{
+	padding:5px auto; margin:5px auto;
+}
+
 .highquality{
 	font-weight: normal;
 }

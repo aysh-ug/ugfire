@@ -116,6 +116,10 @@ text-decoration: none;
 border:0.5px solid #000;
 border-radius: 20px;
  }
+.downpart {
+	display: none;
+}
+
 }
 
 /*-----------------PHONE---------------*/
@@ -127,12 +131,12 @@ border-radius: 20px;
 	
 	background-color: #000;width: 100%;
 	display: flex; flex-direction: row;
-	flex-wrap: wrap; margin: 0px;
+	flex-wrap: wrap;
 }
 
 
 .webdesigno{
-	margin: 0px;width: 100%;
+	margin: 0px;margin-bottom: 10px;width: 100%;
 }
 
 
