@@ -3,18 +3,25 @@
 
 	.webproducts{
 	padding-top: 20px;
-	background-color: #1a1a1a;width: 100%;
-	display: flex; flex-direction: row;
+	background-color: #000;width: 100%;
+	display: flex; flex-direction: column;
 	display: -webkit-flex; /* Safari */
 	flex-wrap: wrap;
 	color: #fff;
+	margin: 0px auto; text-align: center;
 }
 
-.webdesigno {
-	display: none;
+.webdesigno h2 {
+	font-weight: bolder;
+	font-family: times new roman;
+	color: gold;
+	font-size: 50px;
+	border:none;
+		width: 100%;
+		margin: 20px auto; padding: 0px;
 }
 .product{
-	flex:1; min-width: 400px;
+	flex:1; max-width: 600px;margin: 20px auto;text-align: center;
 }
 .ppic {
 	background-color: #000; 
@@ -30,12 +37,12 @@ margin: 20px;
 .product{
 background-color: #000;
 color: #fff;
-		margin: 0px 20px 20px ;
+		
 	flex:1;
 	width: 100%;
-	overflow-y: scroll;
-	max-height: 550px;
-	border:1px solid #ccad00;
+	
+	
+	
 }
 
 .mofferspic{
@@ -116,9 +123,7 @@ text-decoration: none;
 border:0.5px solid #000;
 border-radius: 20px;
  }
-.downpart {
-	display: none;
-}
+
 
 }
 
