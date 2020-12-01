@@ -1,967 +1,408 @@
-</html>
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Aysh Inventions</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-<meta name="author" content="Aysh Inventions Ltd" />
-<meta name="keywords" content="Create a website in Uganda, Websites, Website designers, Code, Uganda, designer, desiners, Computer, programming, HTML,CSS,Java,JavaScript, MySQL, MariaDB">
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
-  <meta name="theme-color" content="#b30000">
-  <link rel="stylesheet" href="animated.css">
-<link rel="stylesheet" type="text/css" href="index.css">
-<link rel="stylesheet" type="text/css" href="table.css">
-<link rel="stylesheet" type="text/css"  href="fire.css">
-<link rel="stylesheet" type="text/css"  href="wheel.css">
-<link rel="stylesheet" type="text/css"  href="welcome.css">
-<link rel="stylesheet" type="text/css"  href="bounce.css">
-<link rel="stylesheet" href="typing.css">
-<link rel="stylesheet" href="laptop.css">
-<link rel="stylesheet" href="product.css">
-<link rel="stylesheet" href="tech.css">
-<link rel="stylesheet" href="advert.css">
-<link rel="stylesheet" href="calculator.css">
-<link rel="stylesheet" href="tutorials.css">
-<script src='https://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script><script  src="typing.js"></script>
-<script  src="index.js"></script>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f387b134c7806354da6b226/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
- <script>
-function calc( theForm )
-{
-
-
-// evaluate the text field expression;
-var result = eval(
-theForm.expression.value);
-theForm.answer.value = result;
-
-var result = eval( theForm.expression.value);
-// put result into form field 'answer'
-var c = result*3300;
-
-var roundedC = Math.round( c * 100) / 100; 
-
-// put result into form field 'answer'
-theForm.answer.value = roundedC;
-
-
-
-  var x = document.forms["orderform"]["expression"].value;
-    if (x == null || x == "" || x <= 1) {
-        alert("Please fill in an amount greater than 1");
-        return false;
-    }
-
-
-
-}
-// </script> 
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165426784-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-165426784-1');
-</script>
-
-</head>
-<body class="mother" style="">
-<div class="toptwo" >
-<div class="header">
-    <div class="heading"><img class="ayshlogo1" src="images/logo1.png" ><br><p id="churchname">21st Century Website creators  </p>  </div>
-
-   <div class="heading2" > <img class="ayshlogo" src="images/logo.png" style="padding: 5px;"><br><a id="churchname" style="margin-top: 20px;">21st Century Website creators <a href=""><img class="ayshlogo1" src="images/menu.png" style="display:none; padding: 5px;width: 50px; float: right;"> </a> </a>  
-
-      </div>
-
-    <!-------BUTTONS-------------->
-
-<div id="navbar">
-<div id="topbuttons" style="">
-
-<button style="background-color: #99ddff;background: -webkit-linear-gradient(-90deg,#ccff66, #fff099); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg,#ccff66, #fff099); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg,#ccff66, #fff099); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg,#ccff66, #fff099); 
-  /* Standard syntax */">
-<a href="graphics.html" style=" text-decoration: none;color: #000;">Art / Graphics</a>
-</button>
-
-
-<button onclick="newsdisplay4b()" style="background-color: transparent; ">Our Team</button>
-<script>
-function newsdisplay4b() {
-    document.getElementById("welcome").innerHTML = document.getElementById("aboutme").innerHTML;
-
-}
-</script> 
-
-<button onclick="newsdisplay8()" style="background-color: transparent;">Convert</button>
-<script>
-function newsdisplay8() {
-    document.getElementById("welcome").innerHTML = document.getElementById("info").innerHTML;
-
-}
-</script>
-
-
-
-
-<button onclick="newsdisplay6b()" style="background-color: transparent;">Power</button>
-<script>
-function newsdisplay6b() {
-    document.getElementById("welcome").innerHTML = document.getElementById("home").innerHTML;
-
-}
-</script>
-
-
-
-<button onclick="newsdisplay5b()" style="background-color: transparent; ">Special offers</button>
-<script>
-function newsdisplay5b() {
-    document.getElementById("welcome").innerHTML = document.getElementById("partoffers").innerHTML;
-
-}
-</script>
-
-
-<button  style="background-color: transparent; "><a href="index.html" style="color: #000;text-decoration: none;">Home</a> </button>
-
-
-
-</div>
-
-
-    <!----------END OF BUTTONS--------->
-  
-</div>
-
-</div>
-</div>
-
-
-
-<div class="main">
-
-<div id="welcome"> 
-  <h1 class="wtext"><i class="webi">WE DESIGN.</i> WE CODE <i class="websites1">WE ADVERTISE</i> <i class="websites"> WE ADVERTISE</i></h1>
-
-<div class="optionbtns">
-<a class="ctd" style="border-radius: 0; border:0;float: none;" onclick="convert()"><img style="padding: 0 5px; float: left;" src="images/flag.jpg">Convert $ to UgX (Click here)</a>
-  <script>
-function convert() {
-    document.getElementById("animation").innerHTML = document.getElementById("calculator").innerHTML;
-
-}
-</script>
-
-</div>
-
-<div id="animation">
-<p>Download below our service packages .pdf</p>
-	<div id="choose">
-  <div class="choose">
-    <a href="websites.pdf">
-      <img src="images/websites.png"><br>Websites
-    </a>
-  </div>
-
-  <div class="choose1">
-    <a href="graphics.html">
-      <img src="images/graphics.png"><br>Graphics
-    </a>
-  </div>
-
-  <div class="choose1">
-    <a href="adverts.pdf">
-      <img src="images/adverts.png"><br>Adverts
-    </a>
-  </div>
-
-   <div class="choose1">
-    <a href="websites.pdf">
-      <img src="images/databases.png"><br>Databases
-    </a>
-  </div>
-
-</div>
-<p class="highquality" style="margin:5px auto 0px; color: red;">HIGH QUALITY |<i class="webi" style="font-family: arial;color: #000"> LOW COST </i>| LEGIT
-</p> 
-
-
-    <!-------BUTTONS-------------->
-
-
-  
-
-
-</div>
-
-
-<div id="calculator" style="display: none;">
-  <div id="dol">
-<h2>Pay in Uganda Shillings<br>(Applicable within Africa)</h2>
-<p style="text-align: center;">Our Standard rate = 1USD: 3300 UGX</p>
-    <form id="dollarform" name="orderform">
-<p class="convertwords"> US Dollars (enter value): <input style="border: 1px solid #000; width: 100%;background-color: #fff;" TYPE=number NAME=expression ></p>
-<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000; " TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
-<p class="convertwords">Uganda Shillings (Answer): <input style="border: 1px solid #000;width: 100%;background-color: #fff;" TYPE=text NAME=answer></p>
-
-<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000;"  TYPE=reset VALUE="Clear"></p>
-</form></div>
-
- </div>
-
-<br>
-     <!--
-<img class="gallery" src="images/comppro.png">
--->
-
-
-<div class="docsection3" style="display: flex;">
-<!------------Beginning OF ADVERT BUTTON----->
-<div class="optionbtns3" style=" float: none;">
-   <a href="adverts.pdf"  style=" " >Advertisement Offers .pdf</a></div>
-  
- <!------------END OF ADVERT BUTTON----->
-
-  <div class="optionbtns3" style=" float: none;"> 
- <a href="websites.pdf"  style=" " >Web Design Offers .pdf</a></div>
- 
-  <div class="optionbtns3" style=" float: none;">
- <a href="graphics.html"  style=" " >Art/ Graphics .pdf</a></div>
- </div>
-
-<!------------END OF Graphics BUTTON----->
- <br>
-</div>
-
-    <!-------BUTTONS-------------->
-
-<div id="navbar2">
-
-<a href="adverts.pdf" style="background-color: transparent;text-decoration: none;color: #000; ">Adverts</a>
-<script>
-function showadverts() {
-    document.getElementById("othertabs").innerHTML = document.getElementById("adverts").innerHTML;
-
-}
-</script> 
-
-
-<a href="graphics.html" style="background-color: #99ddff;background: -webkit-linear-gradient(-90deg,#ccff66, #fff099); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg,#ccff66, #fff099); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg,#ccff66, #fff099); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg,#ccff66, #fff099); /* Standard syntax */ 
-text-decoration: none;color: #000;
-  ">Art/ Graphics</a>
-<script>
-function showgraphics() {
-    document.getElementById("othertabs").innerHTML = document.getElementById("home").innerHTML;
-
-}
-</script>
-
-<!--------
-
-<a href="index.html" style="background-color: transparent;text-decoration: none;color: #000; ">Websites</a>
-<script>
-function showwebsites() {
-    document.getElementById("othertabs").innerHTML = document.getElementById("partoffers").innerHTML;
-
-}
-</script>  ------->
-
-
-    <!----------END OF BUTTONS--------->
-
-
-<a onclick="newsdisplay4()" style="background-color: transparent; ">Our Team</a>
-<script>
-function newsdisplay4() {
-    document.getElementById("othertabs").innerHTML = document.getElementById("aboutme").innerHTML;
-
-}
-</script> 
-
-
-<a onclick="newsdisplay6()" style="background-color: transparent;">Power</a>
-<script>
-function newsdisplay6() {
-    document.getElementById("othertabs").innerHTML = document.getElementById("home").innerHTML;
-
-}
-</script>
-
-
-
-<a onclick="newsdisplay5()" style="background-color: transparent; ">Special offers</a>
-<script>
-function newsdisplay5() {
-    document.getElementById("othertabs").innerHTML = document.getElementById("partoffers").innerHTML;
-
-}
-</script>
-
-
-    <!----------END OF BUTTONS--------->
-  
-</div>
-
-  <div id="home" style="display: none;" >
-    <br>
-<div class="powerpart">
-<h3 >THE POWER OF OUR WEBSITES</h3>
-<h4 style="color:#fff; margin: 0px; font-size: 22px;background-color:red;padding: 5px 40px;text-align: left; "> What is special ?  </h4>
-<ul style="text-align: left;list-style-type:none;">
-  
-  <li><i style="color: #b30000;font-style: normal;">TRACK :</i><br>Monitor your website performance daily using our website tracker. See how many people visited your website </li><br>
-  <li><i style="color: #b30000;font-style: normal;">HIGH SPEED :</i><br> Our websites are highly optimized and are light weight so they load at supersonic speeds. We use the cutting-edge Adobe systems to optimize our multimedia files for the website.</li><br>
-  <li><i style="color: #b30000;font-style: normal;">INSTANT FEEDBACK :</i><br>Our websites are linked to Whatsapp, the leading global chat engine currently. This makes it easy for your clients to reach you instantly from all over the world.</li><br>
-  <li><i style="color: #b30000;font-style: normal;">FREE SUPPORT :</i><br>You get free technical support for 1 year for any package you sign up for.</li><br>
-  <li><i style="color: #b30000;font-style: normal;">STAY ON VOGUE :</i><br>You get free periodic updates about website technology advancements. what is new?  </li><br>
-  <li><b>GUARANTEED INTEGRITY :</b><br> We work on basis of signed legitimate contracts with clear terms and conditions. This way our clients are sure of the desired output.</li>
-
-</ul>
-
-  
- 
-<a class="getoffer" href="https://wa.me/256773913902" >Whatsapp us <img src="images/whatsapp.png" width="20px"> </a>
-
- </div>
-</div>
-<!-------------TECH INFO------->
-
-  <div id="info" style="display: none;" >
-<div id="calculator" style="">
-  <div id="dol">
-<h2>Pay in Uganda Shillings<br>(Applicable within Africa)</h2>
-<p style="text-align: center;">Our Standard rate = 1USD: 3300 UGX</p>
-    <form id="dollarform" name="orderform">
-<p class="convertwords"> US Dollars (enter value): <input style="border: 1px solid #000; width: 100%;background-color: #fff;" TYPE=number NAME=expression ></p>
-<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000; " TYPE=button VALUE="convert" onClick="calc(this.form)"></p>
-<p class="convertwords">Uganda Shillings (Answer): <input style="border: 1px solid #000;width: 100%;background-color: #fff;" TYPE=text NAME=answer></p>
-
-<p class="convertbtn"><input style="background-color:#e05252;color: #fff;width: 150px;border: 0px solid #800000;"  TYPE=reset VALUE="Clear"></p>
-</form></div><br><br>
-
-
- </div>
-
-</div>
-
-
-<!-----------------END OF TECH INFO----------------->
-
-
-
-
-
-<!-------------TUTS------->
-
-  <div id="tuts" style="display: none; " >
-    <div class="tutbuttons">
-   <h1 class="buythewhole" style=" text-align: center;border:0;">BUY THE FULL COURSE</h1><br>
-<button class="codingbtn" onclick="coding()" >Learn Coding</button>
-<script>
-function coding() {
-    document.getElementById("tut1").innerHTML = document.getElementById("coding").innerHTML;
-
-}
-</script>
-
-<button class="animatorbtn" onclick="animation2()" >Learn 2D & 3D Animation</button>
-<script>
-function animation2() {
-    document.getElementById("tut1").innerHTML = document.getElementById("animator").innerHTML;
-
-}
-</script></div>
-
-<div id="tut1">
-  <img src="images/cd.png" width="30%">
-</div>
-
-
-
-<div id="coding" style="display: none; width: 80%;" >
-
- <h2 style="color: red;text-align: left;font-family: arial;margin-left: 30px" >LEARN CODING</h2> <br>
-<img class="codeimg" src="images/dvd.png" style="padding: 20px;">
-<h2 class="codetxt" >
-LEARN ALL THESE:</h2>
-<ol class="codetxt">
-  <li>HTML</li>
-  <li>CSS (Styling the web)</li>
-  <li>JavaScript (Animate the web)</li>
-  <li>SQL (Online databases)</li>
-  <li>PHP (Interact with the databases)</li>
-</ol> 
- 
- <h2 style="text-align: left;margin-left: 40px;">You don't need internet</h2>
- <p class="codetxt">Install once and Learn Offline with over 500 examples step by step</p>
-  <h2 style="text-align: left;margin-left: 40px;">Extra Benefits</h2>
- <p class="codetxt">Get 12 hour one-on-one training with our coding experts online (video).</p>
- 
- <button class="codingprice" ><em style="font-weight: normal;color: #000;font-style: normal;">Price: </em>UGX 350,000</button>
-
- <div class="videoparttut">
-<a href="Tel: +256 773913902"><img src="images/call.png"> Call us <i style="color: black; background-color: yellow; padding:3px;"> MTN</i> </a> 
-<br>
-</div>
-<!-----BACK TOP TOP---->
-
-<button onclick="animation()" style="background-color: #000; color: #e1e1d0; margin:10px auto;padding:5px 20px;float: none; ">Other tutorials</button><br>
-<script>
-function animation() {
-    document.getElementById("welcome").innerHTML = document.getElementById("tuts").innerHTML;
-
-}
-</script><!-----END BACK TOP TOP---->
-
- </div>
-
-
-
- <div id="animator" style="display: none;">
-
- <h2 style="color:  #1a1a1a;text-align: left;
-  font-family: arial;margin-left: 30px">CREATE 3D ANIMATIONS</h2> 
-  <br>
-<img class="codeimg" src="images/dvd.png" style="padding: 20px;">
-<h2 class="codetxt">
-LEARN 3D ANIMATION:</h2>
-<ol class="codetxt">
-  <li>CINEMA 4D R18</li>
-  <li>Free software installation</li>
-  <li>50 video tutorials & demonstrations</li>
-  <li>3D Animation text book</li>
-</ol> 
- 
- <h2 style="text-align: left;margin-left: 40px;">You don't need internet</h2>
- <p class="codetxt">Install once and Learn Offline with over 50 examples step by step</p>
- <h2 style="text-align: left;margin-left: 40px;">Extra Benefits</h2>
- <p class="codetxt">Get 6 hour one-on-one training with our coding experts online (video).</p>
-
-<button class="animatorprice" ><em style="font-weight: normal;color: #000;font-style: normal;">Price: </em> UGX 150,000</button>
-
- <div class="videoparttut">
-<a href="Tel: +256 773913902"><img src="images/call.png"> Call us <i style="color: black; background-color: yellow; padding:3px;"> MTN</i> </a> 
-<br>
-</div>
-
-<!-----BACK TOP TOP---->
-
-<button onclick="animation()" style="background-color: #000; color: #e1e1d0; margin:10px auto;padding:5px 20px;float: none; ">Other tutorials</button><br>
-<script>
-function animation() {
-    document.getElementById("welcome").innerHTML = document.getElementById("tuts").innerHTML;
-
-}
-</script><!-----END BACK TOP TOP---->
- </div>
-
-</div>
-
-
-<!-----------------END OF TUTS----------------->
-
-
-
-<div id="cv" style="display: none;"><h2 style="font-family:Trebuchet MS,arial; color:#ff1a1a; font-size: 28px;">Amazing Website Offers</h2> </div>
-
-<div id="aboutme" style="display: none;">
-<h3 style="color:#c32222; text-align: left;">Our Core Team</h3>
-<div class="me">
-  <img src="images/alfred.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Alfred</h4>
-<p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style=" font-style: normal; "> Alfred Ochola</em><br><br>CEO, Aysh Inventions Ltd </p><br>
-<h4 style=" margin: 0px 10px;font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (9 Years)</em> </h4><p style="text-align: left">
-	Alfred spearheads our product creation and innovation. He is proficient in top robust technologies; Adobe Design suite (Photoshop, Illustrator, Aftereffects, PremierePro, Audition, Media Encoder)     |  Maxon Cinema 4D for 3D    |  Netbeans   |  Eclipse    | Sublime Text   | Java 8.0   |  MySQL & Maria DB databases |  HTML  |  CSS  |  JavaScript 
-</p></div>
-
-<div class="me">
-<img src="images/gasper.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Gasper</h4>
-<p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style=" font-style: normal; "> Gasper Aduka</em><br><br>Co-Founder, Aysh Inventions Ltd </p>
-<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (4 Years)</em> </h4><p style="text-align: left">Gasper Aduka is a passionate Civil engineer. He is also an auditor and loves Innovation. He is the co-founder of Aysh Inventions Ltd, and as such is at the heart of the company's progress. 
-</p></div>
-
-<div class="me">
-<img src="images/claire2.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px;font-weight: normal; margin-bottom: 0px;">Claire</h4>
-<p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style="font-style: normal; "> Claire Nanyanzi</em><br><br>Studio, Aysh Inventions Ltd </p>
-<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (8 Years)</em> </h4><p style="text-align: left">Talented musician and voice artist. Claire is also a creative script writer for movies and short advertisements. She is in charge of our Studio productions at Aysh. 
-</p></div>
-
-<div class="me">
-<img src="images/sue.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">Susan</h4>
-<p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style=" font-style: normal; "> Susan Nkwanzi</em><br><br>Lawyer, Aysh Inventions Ltd </p>
-<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal; "> (5 Years)</em> </h4><p style="text-align: left">Susan is a lover of justice, and this motivates her to ensure that our clients get what they pay for without being cheated or compromised by ensuring that all the legal company requirements are met. She also helps Aysh to serve favorably as an honorable and trustworthy entity in the market.
-</p></div>
-
-<div class="me" style="border-bottom: 0px;">
-<img src="images/victor.png" width="150px" style="float: left;padding-right: 10px;"><h4 style="background-color: #8e0b0b;padding:5px 10px;text-align: left;font-size: 20px; margin-bottom: 0px;font-weight: normal;">ShiningStar</h4>
-<p  style="text-align: left;font-size: 16px;">
-  Full Name:<em style=" font-style: normal; "> Victor Shiningstar Waisswa</em><br><br>Chief Software engineer, Aysh Inventions Ltd </p>
-<h4 style=" font-weight: normal; "> EXPERTISE <em style=" font-style: normal;font-weight: normal;"> (4 Years)</em> </h4><p style="text-align: left">A serial computer programmer<br>Java back-end programming | Javascript | Html | and MySQL & MariaDB databases. Victor means business !
-</p></div>
-<br><a class="getoffer" href="https://wa.me/256773913902" >Whatsapp us <img src="images/whatsapp.png" width="20px"> </a>
-
- </div>
-
-</div>
-
-
-
-
-<div id="partoffers" style="display: none;">
-
-<div class="partitiono">
-<div class="videoo"><p class="aboutvido" style="font-style: normal; color: #669900;">SPECIAL OFFERS </p>
-  
-  <div id="advert" style="background-color: #669900;">
-    <h3 style="font-size: 20px;padding:20px;  text-align: center;color: #fff;">  1 July - 21 October 2020  </h3>
-  <div class="deal">
-    <p style="margin-bottom: 0px; text-decoration: line-through;"> $ 546 </p>
-    <h2 style="color: red;margin-bottom: 0px;margin-top: 0px;"> $ 500</h2>
-    <p style="margin-top: 0px;">For the Classic Website</p>
-    <p style="margin-top: 0px;">save <i style="color: #003d99;">$ 45.5</i> </p>
-    <div class="videopartadvert">
-<a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-</div><br>
-  </div><br>
-  </div><br>
-  
-
-
-  <div id="advert" style="background-color: #d43811;">
-    <h3 style="font-size: 20px;padding:20px;  text-align: center;color: #fff;"> 1 July - 21 October 2020  </h3>
-  <div class="deal">
-    <p style="margin-bottom: 0px; text-decoration: line-through;"> $ 1270</p>
-    <h2 style="color: red;margin-bottom: 0px;margin-top: 0px;"> $ 1,182</h2>
-    <p style="margin-top: 0px;">For the Corporate Company Website</p>
-    <p style="margin-top: 0px;">save <i style="color: #003d99;"> $ 90.9</i> </p>
-    <div class="videopartadvert">
-<a href="Tel: +256 704678948"><img src="images/call.png"> Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-</div><br>
-  </div><br>
-</div>
-  
-  
-  <div id="partoffers" style="display: none;">
-<div class="partitiono">
-<div class="videoo" style="background-color: #d43811;"><p class="aboutvido" style="font-style: normal; color: #000;">MONTHLY OFFER<br> </p>
-  
-    
-</div>
-</div></div>
-  
-</div>
-
-</div>
-
-
-
-<div class="videopart">
-<a href="Tel: +256 773913902"><img src="images/call.png"> Call us <i style="color: black; background-color: yellow; padding:3px;"> MTN</i> </a> 
-<br>
-
-</div>
-
-</div>
-</div>
-
-<div id="othertabs"></div>
-
-
-
-<!------------------BEGINING OF WEBPRODUCTS------>
-
-<div class="webproducts">
-
-<div class="webdesigno">
-  <h2 >WEB DESIGN OFFERS</h2>
-</div>
-
-
-<div class="product">
-  <div class="ppic">
-  <img src="images/basic.jpg"></div>
-
-  <div class="productin">
-   <h2>Basic Website</h2>
-   <p>Do you need a simple yet professional website? <br>This is the right package for you.<br> Get advertisement of up to <em> 5,000 </em>advert views  on Facebook as a bonus.</p>
-   <a class="pdetails"  onclick="basic()">Details</a>  <a class="pdetails2">$ 228 /year</a>
-
-<script>
-function basic() {
-    document.getElementById("basicpack").innerHTML = document.getElementById("basicpackage").innerHTML;
-
-}
-</script>
-<div id="basicpack"style=" width: 100%; margin: auto;"></div>
-<div class="package" >
-<div id="basicpackage" style="display: none;"> 
-
-<p style="text-align: left;margin:20px 20px 0px;  background-color: #1a1a1a;color:#fff;padding: 5px;padding-left: 10px;">Basic Website Features: </p>
-
-<ul style="text-align: left;">
-  <li>Domain Name & 12 Month hosting</li>
-   <li>Wordpress Design</li>
-<li>Photo Gallery</li>
-  <li>Links to your social media platforms</li>
-  <li>Website analytics</li>
-   <li>Maintenance & Technical support</li>
-
-</ul> 
-<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> $ 228</a> per year </h4>
-<p style="color: #b30000;text-align: ">BONUS SERVICE</p>
-<ul style="text-align: left;">
-<li>1 e-Flier advert Design for your website</li>
-<li>5,000 advert views on Facebook</li>
-</ul>
-
-</div> </div>
-<br>
-    <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF PRODUCT----->
-
-
-<div class="product">
-  <div class="ppic">
-  <img src="images/celeb.png">
-</div>
-  <div class="productin">
-   <h2>Celebrity Website</h2>
-   <p>Are you a celebrity or a public figure? <br>Get a unique website design.<br>Plus advertisement of up to <em> 20,000 views </em> on Facebook as a bonus.</p>
-   <a class="pdetails"  onclick="prof()">Details</a>  <a class="pdetails2">$ 546 /year</a>
-
-<script>
-function prof() {
-    document.getElementById("profpack").innerHTML = document.getElementById("profpackage").innerHTML;
-
-}
-</script>
-
-<div id="profpack"style=" width: 100%; margin: auto;"></div>
-
-<div class="package" >
-<div id="profpackage" style="display: none;"> 
-
-<p style="text-align: left;margin:20px 20px 0px; background-color: #1a1a1a;color:#fff;padding: 5px;padding-left: 10px;">Celebrity Website Features: </p>
-
-<ul style="text-align: left;">
-  <li>Domain Name & 12 Month hosting</li>
-   <li>Fresh code: HTML, CSS, Javascript</li>
-<li>Photo Gallery</li>
- <li>2 email domains</li>
-  <li>Links to your social media platforms</li>
-  <li>Blog</li>
-  <li>Website analytics</li>
-   <li>Maintenance & Technical support</li>
-
-</ul> 
-<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;">  $ 546</a> per year </h4>
-<p style="color: #b30000;text-align: ">BONUS SERVICE</p>
-<ul style="text-align: left;">
-<li>3 e-Flier advert Designs for your website</li>
-<li>Up to 20,000 advert views on Facebook</li>
-</ul>
-
-</div> </div>
-<br>
-    <div class="videopart1" style="background-color: transparent;"> <br> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF PRODUCT----->
-
-
-<div class="product">
-
-  <div class="ppic">
-  <img src="images/business.png"></div>
-
-  <div class="productin">
-   <h2>Classic Business Website</h2>
-   <p>The Classic Business Website has unique features and high optimization for a greater user experience. <br> Get advertisement of up to <em>  20,000 </em>advert views on Facebook as a bonus.</p>
-   <a class="pdetails"  onclick="gold()">Details</a>  <a class="pdetails2">$ 546 /year</a>
-
-<script>
-function gold() {
-    document.getElementById("package").innerHTML = document.getElementById("package1").innerHTML;
-
-}
-</script>
-
-<div class="package">
-<div id="package"style=" width: 100%"></div>
-
-
-
-<div id="package1" style="display: none;"> 
-
-<p style="text-align: left;margin:20px 20px 0px;  background-color: #1a1a1a;color:#fff;padding: 5px;padding-left: 10px;">Classic Business Website Features: </p>
-
-<ul style="text-align: left;">
-  <li>12 Month hosting</li>
-  <li>Fresh Design & Domain Name</li>
-  <li>2 email domains</li>
-  <li>Fresh code: HTML, CSS, Javascript</li>
-<li>Photo Gallery</li>
-  <li>Instant feedback from your clients</li>
-  <li>Website analytics</li>
-   <li>Maintenance & Technical support</li>
-
-</ul> 
-<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> $ 546 </a> per year </h4>
-<p style="color: #b30000;text-align: ">BONUS SERVICE</p>
-<ul style="text-align: left;">
-<li>3 e-Flier advert Designs for your website</li>
-<li>Up to 20,000 advert views on Facebook</li>
-</ul>
-
-</div> </div>
-<br>
-    <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF PRODUCT----->
-
-<div class="product">
-  <div class="ppic">
-  <img src="images/corporate.jpg"></div>
-
-  <div class="productin">
-   <h2>Corporate Website</h2>
-   <p>An advanced version of the classic business website.<br> Rich database design.<em>  50,000 </em>advert views on Facebook as a bonus.</p>
-   <a class="pdetails"  onclick="deluxe()">Details</a>  <a class="pdetails2">$ 1,270 /year</a>
-
-<div id="packaged"style=" width: 100%; margin: auto;"></div>
-
-  <script>
-function deluxe() {
-    document.getElementById("packaged").innerHTML = document.getElementById("package2").innerHTML;
-
-}
-</script>
-
-
-<div class="package" >
-    
-<div id="package2" style="display: none;"> 
-
-<p style="text-align: left;margin:20px 20px 0px;  background-color: #1a1a1a;color:#fff;padding: 5px;padding-left: 10px;">Corporate Website Features: </p>
-
-<ul style="text-align: left;">
-  <li>Fresh Design</li>
-  <li>Original code: HTML, CSS, Javascript, Java, Maria DB/ MySQL</li>
-  <li>Maria DB database</li>
-<li>Instant feedback </li>
- <li>5 email domains</li>
-<li> Gallery pro (photo, video, documents) </li>
-<li>Blog</li>
-<li> Animated transitions </li>
-<li>Domain Name & 12 Month hosting, </li>
-   <li>Instant feedback from your clients</li>
-  <li>Website analytics</li>
-   <li>Maintenance & Technical support</li>
-
-</ul> 
-<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> $ 1,270 /year </a> per year </h4>
-<p style="color: #b30000;text-align: ">BONUS SERVICE</p>
-<ul style="text-align: left;">
-<li>5 E- Flier Designs for the website advert</li>
- <li>Search Engine Optimization</li>
- <li>Audio advert (30s)</li>
-  <li>Up to 50,000 advert views on Facebook (10 days)</li>
-</ul>
-
-</div> </div>
-<br>
-    <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF PRODUCT----->
-
-<div class="product">
-  <div class="ppic">
-  <img src="images/shopping.jpg"></div>
-
-  <div class="productin">
-   <h2>Mini Shopping Website</h2>
-   <p>The Ultimate shopping website!<br> Rich database | User friendly | Fast <br> Plus <em> 500,000 </em>advert views on Facebook as a bonus.</p>
-   <a class="pdetails"  onclick="shopping()">Details</a>  <a class="pdetails2">$ 10,000 /year</a>
-
-
-
-  <script>
-function shopping() {
-    document.getElementById("shoppingpack").innerHTML = document.getElementById("package3").innerHTML;
-
-}
-</script>
-
-
-<div class="package" >
-  <div id="shoppingpack"style=" width: 100%; margin: auto;"></div>
-  <div id="package"style=" width: 100%"></div>
-  
-<div id="package3" style="display: none;"> 
-
-<p style="text-align: left;margin:20px 20px 0px;  background-color: #1a1a1a;color:#fff;padding: 5px;padding-left: 10px;">Shopping Website Features: </p>
-
-<ul style="text-align: left;">
-<li>Fresh Design & Domain Name,</li>
-  <li>Fresh code: HTML, CSS, Javascript, Java, Maria DB/ MySQL</li>
-  <li>Maria DB large database</li>
-<li>Efficient Shopping system</li>
-<li>Secure Online payment plugins</li>
-<li> Advanced product Gallery (photo, video, documents) </li>
-  <li>User accounts</li>
-<li>Special Product Offers</li>
- <li>Up to 10 email domains</li>
-<li> Animated transitions </li>
-<li>Domain Name & 12 Month hosting, </li>
-   <li>Instant feedback from your clients</li>
-  <li>Website analytics</li>
-  <li>Robust cyber security</li>
-   <li>Maintenance & Technical support</li>
-
-</ul> 
-<h4 style="margin: 0px 20px 20px;text-align: left; ">PRICE:  <a style="margin: 0px; padding: 7px 10px;color: #006666;"> $ 10,000 Only </a> per year </h4>
-<p style="color: #b30000;text-align: ">BONUS SERVICE</p>
-<ul style="text-align: left;">
-<li>E- Flier Designs for the website advert for 3 months</li>
-<li>Search Engine Optimization</li>
- <li>Video advert (30s)</li>
- <li>Audio advert (30s)</li>
-  <li>Up to 500,000 advert views on Facebook (3 months)</li>
-</ul>
-
-</div> </div>
-<br>
-    <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br>
-</div>
-
-<!------END OF PRODUCT----->
-
-<div class="product">
-
-  <div class="ppic">
-  <img src="images/notification.png"></div>
-
-  <div class="productin">
-   <h2>SPECIAL OFFERS</h2><br>
-      <a class="pdetails2" style="margin-left: 10px;" >1 July - 21 October 2020</a><br><br>
-
-<div class="package">
-<div id="monthoffers"style=" width: 100%">
-  <table>
-   <tr>
-     <th>Mini Shopping Website</th>
-     <td>$ 500 Off</td>
-   </tr> 
-
-    <tr>
-     <th>Corporate Website</th>
-     <td>$ 90.9 Off</td>
-   </tr>
-
-    <tr>
-     <th>Classic Website</th>
-     <td>$ 45.5 Off</td>
-   </tr>  
-  </table>
-
-</div>
-</div>
-<br>
-    <div class="videopart1" style="background-color: transparent;"> <br>
-<a class="callusairtel" href="Tel: +256 704678948">Call us <i style="color: red; background-color: #fff; padding:3px;"> Airtel</i> </a> 
-
-<a href="https://ayshinventions@gmail.com" style="background-color:#e61919; color: #fff;float: none;margin: 10px 20px;">Email us </a>
-</div>
-
-<button style="float: none;background-color: #5e4d08; margin: 20px auto; width: 100px;color:#fff;" onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-<script type="text/javascript" src="index.js"></script></div>
-
-<a class="downloadbtn" href="adverts.pdf">Advert packages.pdf</a><br><br><p>&copy; Aysh Inventions Ltd 2020</p> 
-</div>
-
-<!------END OF PRODUCT----->
-</div>
-
-
-<!------END OF WEB PRODUCTS----->
-
-
-
-
-
-
-
-</body> 
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/scripts.js"></script>
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<body class="w3-light-gray">
+    <header>
+        <div class="w3-black">
+            <img src="images/ayshw.png" alt="Aysh Inventions" width="50px">
+            <p class="w3-right w3-large w3-padding-small" onclick="menu()" id="menubtn"><i class="fa fa-bars " aria-hidden="true"> </i> Options</p>
+        </div>
+        <div class="w3-row  w3-padding-small w3-animate-left" id="opts" style="display: none;">
+            <ul class="w3-ul">
+                <li><button class="navigate w3-round-xxlarge w3-right w3-paddind-0" onclick="closemenu()"><i class="fa fa-times w3-hide-large" ></i></button></li>
+                <li>
+                    <button class="navigate" onclick="web()">Web Design</button>
+                </li>
+                <li>
+                    <button class="navigate" onclick="graphics()">Graphics Design</button>
+                </li>
+                <li>
+                    <button class="navigate" onclick="courses()">Courses</button>
+                </li>
+                <li>
+                    <button class="navigate" onclick="products()">Shop</button>
+                </li>
+                <li>
+                    <button class="navigate" onclick="soft()">Our Software</button>
+                </li>
+                <li>
+                    <button class="navigate" onclick="tech()">Tech Updates</button>
+                </li>
+                <li>
+                    <button class="navigate" onclick="about()">About us</button>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="w3-row  w3-padding-small " id="optslarge">
+            <button class="navigate" onclick="web()">Web Design</button>
+
+            <button class="navigate" onclick="graphics()">Graphics Design</button>
+
+            <button class="navigate" onclick="courses()">Courses</button>
+
+            <button class="navigate" onclick="products()">Shop</button>
+
+            <button class="navigate" onclick="soft()">Our Software</button>
+
+            <button class="navigate" onclick="tech()">Tech Updates</button>
+
+            <button class="navigate" onclick="about()">About us</button>
+
+        </div>
+
+    </header>
+
+
+    <div class="w3-container w3-padding-small" id="contentToDisplay">
+        <button class="yes" onclick="menu()" id="hellosmall">Hello World !</button>
+        <img src="images/coder.png" class="w3-image">
+        <h3>Downloads</h3>
+        <a href="graphics.pdf" class="w3-btn download w3-margin-top">Graphics Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+        <a href="adverts.pdf" class="w3-btn download w3-margin-top">Facebook Advertisement Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+
+    </div>
+
+
+    <!---------------------------------------WEBSITES-------------------------------------------------------------------------------->
+
+    <div id="websites" class="w3-center" style="display: none;">
+        <h2 class="w3-center"> WEBSITES</h2>
+
+        <div class="w3-row">
+
+            <div class="w3-quarter">
+                <button class="bw" id="subheading">Basic Website</button>
+                <div class="w3-row w3-animate-left ">
+                    <h3 id="feat">Features <button class="price w3-right">UGX 450,000</button></h3>
+                    <ol class="w3-ol">
+                        <li>Domain name (.com) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Web hosting for 12 months (1 year) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Linked to your WhatsApp & facebook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Custom designed outlook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ol>
+                    <ol class="w3-ol">
+                        <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>
+                        <li id="notamong">No online chat <i class="fa fa-times exc"></i></li>
+                        <li id="notamong">No database engine <i class="fa fa-times exc"></i></li>
+                        <button class="yes w3-center">BUY</button>
+                    </ol>
+                </div>
+            </div>
+
+
+            <div class="w3-quarter">
+                <button class="bw" id="subheading">Medium Package</button>
+                <div class="w3-row w3-animate-left ">
+                    <h3 id="feat">Features <button class="price w3-right">UGX 1,800,000</button></h3>
+                    <ol class="w3-ol">
+                        <li>Domain name (.com) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Web hosting for 12 months (1 year) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Linked to your WhatsApp & facebook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Custom designed outlook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Online chat with your clients <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Mini database engine <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Mini Blog <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Cyber security <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ol>
+                    <ol class="w3-ol">
+                        <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>
+
+                        <button class="yes w3-center">BUY</button>
+                    </ol>
+                </div>
+            </div>
+
+
+            <div class="w3-quarter">
+                <button class="bw" id="subheading">Business Package</button>
+                <div class="w3-row w3-animate-left ">
+                    <h3 id="feat">Features <button class="price w3-right">UGX 3,700,000</button></h3>
+                    <ol class="w3-ol">
+                        <li>Domain name (.com) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Web hosting for 12 months (1 year) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Linked to your WhatsApp & facebook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Custom designed outlook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Online chat with your clients <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> 2 email domains for business <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Database engine <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Your clients can select and buy products online<i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Online database-driven product gallery<i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Cyber Security <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ol>
+                    <ol class="w3-ol">
+                        <!-----  <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>    ---------->
+
+                        <button class="yes w3-center">BUY</button>
+                    </ol>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="w3-row w3-padding">
+            <h4>Technologies used</h4>
+            <img src="images/java.png" class="w3-image" width="100px">
+            <img src="images/html logo.png" class="w3-image" width="50px">
+            <img src="images/css logo.png" class="w3-image" width="50px">
+            <img src="images/mysql.jpg" class="w3-image" width="70px">
+        </div>
+
+    </div>
+
+    <!---------------------------------------END OF WEBSITES-------------------------------------------------------------------------------->
+    <!---------------------------------------GRAPHICS---------------------------------------------------------------------------------------------->
+
+    <div id="graphics" style="display: none;">
+        <div class="w3-center">
+            <h2 class="w3-center"> GRAPHICS</h2>
+        </div>
+
+        <div class="w3-center">
+            <p class="w3- center"><i class="fa fa-pencil w3-jumbo w3-center" aria-hidden="true">
+            </i>
+            </p>
+        </div>
+
+        <div>
+            <table class="w3-table w3-striped">
+                <tr>
+                    <th>Design</th>
+                    <th>Unit Cost</th>
+                </tr>
+
+                <tr>
+                    <td>Company Profile Design</td>
+                    <td class="tprice">UgX <i>10,000</i> / page</td>
+                </tr>
+
+                <tr>
+                    <td>E-Flier Design</td>
+                    <td class="tprice">UgX <i>30,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Poster design (for print)</td>
+                    <td class="tprice">UgX <i>35,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Business logo </td>
+                    <td class="tprice">UgX <i>50,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Company Logo</td>
+                    <td class="tprice">UgX <i>70,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Facebook cover page </td>
+                    <td class="tprice">UgX <i>30,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Digital illustrations</td>
+                    <td class="tprice">UgX <i>70,000 </i> each</td>
+                </tr>
+
+
+            </table>
+        </div>
+
+
+
+        <!----------------------------------------------------------GRAPHICS GALLERY1------------------------------------------------------------>
+        <div class="w3-main w3-white" id="sample">
+
+            <!-- Slideshow Header -->
+            <div class="w3-padding-small">
+                <h2>E-Flier Samples</h2>
+                <div class="w3-display-container mySlides w3-animate-left">
+                    <img src="images/efliers/flier1.jpg" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides w3-animate-left">
+                    <img src="images/efliers/flier2.jpg" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides w3-animate-left">
+                    <img src="images/efliers/flier3.jpg" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides w3-animate-left">
+                    <img src="images/efliers/flier4.jpg" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides w3-animate-left">
+                    <img src="images/efliers/flier5.png" class="w3-image eflier">
+
+                </div>
+            </div>
+            <p class="w3-padding-left">Click on thumbnail below to display image</p>
+            <div class="w3-row-padding w3-section w3-padding">
+                <div class="w3-col s2">
+                    <img class="demo  thumb w3-hover-opacity-off" src="images/efliers/flier1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+                </div>
+                <div class="w3-col s2">
+                    <img class="demo  thumb w3-hover-opacity-off" src="images/efliers/flier2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+                </div>
+                <div class="w3-col s2">
+                    <img class="demo thumb w3-hover-opacity-off" src="images/efliers/flier3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+                </div>
+                <div class="w3-col s2">
+                    <img class="demo  thumb w3-hover-opacity-off" src="images/efliers/flier4.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+                </div>
+
+                <div class="w3-col s2">
+                    <img class="demo  thumb w3-hover-opacity-off" src="images/efliers/flier5.png" style="width:100%;cursor:pointer" onclick="currentDiv(5)">
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <!----------------------------------------------------------END OF GRAPHICS GALLERY1------------------------------------------------------------>
+        <!----------------------------------------------------------GRAPHICS GALLERY2------------------------------------------------------------>
+        <div class="w3-main w3-white " id="sample">
+            <!-- Slideshow Header -->
+            <div class="w3-padding" id="sample">
+                <h2 class="w3-padding">Logo Samples</h2>
+                <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
+                    <img src="images/logos/logo1.png" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
+                    <img src="images/logos/logo2.png" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
+                    <img src="images/logos/logo3.png" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
+                    <img src="images/logos/logo4.png" class="w3-image eflier">
+
+                </div>
+                <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
+                    <img src="images/logos/logo5.png" class="w3-image eflier">
+
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------------------END OF GRAPHICS GALLERY2------------------------------------------------------------>
+
+
+
+
+
+
+    </div>
+    <!---------------------------------------END OF GRAPHICS------------------------------------------------------------------------------------>
+    <!---------------------------------------COURSES--------------------------------------------------------------------------------------------->
+    <div id="courses" style="display: none;">
+        <button class="bw">COURSES</button>
+        <img class="w3-image" src="images/javaweb.png">
+    </div>
+    <!---------------------------------------END OF COURSES---------------------------------------------------------------------------------------------->
+    <!---------------------------------------PRODUCTS---------------------------------------------------------------------------------------------->
+    <div id="products" style="display: none;">
+        <div class="w3-center">
+            <h2 class="w3-center"> PRODUCTS</h2>
+        </div>
+
+        <div class="w3-container  products ">
+
+            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding ">
+                <h3 style="font-weight:bold;">HP-LAPTOPS</h3>
+                <img class="w3-image" src="images/shop/lap.jpg" />
+                <p>From: <i>UGX 350,000</i> to <i>UGX 3,700,000</i> </p>
+                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+            </div>
+
+
+            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+                <h3 style="font-weight:bold;">APPLE-LAPTOPS</h3>
+                <img class="w3-image" src="images/shop/lap-apple.png" />
+                <p>From: <i>UGX 1,500,000</i> to <i>UGX 5,500,000</i> </p>
+                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+            </div>
+
+            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+                <h3 style="font-weight:bold;">FLASH DISKS</h3>
+                <img class="w3-image" src="images/shop/flash-hp.jpg" />
+                <p>From: <i>UGX 15,000</i> to <i>UGX 80,000</i> </p>
+                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+            </div>
+
+
+            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+                <h3 style="font-weight:bold;">MOUSE</h3>
+                <img class="w3-image" src="images/shop/mouse-hp.jpg" />
+                <p>From: <i>UGX 15,000</i> to <i>UGX 50,000</i> </p>
+                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+            </div>
+
+
+
+            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+                <h3 style="font-weight:bold;">HEADPHONES</h3>
+                <img class="w3-image" src="images/shop/headphone-hp.jpg" />
+                <p>From: <i>UGX 20,000</i> to <i>UGX 70,000</i> </p>
+                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+            </div>
+
+
+        </div>
+    </div>
+    <!---------------------------------------END OF PRODUCTS---------------------------------------------------------------------------------------------->
+    <!---------------------------------------SOFTWARE---------------------------------------------------------------------------------------------->
+    <div id="soft" style="display: none;">
+        SOFTWARE
+    </div>
+    <!---------------------------------------END OF SOFTWARE---------------------------------------------------------------------------------------------->
+    <!---------------------------------------TECH---------------------------------------------------------------------------------------------->
+    <div id="tech" style="display: none;">
+        TECH
+    </div>
+    <!---------------------------------------END OF TECH--------------------------------------------------------------------------------------------->
+    <!--------------------------------------ABOUT---------------------------------------------------------------------------------------------->
+    <div id="about" style="display: none;">
+        ABOUT
+    </div>
+    <!---------------------------------------END OF ABOUT---------------------------------------------------------------------------------------------->
+
+
+
+    <footer class="w3-center w3-padding">
+        <p>
+            &copy; Aysh Inventions Ltd <br>2020
+        </p>
+    </footer>
+    <script src="js/scripts.js"></script>
+
+
+</body>
 
 </html>
