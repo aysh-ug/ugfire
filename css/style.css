@@ -26,6 +26,10 @@ h4 {
     color: rgb(50, 142, 196);
 }
 
+#down {
+    margin: 0;
+}
+
 #feat {
     border-bottom: 1px solid #131313;
 }
@@ -36,6 +40,10 @@ h4 {
 
 .fa-check {
     color: #46a043;
+}
+
+.fa-code {
+    color: #a71409;
 }
 
 .exc {
@@ -50,6 +58,7 @@ h4 {
 
 .navigate {
     border: none;
+    text-decoration: none;
     background: -webkit-linear-gradient(to bottom, #cc1800, #a70909, #a70909, #ff5656);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(to bottom, #cc1800, #a70909, #a70909, #ff5656);
@@ -67,6 +76,8 @@ h4 {
 
 .yes {
     border: none;
+    margin-right: 3px;
+    text-decoration: none;
     background: -webkit-linear-gradient(to bottom, #007acc, #0968a7, #0968a7, #4db8ff);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(to bottom, #007acc, #0968a7, #0968a7, #4db8ff);
@@ -83,6 +94,7 @@ h4 {
 }
 
 .download {
+    text-decoration: none;
     border: none;
     background: -webkit-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #fcff4d);
     /* For Safari 5.1 to 6.0 */
@@ -106,6 +118,7 @@ h4 {
 .bw {
     border: none;
     width: 100%;
+    text-decoration: none;
     background: -webkit-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
@@ -115,6 +128,25 @@ h4 {
     background: linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
     /* Standard syntax (must be last) */
     color: #fff;
+    padding: 3px 20px;
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
+.call {
+    border: none;
+    width: 100%;
+    text-decoration: none;
+    background: -webkit-linear-gradient(to bottom, #17bd25, #099b11, #099b11, #099b11, #8cf871);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to bottom, #17bd25, #099b11, #099b11, #099b11, #8cf871);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to bottom, #17bd25, #099b11, #099b11, #099b11, #8cf871);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #17bd25, #099b11, #099b11, #099b11, #8cf871);
+    /* Standard syntax (must be last) */
+    color: #fff !important;
     padding: 3px 20px;
     -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
@@ -159,38 +191,108 @@ tr:hover {
     color: #7c0808;
 }
 
+.w3-ul li h4 {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.w3-ul li i {
+    color: rgb(177, 9, 9);
+    font-style: normal;
+}
+
 
 /*-----------------------------------PRODUCTS-------------------------------------------------------*/
 
-.l2 p i {
+.l3 p i {
     font-weight: bold;
     font-style: normal;
     color: #cc1800;
 }
 
-.l2 {
-    margin: 20px auto !important;
+.l3 {
+    margin: 10px auto !important;
+}
+
+#products h3 {
+    color: rgb(207, 92, 92) !important;
+}
+
+
+/*-----------------------------------COURSES-------------------------------------------------------*/
+
+.prog {
+    font-style: normal;
+    color: #0f648f;
+    border-left: 1px solid #292929;
+    font-weight: bold;
+}
+
+.prog i {
+    font-weight: bold;
+    font-style: normal;
+    color: #a30808;
+}
+
+#courses img {
+    max-width: 250px;
+}
+
+#courses h4 {
+    font-weight: bold !important;
+    color: #000 !important;
+}
+
+#courses p {
+    color: rgb(163, 7, 7) !important;
+}
+
+.coursecost h4 i {
+    color: rgb(160, 3, 3) !important;
 }
 
 @media only screen and (max-width: 768px) {
+    ol {
+        margin-bottom: 40px !important;
+    }
+    .w3-card-4 {
+        margin: 20px auto !important;
+    }
     #optslarge {
         display: none;
     }
     #sample {
         margin-top: 30px;
     }
+    .slogo {
+        max-width: 220px !important;
+    }
 }
 
 @media only screen and (min-width: 769px) {
+    .w3-card-4 {
+        max-width: 350px;
+    }
+    #down {
+        margin-left: 20px;
+    }
+    .download {
+        padding: 20px;
+        -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+        -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
+        margin-left: 20px;
+    }
     #hellosmall {
         display: none;
     }
-    .l2 {
-        margin: 20px !important;
+    .l3 {
+        margin: 5px !important;
     }
     .w3-quarter {
         margin: 20px;
-        ;
     }
     #optslarge {
         display: block
@@ -207,4 +309,50 @@ tr:hover {
     .thumb {
         width: 100px !important;
     }
+}
+
+
+/*----------------------------------------------------------ABOUT US------------------------------------------------------------------------*/
+
+.prog2 {
+    font-style: normal;
+    color: #960a0a;
+    border-left: 1px solid #292929;
+    font-weight: normal;
+}
+
+.w3-table2 td {
+    padding: 3px 5px;
+    border: 1px solid #000;
+}
+
+.w3-table2 {}
+
+h6 {
+    font-size: 24px;
+    background-color: #d1d1d0 !important;
+    font-weight: bold !important;
+    margin-bottom: 0;
+    color: #7c0808;
+}
+
+.w3-table2 tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.w3-card-4 {
+    margin: 10px;
+}
+
+.imgback {
+    background-color: rgb(175, 175, 175);
+}
+
+.l3pic h1 {
+    color: rgb(212, 82, 82);
+    font-size: 100px;
+}
+
+footer {
+    margin-top: 40px !important;
 }

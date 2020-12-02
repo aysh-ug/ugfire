@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Aysh Inventions</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<meta name="theme-color" content="#000000">
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/style.css">
 <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
@@ -11,14 +13,14 @@
 <link rel="stylesheet" href="css/font-awesome.css">
 
 <body class="w3-light-gray">
-    <header>
-        <div class="w3-black">
+    <header id="head">
+        <div class="w3-black w3-padding-small">
             <img src="images/ayshw.png" alt="Aysh Inventions" width="50px">
             <p class="w3-right w3-large w3-padding-small" onclick="menu()" id="menubtn"><i class="fa fa-bars " aria-hidden="true"> </i> Options</p>
         </div>
         <div class="w3-row  w3-padding-small w3-animate-left" id="opts" style="display: none;">
             <ul class="w3-ul">
-                <li><button class="navigate w3-round-xxlarge w3-right w3-paddind-0" onclick="closemenu()"><i class="fa fa-times w3-hide-large" ></i></button></li>
+                <li><button class="navigate w3-round-xxlarge w3-right w3-paddind-0" onclick="closemenu()"><i class="fa fa-times w3-text-white w3-hide-large" ></i></button></li>
                 <li>
                     <button class="navigate" onclick="web()">Web Design</button>
                 </li>
@@ -31,12 +33,12 @@
                 <li>
                     <button class="navigate" onclick="products()">Shop</button>
                 </li>
-                <li>
-                    <button class="navigate" onclick="soft()">Our Software</button>
+                <!--------------------      <li>
+                    <button class="navigate" onclick="soft()">Our Software</button>   
                 </li>
                 <li>
-                    <button class="navigate" onclick="tech()">Tech Updates</button>
-                </li>
+                         <button class="navigate" onclick="tech()">Tech Updates</button> 
+                </li>  ----------------------->
                 <li>
                     <button class="navigate" onclick="about()">About us</button>
                 </li>
@@ -55,9 +57,9 @@
 
             <button class="navigate" onclick="products()">Shop</button>
 
-            <button class="navigate" onclick="soft()">Our Software</button>
+            <!--------------------   <button class="navigate" onclick="soft()">Our Software</button>     ----------------------->
 
-            <button class="navigate" onclick="tech()">Tech Updates</button>
+            <!--------------------      <button class="navigate" onclick="tech()">Tech Updates</button>  ----------------------->
 
             <button class="navigate" onclick="about()">About us</button>
 
@@ -67,11 +69,17 @@
 
 
     <div class="w3-container w3-padding-small" id="contentToDisplay">
-        <button class="yes" onclick="menu()" id="hellosmall">Hello World !</button>
-        <img src="images/coder.png" class="w3-image">
-        <h3>Downloads</h3>
-        <a href="graphics.pdf" class="w3-btn download w3-margin-top">Graphics Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-        <a href="adverts.pdf" class="w3-btn download w3-margin-top">Facebook Advertisement Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+
+        <div class="w3-half">
+            <button class="yes" onclick="menu()" id="hellosmall">Hello World !</button>
+            <img src="images/coder.png" class="w3-image w3-animate-bottom">
+        </div>
+
+        <div class="w3-half">
+            <h3 id="down">Downloads</h3>
+            <a href="graphics.pdf" class="w3-btn download w3-margin-top">Graphics Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="adverts.pdf" class="w3-btn download w3-margin-top">Facebook Advertisement Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+        </div>
 
     </div>
 
@@ -79,7 +87,7 @@
     <!---------------------------------------WEBSITES-------------------------------------------------------------------------------->
 
     <div id="websites" class="w3-center" style="display: none;">
-        <h2 class="w3-center"> WEBSITES</h2>
+        <h2 class="w3-center"> WEBSITES <i class="fa fa-code" aria-hidden="true"></i></h2>
 
         <div class="w3-row">
 
@@ -98,7 +106,9 @@
                         <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>
                         <li id="notamong">No online chat <i class="fa fa-times exc"></i></li>
                         <li id="notamong">No database engine <i class="fa fa-times exc"></i></li>
-                        <button class="yes w3-center">BUY</button>
+                        <br>
+                        <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
                     </ol>
                 </div>
             </div>
@@ -121,8 +131,8 @@
                     </ol>
                     <ol class="w3-ol">
                         <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>
-
-                        <button class="yes w3-center">BUY</button>
+                        <br>
+                        <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
                     </ol>
                 </div>
             </div>
@@ -147,8 +157,7 @@
                     </ol>
                     <ol class="w3-ol">
                         <!-----  <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>    ---------->
-
-                        <button class="yes w3-center">BUY</button>
+                        <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
                     </ol>
                 </div>
             </div>
@@ -181,15 +190,20 @@
         </div>
 
         <div>
-            <table class="w3-table w3-striped">
+            <table class="w3-table w3-striped w3-animate-left">
                 <tr>
                     <th>Design</th>
                     <th>Unit Cost</th>
                 </tr>
 
                 <tr>
+                    <td>Business Card Design</td>
+                    <td class="tprice">UgX <i>10,000</i> </td>
+                </tr>
+
+                <tr>
                     <td>Company Profile Design</td>
-                    <td class="tprice">UgX <i>10,000</i> / page</td>
+                    <td class="tprice">UgX <i>15,000</i> / page</td>
                 </tr>
 
                 <tr>
@@ -203,13 +217,8 @@
                 </tr>
 
                 <tr>
-                    <td>Business logo </td>
-                    <td class="tprice">UgX <i>50,000</i> </td>
-                </tr>
-
-                <tr>
-                    <td>Company Logo</td>
-                    <td class="tprice">UgX <i>70,000</i> </td>
+                    <td>Company Brochures </td>
+                    <td class="tprice">UgX <i>35,000</i> </td>
                 </tr>
 
                 <tr>
@@ -218,12 +227,46 @@
                 </tr>
 
                 <tr>
+                    <td>Business logo </td>
+                    <td class="tprice">UgX <i>40,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Company Logo</td>
+                    <td class="tprice">UgX <i>70,000</i> </td>
+                </tr>
+
+                <tr>
+                    <td>3D Logo (HD)</td>
+                    <td class="tprice">UgX <i>250,000 </i> each</td>
+                </tr>
+                <tr>
                     <td>Digital illustrations</td>
                     <td class="tprice">UgX <i>70,000 </i> each</td>
                 </tr>
 
+                <tr>
+                    <td>2D animated advert</td>
+                    <td class="tprice">UgX <i>720,000 </i> each</td>
+                </tr>
+
+                <tr>
+                    <td>3D animated advert</td>
+                    <td class="tprice">UgX <i>1,800,000 </i></td>
+                </tr>
 
             </table>
+
+            <ul class="w3-ul">
+                <li>
+                    <h4>Definitions</h4>
+                </li>
+                <li>Company: <i>Registered</i></li>
+                <li>Business: <i>Not registered</i></li>
+                <li> <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a></li>
+            </ul>
+
+
         </div>
 
 
@@ -285,28 +328,28 @@
         </div>
         <!----------------------------------------------------------END OF GRAPHICS GALLERY1------------------------------------------------------------>
         <!----------------------------------------------------------GRAPHICS GALLERY2------------------------------------------------------------>
-        <div class="w3-main w3-white " id="sample">
+        <div class="w3-main w3-white w3-center" id="sample">
             <!-- Slideshow Header -->
             <div class="w3-padding" id="sample">
                 <h2 class="w3-padding">Logo Samples</h2>
                 <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
-                    <img src="images/logos/logo1.png" class="w3-image eflier">
+                    <img src="images/logos/logo1.png" class="w3-image slogo">
 
                 </div>
                 <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
-                    <img src="images/logos/logo2.png" class="w3-image eflier">
+                    <img src="images/logos/logo2.png" class="w3-image slogo">
 
                 </div>
                 <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
-                    <img src="images/logos/logo3.png" class="w3-image eflier">
+                    <img src="images/logos/logo3.png" class="w3-image slogo">
 
                 </div>
                 <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
-                    <img src="images/logos/logo4.png" class="w3-image eflier">
+                    <img src="images/logos/logo4.png" class="w3-image slogo">
 
                 </div>
                 <div class="w3-display-container mySlides2 w3-animate-left w3-padding">
-                    <img src="images/logos/logo5.png" class="w3-image eflier">
+                    <img src="images/logos/logo5.png" class="w3-image slogo">
 
                 </div>
             </div>
@@ -320,57 +363,160 @@
 
     </div>
     <!---------------------------------------END OF GRAPHICS------------------------------------------------------------------------------------>
+
+
+
+
     <!---------------------------------------COURSES--------------------------------------------------------------------------------------------->
-    <div id="courses" style="display: none;">
-        <button class="bw">COURSES</button>
-        <img class="w3-image" src="images/javaweb.png">
+    <div id="courses" style="display: none;" class="w3-center">
+        <div class="w3-center">
+            <h2 class="w3-center"> UPCOMING COURSES</h2>
+
+        </div>
+        <h3 class=""> <img src="images/java.png" class="w3-image"> 1. Java for Web</h3>
+        <p class="yes">Computer Programming</p>
+
+        <div>
+            <table class="w3-table w3-striped w3-animate-left">
+
+                <tr>
+                    <td>Title</td>
+                    <td class="prog">Java for web</td>
+                </tr>
+
+                <tr>
+                    <td>Category</td>
+                    <td class="prog">Web Development</td>
+                </tr>
+
+                <tr>
+                    <td>Date</td>
+                    <td class="prog">14th to 20th Dec 2020 </td>
+                </tr>
+
+                <tr>
+                    <td>Duration </td>
+                    <td class="prog">7 Days <i>(30 mins daily)</i> </td>
+                </tr>
+
+                <tr>
+                    <td>Tutor</td>
+                    <td class="prog">Alfred. O</td>
+                </tr>
+
+                <tr>
+                    <td>Audience</td>
+                    <td class="prog">Programming newbies, Students, Workers, Business Owners</td>
+                </tr>
+                <tr>
+                    <td>Platform</td>
+                    <td class="prog">Zoom</td>
+                </tr>
+
+                <tr>
+                    <td>Fee</td>
+                    <td class="prog">UgX <i> 0</i></td>
+                </tr>
+
+
+            </table>
+
+
+            <ol>
+                <h4>CONTENTS</h4>
+                <li>Installation & Introduction</li>
+                <li>Hello World (Live Example)</li>
+                <li>Java Web Frameworks</li>
+                <li>JSP / Servlets</li>
+                <li>JDBC (Database Connection)</li>
+                <li> Styling CSS</li>
+                <li>Hosting the Application , Q &A</li>
+            </ol>
+
+            <ul class="w3-ul coursecost w3-left">
+                <li>
+                    <h4>Tuition: <i> FREE</i></h4>
+                    <li>To Sign up</li>
+                    <li> <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a></li>
+                    <li>Please invite your friends.</li>
+            </ul>
+
+        </div>
+
     </div>
     <!---------------------------------------END OF COURSES---------------------------------------------------------------------------------------------->
+
+
+
+
+
     <!---------------------------------------PRODUCTS---------------------------------------------------------------------------------------------->
     <div id="products" style="display: none;">
         <div class="w3-center">
             <h2 class="w3-center"> PRODUCTS</h2>
+            <h3>Buy Authentic</h3>
         </div>
 
         <div class="w3-container  products ">
 
-            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding ">
+            <div class="w3-col l3 w3-white w3-center w3-justify w3-animate-bottom w3-padding-small ">
                 <h3 style="font-weight:bold;">HP-LAPTOPS</h3>
                 <img class="w3-image" src="images/shop/lap.jpg" />
                 <p>From: <i>UGX 350,000</i> to <i>UGX 3,700,000</i> </p>
-                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+                <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
             </div>
 
 
-            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+            <div class="w3-col l3 w3-white w3-center w3-justify w3-animate-bottom w3-padding-small ">
                 <h3 style="font-weight:bold;">APPLE-LAPTOPS</h3>
                 <img class="w3-image" src="images/shop/lap-apple.png" />
                 <p>From: <i>UGX 1,500,000</i> to <i>UGX 5,500,000</i> </p>
-                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+                <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
             </div>
 
-            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+            <div class="w3-col l3 w3-white w3-center w3-justify w3-animate-bottom w3-padding-small ">
                 <h3 style="font-weight:bold;">FLASH DISKS</h3>
                 <img class="w3-image" src="images/shop/flash-hp.jpg" />
                 <p>From: <i>UGX 15,000</i> to <i>UGX 80,000</i> </p>
-                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+                <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
+            </div>
+
+            <div class="w3-col l3 w3-white w3-center w3-justify w3-animate-bottom w3-padding-small ">
+                <h3 style="font-weight:bold;">EXTERNALDISKS</h3>
+                <img class="w3-image" src="images/shop/external-hp.jpg" />
+                <p>From: <i>UGX 200,000</i> to <i>UGX 1,200,000</i> </p>
+                <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
             </div>
 
 
-            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+            <div class="w3-col l3 w3-white w3-center w3-justify w3-animate-bottom w3-padding-small ">
                 <h3 style="font-weight:bold;">MOUSE</h3>
                 <img class="w3-image" src="images/shop/mouse-hp.jpg" />
-                <p>From: <i>UGX 15,000</i> to <i>UGX 50,000</i> </p>
-                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+                <p>From: <i>UGX 15,000</i> to <i>UGX 80,000</i> </p>
+                <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
             </div>
 
 
 
-            <div class="w3-col l2 w3-white w3-center w3-justify w3-animate-bottom w3-padding">
+            <div class="w3-col l3 w3-white w3-center w3-justify w3-animate-bottom w3-padding-small ">
                 <h3 style="font-weight:bold;">HEADPHONES</h3>
                 <img class="w3-image" src="images/shop/headphone-hp.jpg" />
                 <p>From: <i>UGX 20,000</i> to <i>UGX 70,000</i> </p>
-                <a class="w3-btn w3-theme-d3 w3-padding-small shopbtn">CHECK</a>
+                <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a><a href="https://wa.me/256773913902" class="call w3-center"><i class="fa fa-whatsapp w3-text-white" aria-hidden="true"></i></a>
+
+            </div>
+
+            <div class="w3-col l3 w3-pink w3-center w3-justify w3-animate-bottom w3-padding-small ">
+                <h3 style="font-weight:bold;">DOMESTIC APPLIANCES</h3>
+                <img class="w3-image" src="images/shop/saucepan.jpg" />
+                <p>Kettles, Flat irons, saucepans, refridgerators, etc.</p>
+                <a href="https://kweli.shop" class="bw w3-center">See items</a>
+                <h3 class="w3-text-yellow ">kweli.shop</h3>
             </div>
 
 
@@ -388,19 +534,157 @@
     </div>
     <!---------------------------------------END OF TECH--------------------------------------------------------------------------------------------->
     <!--------------------------------------ABOUT---------------------------------------------------------------------------------------------->
-    <div id="about" style="display: none;">
-        ABOUT
+    <div id="about" style="display: none;" class="w3-padding-small">
+        <div class="w3-center">
+            <h2 class="w3-center"> ABOUT US</h2>
+            <h3 class="yes">Aysh Inventions Ltd</h3>
+        </div>
+
+
+
+
+        <div class=" w3-light-grey w3-center  w3-row">
+
+            <div class="w3-third w3-padding">
+                <table class="w3-table2  w3-table  w3-animate-left">
+                    <tr>
+                        <h6>
+                            COMPANY PROFILE
+                        </h6>
+                    </tr>
+                    <tr>
+                        <td>Speciality</td>
+                        <td class="prog2"> Information & Communication Technology ( Software Development, Web Development, Graphics Designing, 3D Animation )</td>
+                    </tr>
+                    <tr>
+                        <td>Registered (URSB) on</td>
+                        <td class="prog2">18 June 2018</td>
+                    </tr>
+                    <tr>
+                        <td>Founded by</td>
+                        <td class="prog2">Alfred Ochola & Gasper Aduka</td>
+                    </tr>
+
+                    <tr>
+                        <td>Department heads</td>
+                        <td class="prog2">Susan Nkwanzi, Claire Ochola, Victor ShiningStar, Mary Abbo, Cosmas Arinitwe</td>
+                    </tr>
+
+                    <tr>
+                        <td>Technology tools</td>
+                        <td class="prog2">Java (JSP, Servlets , Vaadin , Play Framework) | MySQL / MariaDB | Oracle DB | Javascript (JS vanilla, JQuery, Anime.js) | CSS (Bootstrap, W3css) | HTML5 | Adobe Creative Cloud</td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td class="prog2">Mbalala - Mukono (Uganda)</td>
+                    </tr>
+
+                    <tr>
+                        <td>Website</td>
+                        <td class="prog2"><a href="https://ugfire.com">ugfire.com</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td class="prog2">ayshinventions@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone</td>
+                        <td class="prog2">+256 773 913902</td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+
+
+
+
+
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <img src="images/gasper.png " alt="Avatar " class="w3-image  w3-circle imgback w3-margin-top ">
+                    <h3>Gasper Aduka</h3>
+
+                    <p>
+                        Co-Founder
+                    </p>
+                </div>
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <img src="images/victor.png " alt="Avatar " class="w3-image  w3-circle imgback w3-margin-top ">
+                    <h3>Victor .S</h3>
+
+                    <p>
+                        Chief Software Engineer
+                    </p>
+                </div>
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <img src="images/sue.png " alt="Avatar " class="w3-image  w3-circle imgback w3-margin-top ">
+                    <h3>Susan Nkwanzi</h3>
+
+                    <p>
+                        Company Lawyer
+                    </p>
+                </div>
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <img src="images/claire.png " alt="Avatar " class="w3-image  w3-circle imgback w3-margin-top ">
+                    <h3>Claire Ochola</h3>
+
+                    <p>
+                        Studio
+                    </p>
+                </div>
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <img src="images/alfie.png " alt="Avatar " class="w3-image  w3-circle imgback w3-margin-top ">
+                    <h3>Alfred Ochola</h3>
+
+                    <p>
+                        CEO
+                    </p>
+                </div>
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <img src="images/mary.png " alt="Avatar " class="w3-image  w3-circle imgback w3-margin-top ">
+                    <h3>Mary Abbo</h3>
+
+                    <p>
+                        Finance (ACCA)
+                    </p>
+                </div>
+
+                <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic"><br>
+                    <h1>
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                    </h1>
+                    <h3>Background team</h3>
+
+                    <p>
+                        Aysh invention hub
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
     <!---------------------------------------END OF ABOUT---------------------------------------------------------------------------------------------->
 
 
 
-    <footer class="w3-center w3-padding">
+    <footer class="w3-center w3-padding ">
+        <a class="bw " onclick="topFunction() " id="myBtn ">Go to top</a>
         <p>
             &copy; Aysh Inventions Ltd <br>2020
         </p>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js "></script>
 
 
 </body>
