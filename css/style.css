@@ -161,6 +161,15 @@ h4 {
     color: #000;
     padding: 1px 20px !important;
     border-radius: 20px 0px 20px 0px;
+    margin-right: 10px;
+}
+
+#subheading {
+    font-size: 20px;
+}
+
+.w3-table tr th {
+    font-size: 20px;
 }
 
 
@@ -254,6 +263,9 @@ tr:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .coursepic {
+        display: none;
+    }
     ol {
         margin-bottom: 40px !important;
     }
@@ -272,6 +284,9 @@ tr:hover {
 }
 
 @media only screen and (min-width: 769px) {
+    .coursepic {
+        display: block;
+    }
     .w3-card-4 {
         max-width: 350px;
     }
