@@ -1017,7 +1017,7 @@ input[type=radio].w3-radio:disabled+.w3-validate {
     }
     .w3-col.m3,
     .w3-quarter {
-        width: 24.99999%
+        width: 28.99999%
     }
     .w3-col.m4,
     .w3-third {
@@ -1058,9 +1058,11 @@ input[type=radio].w3-radio:disabled+.w3-validate {
     .w3-col.l2 {
         width: 16.66666%
     }
-    .w3-col.l3,
-    .w3-quarter {
+    .w3-col.l3 {
         width: 24.99999%
+    }
+    .w3-quarter {
+        width: 28.99999%
     }
     .w3-col.l4,
     .w3-third {

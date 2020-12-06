@@ -93,6 +93,26 @@ h4 {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
 }
 
+#hellosmall {
+    border: none;
+    margin-right: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    background: -webkit-linear-gradient(to bottom, #007acc, #0968a7, #0968a7, #4db8ff);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to bottom, #007acc, #0968a7, #0968a7, #4db8ff);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to bottom, #007acc, #0968a7, #0968a7, #4db8ff);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #007acc, #0968a7, #0968a7, #4db8ff);
+    /* Standard syntax (must be last) */
+    color: #fff;
+    padding: 10px 20px;
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
 .download {
     text-decoration: none;
     border: none;
@@ -232,6 +252,127 @@ tr:hover {
 
 /*-----------------------------------COURSES-------------------------------------------------------*/
 
+.ctext {
+    padding-bottom: 0px;
+}
+
+.l5 {
+    background-color: #272727;
+    margin-bottom: 20px;
+}
+
+.cdesc {
+    background-color: #ad1414;
+    margin-bottom: 0;
+}
+
+.cdesc h4 {
+    color: #f8f548 !important;
+    font-size: 28px !important;
+    padding: 5px;
+}
+
+.cdesc p {
+    color: #e4e4de !important;
+    font-size: 18px !important;
+    padding: 5px;
+}
+
+.cdesc ol {
+    padding-bottom: 20px !important;
+    padding-top: 10px !important;
+    padding-left: 25px;
+}
+
+.cdesc p em {
+    color: #000;
+    background-color: #fadc57;
+    padding: 2px;
+    font: 16px !important;
+}
+
+.cdesc ol li {
+    color: #dddddd !important;
+    font-size: 12px !important;
+    padding: 0px;
+    border-bottom: 2px ridge #b92323;
+}
+
+@media only screen and (min-width: 769px) {
+    .ctext {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .ctext img {
+        padding: 20px;
+    }
+    .l5 {
+        margin: 3px;
+    }
+    .cdesc h4 {
+        color: #f8f548 !important;
+        font-size: 18px !important;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .ctext {
+        font-size: 12px;
+    }
+    .ctext {
+        font-size: 12px;
+    }
+    .ctext i {
+        color: #087fa3;
+    }
+    .ctext em {
+        color: #cf0505;
+        font-style: normal;
+        font-size: 16px;
+        background-color: #ebff3a;
+        padding: 2px 5px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .upcomingc {
+        padding: 20px;
+        background-color: rgb(253, 253, 253);
+        max-width: 400px !important;
+        border: 5px solid #6ecf47;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.62) !important
+    }
+    .fullcourses {
+        float: right;
+    }
+    .ctext {
+        font-size: 12px;
+    }
+    .ctext {
+        font-size: 12px;
+    }
+    .ctext i {
+        color: #087fa3;
+    }
+    .ctext em {
+        color: #cf0505;
+        font-style: normal;
+        font-size: 16px;
+        background-color: #ebff3a;
+        padding: 2px 5px;
+    }
+}
+
+.fullcourses {
+    background-image: url("images/bg/3px-tile.png");
+    background-repeat: repeat-x;
+}
+
+.buycourse {
+    float: left;
+}
+
 .prog {
     font-style: normal;
     color: #0f648f;
@@ -263,6 +404,9 @@ tr:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .buycourse {
+        width: 200px;
+    }
     .coursepic {
         display: none;
     }
@@ -283,7 +427,15 @@ tr:hover {
     }
 }
 
+.ccontact {
+    margin-bottom: 0px;
+}
+
 @media only screen and (min-width: 769px) {
+    .buycourse {
+        width: 200px;
+        padding-left: 0px;
+    }
     .coursepic {
         display: block;
     }
