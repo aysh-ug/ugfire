@@ -3,6 +3,30 @@ body {
     font-size: 14px;
 }
 
+#software {
+    background: #ffffff url("images/bg/3px-tile.png");
+}
+
+#softp2 {
+    background: #333333 !important;
+    color: rgb(194, 192, 192);
+    padding-bottom: 30px !important;
+}
+
+.esamples {
+    background-color: #272727 !important;
+}
+
+.esamples h3 {
+    color: #f39b37 !important;
+    padding-bottom: 30px !important;
+    padding-top: 20px !important;
+}
+
+#softp {
+    padding-bottom: 30px !important;
+}
+
 .w3-light-grey,
 .w3-hover-light-grey:hover,
 .w3-light-gray,
@@ -13,7 +37,7 @@ body {
 
 h2 {
     font-weight: bold;
-    color: rgb(81, 166, 172);
+    color: rgb(212, 37, 37);
 }
 
 h3 {
@@ -23,7 +47,7 @@ h3 {
 }
 
 h4 {
-    color: rgb(50, 142, 196);
+    color: rgb(3, 46, 163);
 }
 
 #down {
@@ -116,15 +140,15 @@ h4 {
 .download {
     text-decoration: none;
     border: none;
-    background: -webkit-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #fcff4d);
+    background: -webkit-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #d19005, #d19005, #babd37);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #fcff4d);
+    background: -o-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #d19005, #d19005, #babd37);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #fcff4d);
+    background: -moz-linear-gradient(to bottom, #cc9600, #d19005, #d19005, #d19005, #d19005, #babd37);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #cc9600, #d19005, #d19005, #fcff4d);
+    background: linear-gradient(to bottom, #cc9600, #d19005, #d19005, #d19005, #d19005, #babd37);
     /* Standard syntax (must be last) */
-    color: #000;
+    color: rgb(255, 255, 255);
     padding: 3px 20px;
     -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
@@ -139,13 +163,13 @@ h4 {
     border: none;
     width: 100%;
     text-decoration: none;
-    background: -webkit-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
+    background: -webkit-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #727171);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
+    background: -o-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #706f6f);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
+    background: -moz-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #6b6b6b);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #313131, #303030, #303030, #303030, #8d8b8b);
+    background: linear-gradient(to bottom, #313131, #303030, #303030, #303030, #727171);
     /* Standard syntax (must be last) */
     color: #fff;
     padding: 3px 20px;
@@ -252,6 +276,10 @@ tr:hover {
 
 /*-----------------------------------COURSES-------------------------------------------------------*/
 
+li i {
+    color: rgb(173, 6, 6);
+}
+
 .ctext {
     padding-bottom: 0px;
 }
@@ -317,6 +345,12 @@ tr:hover {
 }
 
 @media only screen and (max-width: 769px) {
+    .esamp {
+        margin-top: 30px;
+    }
+    .upcomingc {
+        margin-bottom: 50px !important;
+    }
     .ctext {
         font-size: 12px;
     }
@@ -333,6 +367,12 @@ tr:hover {
         background-color: #ebff3a;
         padding: 2px 5px;
     }
+    #img3 {
+        position: absolute;
+        left: 57%;
+        z-index: 1;
+        width: 150px;
+    }
 }
 
 @media only screen and (min-width: 769px) {
@@ -340,8 +380,8 @@ tr:hover {
         padding: 20px;
         background-color: rgb(253, 253, 253);
         max-width: 400px !important;
-        border: 5px solid #6ecf47;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.62) !important
+        border: 0px solid #6ecf47;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.62) !important
     }
     .fullcourses {
         float: right;
@@ -361,6 +401,12 @@ tr:hover {
         font-size: 16px;
         background-color: #ebff3a;
         padding: 2px 5px;
+    }
+    #img3 {
+        position: absolute;
+        left: 14%;
+        z-index: 1;
+        width: 150px;
     }
 }
 
@@ -399,6 +445,10 @@ tr:hover {
     color: rgb(163, 7, 7) !important;
 }
 
+.coursecost {
+    margin-top: 5px !important;
+}
+
 .coursecost h4 i {
     color: rgb(160, 3, 3) !important;
 }
@@ -432,6 +482,12 @@ tr:hover {
 }
 
 @media only screen and (min-width: 769px) {
+    #softp {
+        min-height: 320px;
+    }
+    #softp2 {
+        min-height: 320px;
+    }
     .buycourse {
         width: 200px;
         padding-left: 0px;
