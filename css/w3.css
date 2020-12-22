@@ -502,7 +502,7 @@ ul.w3-ul {
 
 ul.w3-ul li {
     padding: 6px 2px 6px 16px;
-    border-bottom: 1px solid #ddd
+    border-bottom: 0px solid rgb(141, 140, 140)
 }
 
 ul.w3-ul li:last-child {
@@ -1265,7 +1265,8 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 }
 
 .w3-jumbo {
-    font-size: 64px !important
+    font-size: 64px !important;
+    margin: 0px auto;
 }
 
 .w3-vertical {
@@ -1559,29 +1560,41 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 }
 
 .w3-spin {
-    animation: w3-spin 2s infinite linear;
-    -webkit-animation: w3-spin 2s infinite linear
-}
-
-@-webkit-keyframes w3-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
+    animation: w3-spin 78s infinite linear
 }
 
 @keyframes w3-spin {
     0% {
-        -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
     100% {
-        -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
+    }
+}
+
+.w3-spin2 {
+    animation: w3-spin2 37s infinite linear
+}
+
+@keyframes w3-spin2 {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(-359deg)
+    }
+}
+
+.w3-spin3 {
+    animation: w3-spin2 7s infinite linear
+}
+
+@keyframes w3-spin2 {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(-359deg)
     }
 }
 
@@ -1757,14 +1770,14 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 
 .w3-animate-right {
     position: relative;
-    -webkit-animation: animateright 0.4s;
-    animation: animateright 0.4s
+    -webkit-animation: animateright 2s;
+    animation: animateright 2s
 }
 
 @-webkit-keyframes animateright {
     from {
-        right: -300px;
-        opacity: 0
+        right: -100px;
+        opacity: 1
     }
     to {
         right: 0;
@@ -1774,8 +1787,8 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 
 @keyframes animateright {
     from {
-        right: -300px;
-        opacity: 0
+        right: -100px;
+        opacity: 1
     }
     to {
         right: 0;
