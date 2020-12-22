@@ -163,16 +163,16 @@ h4 {
     border: none;
     width: 100%;
     text-decoration: none;
-    background: -webkit-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #727171);
+    background: -webkit-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #303030, #303030, #727171);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #706f6f);
+    background: -o-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #303030, #303030, #706f6f);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #6b6b6b);
+    background: -moz-linear-gradient(to bottom, #313131, #303030, #303030, #303030, #303030, #303030, #6b6b6b);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #313131, #303030, #303030, #303030, #727171);
+    background: linear-gradient(to bottom, #313131, #303030, #303030, #303030, #303030, #303030, #727171);
     /* Standard syntax (must be last) */
-    color: #fff;
-    padding: 3px 20px;
+    color: rgb(218, 218, 218);
+    padding: 10px 20px;
     -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
@@ -385,6 +385,7 @@ li i {
     }
     .fullcourses {
         float: right;
+        display: none;
     }
     .ctext {
         font-size: 12px;
@@ -413,6 +414,7 @@ li i {
 .fullcourses {
     background-image: url("images/bg/3px-tile.png");
     background-repeat: repeat-x;
+    display: none;
 }
 
 .buycourse {
@@ -500,6 +502,7 @@ li i {
     }
     #down {
         margin-left: 20px;
+        max-width: 300px !important;
     }
     .download {
         padding: 20px;
@@ -509,7 +512,7 @@ li i {
         margin-left: 20px;
     }
     #hellosmall {
-        display: none;
+        display: none !important;
     }
     .l3 {
         margin: 5px !important;
