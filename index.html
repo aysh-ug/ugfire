@@ -5,12 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 <meta name="theme-color" content="#000000">
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/style.css">
 <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="js/scripts.js"></script>
-<link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/fontawesome.css">
 <link rel="stylesheet" href="css/all.css">
 <link rel="stylesheet" href="css/solid.css">
@@ -18,6 +15,8 @@
 <link rel="stylesheet" href="webfonts/fa-solid-900.woff2">
 <link rel="stylesheet" href="css/w3-colors-highway.css">
 <link rel="stylesheet" href="css/w3-colors-vivid.css">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/style.css">
 
 
 
@@ -36,27 +35,33 @@
 
 <body class="w3-black">
     <header id="head">
-        <div class="w3-black w3-padding-small">
-            <img src="images/ayshw.png" alt="Aysh Inventions" width="50px">
-            <p class="w3-right w3-large w3-padding-small" onclick="menu()" id="menubtn"><i class="fa fa-bars " aria-hidden="true"> </i> Options</p>
-
-            <div class="w3-row  w3-padding-small " id="optslarge">
-                <button class="download" onclick="web()">Web Design</button>
-
-                <button class="download" onclick="graphics()">Graphics Design</button>
-
-                <button class="download" onclick="courses()">Training</button>
+        <div class="w3-black w3-padding-small w3-row">
+            <div class="w3-quarter alogo">
+                <h3 class="">
+                    <img src="images/logo2.png" class="w3-left" alt="Aysh Inventions" width="70px">
+                    <i class="w3-right">Aysh Inventions</i>
+                </h3>
+            </div>
 
 
 
-                <button class="download" onclick="soft()">Our Software</button>
+            <div class="w3-threequarter  w3-padding " id="optslarge">
+                <button class="" onclick="web()">Web Design</button>
+
+                <button class="" onclick="graphics()">Graphics Design</button>
+
+                <button class="" onclick="courses()">Training</button>
+
+
+
+                <button class="" onclick="soft()">Our Software</button>
 
                 <!--------------------      <button class="download" onclick="tech()">Tech Updates</button>  ----------------------->
 
-                <button class="download" onclick="about()">About us</button>
+                <button class="" onclick="about()">About us</button>
                 <!--------------------       <button class="download" onclick="products()"><a href="laptops.html" style="text-decoration: none;">
                   Laptops</a></button>----------->
-                <button class="download" onclick="home()">Homepage</button>
+                <button class="" onclick="home()">Homepage</button>
 
             </div>
         </div>
@@ -100,7 +105,7 @@
 
     </header>
 
-    <h1 class="w3-center w3-margin-0">AYSH INVENTIONS</h1>
+
 
     <div class="w3-half">
         <button onclick="menu()" id="hellosmall">Options <i class="fa fa-database" aria-hidden="true"></i></button>
@@ -109,16 +114,33 @@
 
 
     <div class="w3-container w3-padding-small" id="contentToDisplay">
-        <div class="w3-half">
-            <img src="images/coder.png" class="w3-image w3-animate-bottom">
+        <div class="w3-third">
+            <h3 class="w3-center w3-text-yellow w3-jumbo w3-padding   fa fa-hand-holding-usd" aria-hidden="true"> Business</h3>
+            <p class="w3-justify w3-xlarge w3-padding">
+                We create business-oriented <i class="w3-text-yellow" style="font-style: normal;"> IT solutions </i>aimed at giving you dominion in the market by getting more clients, becoming more efficient and staying relevant, <i class="w3-text-red">so that you make more profits. </i>                </p>
         </div>
-        <div class="w3-half" id="down">
+
+
+        <div class="w3-third" id="down">
             <h3 id="down" class="w3-text-red">Downloads</h3>
-            <a href="docs/graphics.pdf" class="w3-btn bw w3-margin-top">Graphics Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/graphics.pdf" class="w3-btn bw w3-margin-top">Graphics Design Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
             <a href="docs/facebookAdvertisement.pdf" class="w3-btn bw w3-margin-top">Facebook Advertisement Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/website3.pdf" class="w3-btn bw w3-margin-top">Business Website Quotation <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/website7.pdf" class="w3-btn bw w3-margin-top">Mini-Shopping Website <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/website36.pdf" class="w3-btn bw w3-margin-top">Standard-Shopping Website <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
             <!---- <a href="docs/websiteDesign.pdf" class="w3-btn bw w3-margin-top">Website Design Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 --->
         </div>
+
+
+        <div class="w3-third">
+            <img src="images/coder.png" class="w3-image w3-animate-bottom">
+        </div>
+
+
+
+
+
 
     </div>
 
@@ -126,16 +148,30 @@
 
     <div class="w3-container w3-padding-small" id="home" style="display: none;">
 
-        <div class="w3-half">
-            <img src="images/coder.png" class="w3-image w3-animate-bottom">
+        <div class="w3-third">
+            <h3 class="w3-center w3-text-yellow w3-jumbo w3-padding   fa fa-hand-holding-usd" aria-hidden="true"> Business</h3>
+            <p class="w3-justify w3-xlarge w3-padding">
+                We create business-oriented <i class="w3-text-yellow" style="font-style: normal;"> IT solutions </i>aimed at giving you dominion in the market by getting more clients, becoming more efficient and staying relevant, <i class="w3-text-red">so that you make more profits. </i>                </p>
         </div>
-        <div class="w3-half">
+
+
+        <div class="w3-third" id="down">
             <h3 id="down" class="w3-text-red">Downloads</h3>
-            <a href="docs/graphics.pdf" class="w3-btn bw w3-margin-top">Graphics Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/graphics.pdf" class="w3-btn bw w3-margin-top">Graphics Design Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
             <a href="docs/facebookAdvertisement.pdf" class="w3-btn bw w3-margin-top">Facebook Advertisement Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-            <!----  <a href="docs/websiteDesign.pdf" class="w3-btn bw w3-margin-top">Website Design Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/website3.pdf" class="w3-btn bw w3-margin-top">Business Website Quotation <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/website7.pdf" class="w3-btn bw w3-margin-top">Mini-Shopping Website <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="docs/website36.pdf" class="w3-btn bw w3-margin-top">Standard-Shopping Website <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <!---- <a href="docs/websiteDesign.pdf" class="w3-btn bw w3-margin-top">Website Design Prices <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 --->
         </div>
+
+
+        <div class="w3-third">
+            <img src="images/coder.png" class="w3-image w3-animate-bottom">
+        </div>
+
+
 
     </div>
 
@@ -145,7 +181,7 @@
         <h2 class="w3-center"> WEBSITE CREATION <i class="fa fa-code w3-text-light-blue" aria-hidden="true"></i></h2>
 
         <div class="w3-row">
-
+            <!-------------------------------------------------
             <div class=" w3-quarter w3-card-2 w3-margin-bottom">
                 <button class="bw" id="subheading">Basic Website</button>
                 <div class="w3-row w3-light-grey w3-animate-left ">
@@ -166,38 +202,15 @@
                 </div>
             </div>
 
-
-            <div class=" w3-quarter w3-card-2 w3-margin-bottom">
-                <button class="bw" id="subheading">Moderate Website</button>
-                <div class="w3-row w3-light-grey w3-animate-left ">
-                    <h3 id="feat">Features <button class="price w3-right">UGX 1,800,000</button></h3>
-                    <ol class="w3-text-black w3-ol">
-                        <li>Domain name (.com / .org) <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li> Web hosting for 12 months (1 year) <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li> Linked to your WhatsApp & facebook <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li> Custom designed outlook <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li>Online chat with your clients <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li> Mini database engine <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li>Mini Blog <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li> Cyber security <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li>3 email domains <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
-                    </ol>
-                    <ol class="w3-text-black w3-ol">
-
-                        <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a>
-                        <a href="https://wa.me/256773913902?text=Hello%20Aysh,..." class="call w3-center"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                    </ol>
-                </div>
-            </div>
+----->
 
 
             <div class=" w3-quarter w3-card-2 w3-margin-bottom">
                 <button class="bw" id="subheading">Corporate Website</button>
                 <div class="w3-row w3-light-grey w3-animate-left ">
-                    <h3 id="feat">Features <button class="price w3-right">UGX 3,700,000</button></h3>
+                    <h3 id="feat">Features <button class="price w3-right">UGX 3,600,000</button></h3>
                     <ol class="w3-text-black w3-ol">
-                        <li>2 Domain names (.com / .org ) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Domain name (.com / .org ) <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li> Web hosting for 12 months (1 year) <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li> Linked to your WhatsApp & facebook <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li> Custom designed outlook <i class="fa fa-check" aria-hidden="true"></i></li>
@@ -207,7 +220,10 @@
                         <li>Online database-driven product gallery<i class="fa fa-check" aria-hidden="true"></i></li>
                         <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li>Cyber Security <i class="fa fa-check" aria-hidden="true"></i></li>
-                        <li class="w3-text-red">Your Admin Dashboard <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li class="w3-text-red">Your Admin Dashboard (Control Panel) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li id="notamong">No Shopping Cart <i class="fa fa-times exc"></i></li>
+                        <li id="notamong">No user accounts for website visitors <i class="fa fa-times exc"></i></li>
+                        <li id="notamong">No Payment API <i class="fa fa-times exc"></i></li>
                     </ol>
                     <ol class="w3-text-black w3-ol">
                         <!-----  <li id="notamong">No email domain <i class="fa fa-times exc"></i></li>    ---------->
@@ -218,13 +234,43 @@
             </div>
 
 
-        </div>
 
-
-        <div class="w3-row">
 
             <div class=" w3-quarter w3-card-2 w3-margin-bottom">
-                <button class="bw" id="subheading">Shopping Website</button>
+                <button class="bw" id="subheading">Mini - Shopping Website</button>
+                <div class="w3-row w3-light-grey w3-animate-left ">
+                    <h3 id="feat">Features <button class="price w3-right">UGX 7,560,000</button></h3>
+                    <ol class="w3-text-black w3-ol">
+                        <li>Domain names (.com / .org ) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Web hosting for 12 months (1 year) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Linked to your WhatsApp & facebook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> Custom designed outlook <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Online chat with your clients <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li> 5 professional email domains <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Database engine <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Online database-driven product gallery<i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Cyber Security <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>1 Shop <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li class="w3-text-red">Your Admin Dashboard (Control Panel) <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li id="notamong">No Shopping Cart <i class="fa fa-times exc"></i></li>
+                        <li id="notamong">No user accounts for website visitors <i class="fa fa-times exc"></i></li>
+                        <li id="notamong">No Payment API <i class="fa fa-times exc"></i></li>
+
+                    </ol>
+                    <ol class="w3-text-black w3-ol">
+
+                        <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a>
+                        <a href="https://wa.me/256773913902?text=Hello%20Aysh,..." class="call w3-center"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </ol>
+                </div>
+            </div>
+
+
+
+
+            <div class=" w3-quarter w3-card-2 w3-margin-bottom">
+                <button class="bw" id="subheading">Standard - Shopping Website</button>
                 <div class="w3-row w3-light-grey w3-animate-left ">
                     <h3 id="feat">Features <button class="price w3-right">UGX 36,590,000</button></h3>
                     <ol class="w3-text-black w3-ol">
@@ -241,6 +287,9 @@
                         <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li>Cyber Security <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li>Your Admin Dashboard <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Cyber Security <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>1 Shop <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li id="notamong">No Payment API<i class="fa fa-times exc"></i></li>
 
                         <br>
                         <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a>
@@ -250,6 +299,14 @@
                     <p class="w3-center "><a class="w3-red w3-btn" href="docs/shopweb.pdf">Quotation</a></p>
                 </div>
             </div>
+
+
+        </div>
+
+
+        <div class="w3-row">
+
+
 
 
 
@@ -275,6 +332,7 @@
                         <li>Technical Support <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li>Cyber Security <i class="fa fa-check" aria-hidden="true"></i></li>
                         <li>Your Admin Dashboard <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Upto 50 Shops <i class="fa fa-check" aria-hidden="true"></i></li>
 
                         <br>
                         <a href="mailto:ayshinventions@gmail.com" class="navigate w3-center">Mail us</a> <a href="Tel: +256773913902" class="yes w3-center">Call us</a>
@@ -382,7 +440,7 @@
 
                 <ul class="w3-ul">
                     <li>
-                        <h4>Definitions</h4>
+                        <h4 class="w3-text-red">Definitions</h4>
                     </li>
                     <li>Company: <i class="w3-text-light-blue">Registered</i></li>
                     <li>Business: <i class="w3-text-red">Not registered</i></li>
@@ -808,12 +866,12 @@
 
                         <tr>
                             <td>Fee</td>
-                            <td class="prog ">UgX <i> 15,000 </i>per hour</td>
+                            <td class="prog ">UgX <i> 20,000 </i>per hour</td>
                         </tr>
 
                         <tr>
                             <td>Discounted Fee (Pay 80%)</td>
-                            <td class="prog ">UgX <i>1,200,000 </i>one-off</td>
+                            <td class="prog ">UgX <i>1,600,000 </i>one-off</td>
                         </tr>
 
                     </table>
@@ -822,7 +880,8 @@
                     <ol class="w3-text-black  w3-margin-0 ">
                         <h4>CONTENTS</h4>
                         <li>Introduction to MariaDB / MySQL databases <i> 10 Days</i></li>
-                        <li>Introduction to Java programming <i> 30 Days</i></li>
+                        <li>Introduction to Java programming <i> 27 Days</i></li>
+                        <li>Java Build Tools <i> 3 Days</i></li>
                         <li>JDBC (Accessing the Database using Java) <i> 10 Days</i></li>
                         <li>Using Java Server Pages (.JSP) <i> 10 Days</i></li>
                         <li>Sample Dynamic Websites <i> 20 Days</i></li>
@@ -1060,12 +1119,12 @@
 
                         <tr>
                             <td>Fee</td>
-                            <td class="prog ">UgX <i> 15,000 </i>per hour</td>
+                            <td class="prog ">UgX <i> 20,000 </i>per hour</td>
                         </tr>
 
                         <tr>
                             <td>Discounted Fee (Pay 80%)</td>
-                            <td class="prog ">UgX <i>480,000 </i>one-off</td>
+                            <td class="prog ">UgX <i>640,000 </i>one-off</td>
                         </tr>
 
                     </table>
@@ -1212,7 +1271,7 @@
         <div class="w3-row w3-margin-0 " id="software ">
             <div class=" w3-quarter w3-center  w3-padding w3-justify w3-card-2 " id="softp2">
                 <h3 class="w3-center w3-padding w3-margin-0 w3-vivid-red ">virtual campus engine</h3>
-                <p> A powerful Asynchronous Database Engine for universities & tertiary institutions.</p>
+                <p class="w3-large"> A powerful Asynchronous Database-Engine for universities & tertiary institutions.</p>
                 <div class="w3-container w3-half w3-center w3-justify w3-spin "> <img class="w3-image " src="images/vcengine3.png "></div>
                 <div class="w3-container w3-half w3-left w3-justify " style=" position: absolute; z-index: 0; width: 200px; ">
                     <img class="w3-image w3-spin2 " src="images/vcengine5.png "></div>
@@ -1233,9 +1292,9 @@
 
             <div class=" w3-quarter w3-center  w3-animate-right w3-padding w3-justify w3-card-2 " id="softp2">
                 <h3 class="w3-center w3-padding w3-margin-0 w3-orange ">bigezo</h3>
-                <p> A powerful marks messenger for Primary & Secondary Schools.</p>
+                <p class="w3-large"> A powerful marks messenger for Primary & Secondary Schools.</p>
                 <div class="w3-container w3-half w3-center w3-justify ">
-                    <img class="w3-image " src="images/logos/bigezo.png "></div>
+                    <img class="w3-image " src="images/logos/ayshdb.png "></div>
                 <div class="w3-container ">
 
                     <p class="w3-text-orange "> For details or to purchase, please contact us</p>
@@ -1251,7 +1310,7 @@
 
             <div class=" w3-quarter w3-center  w3-animate-right w3-padding w3-justify w3-card-2 " id="softp2">
                 <h3 class="w3-center w3-padding w3-margin-0 w3-vivid-yellow-green ">Online drugshop</h3>
-                <p> A powerful sales technology for pharmacies.</p>
+                <p class="w3-large"> A powerful online-sales technology for pharmacies.</p>
                 <div class="w3-container w3-half w3-center w3-justify ">
                     <img class="w3-image " src="images/drug.png "></div>
                 <div class="w3-container ">
@@ -1382,7 +1441,7 @@
                 </div>
 
                 <div class="w3-container w3-center w3-card-4 w3-col l3 l3pic "><br>
-                    <img src="images/mary.png " alt="Avatar " class="w3-image w3-circle imgback w3-margin-top ">
+                    <img src="images/chos2.jpg " alt="Avatar " class="w3-image w3-circle imgback w3-margin-top ">
                     <h3>Mary .A</h3>
 
                 </div>
