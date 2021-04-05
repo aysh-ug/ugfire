@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@media only screen and (min-width: 600px) {
+
+#calculator{
+	
+		
+	}
+
+#dol{
+	padding: 20px;
+	text-align: left;
+}
+#dol h2{
+	text-align: center;
+	color: #000;
+}
+#dol h1{
+	text-align: center;
+	color: #800000;
+	font-size: 20px;
+	border:none;
+}
+
+
+#dollarform p{
+	padding: 5px 20px;
+	}
+
+#dol{
+	background:#f9f9b9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9f9b9, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
+
+	font-size: 16px;
+	max-width: 400px;
+	
+	margin:0;
+	display: inline-block;
+
+}
+
+.convertwords{
+margin: 20px auto 2px;
+}
+.convertbtn{
+margin: 2px auto 20px;
+}
+input{
+ 	border:none;
+ 	padding: 10px 20px;
+ 	font-size: 16px;
+ 	width: 100%;
+ }
+
+ .homepagebtn {
+ 	text-decoration: none;
+ }
+
+}
+
+/*-----------------PHONE---------------*/
+
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+
+#calculator{
+	
+		margin: 10px;
+	display: inline-table;
+	margin-bottom: 0px;
+
+	}
+
+#dol{margin: 0px auto;
+	padding: 20px;
+	text-align: left;
+
+}
+
+#dol h2{
+	text-align: center;
+	color: #000;
+	font-size: 130%;
+}
+#dol h1{
+	text-align: center;
+	color: #d41111;
+	font-weight: normal;
+	font-size: 16px;
+	border:none;
+}
+
+#dollarform p{
+	padding: 5px 20px;
+	}
+
+#dol{
+	background:#f9f9b9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9f9b9, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9f9b9, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9f9b9, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9f9b9, #e6e6e6); /* Standard syntax */
+
+	font-size: 16px;
+	width: 85%;
+	height: 100%;
+
+
+}
+	}
+
+.convertwords{
+margin: 20px auto 2px;
+}
+.convertbtn{
+margin: 2px auto 20px;
+}
+ input{
+ 	border:none;
+ 	padding: 10px 20px;
+ 	font-size: 18px;
+
+ }
+
+ .homepagebtn {
+ 	text-decoration: none;
+ 	width: 40%;
+ }
+}
