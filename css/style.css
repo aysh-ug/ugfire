@@ -3,16 +3,36 @@ body {
     font-size: 14px;
     background: url('../images/bg/cartographer.png');
 }
-
+.head{
+    background-color: #A04A4A;
+}
 #software {
     background: #ffffff url("images/bg/3px-tile.png");
 }
+.gtit{
+    color: rgb(0, 0, 0); font-family: 'Times New Roman', Times, serif; font-weight: bold;
+    padding: 10px 20px;
+    background-color: #f3f1cd;
+}
+.gtit2{
+    font-size: large; color: #705c5c; border-top: 1px dotted #272727;padding-top: 30px;
+}
+.gpcs{
+    margin: 10px; margin-bottom: 30px;
+}
+#contentToDisplay{
+    background: url('../images/bg/cartographer.png');
+}
 
+#contentToDisplay2{
+    background: url('../images/bg/cartographer.png');
+}
 #softp2 {
-    background: rgba(0, 0, 0, 0.46) !important;
+    background: rgba(0, 0, 0, 0.86) !important;
     color: rgb(236, 235, 235);
     padding-bottom: 30px !important;
     margin-bottom: 20px !important;
+    
 }
 
 .esamples {
@@ -147,7 +167,7 @@ h4 {
 
 .price {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: bold;
     border: none;
     background: rgb(238, 212, 65);
     color: #000;
@@ -516,7 +536,7 @@ li i {
 
 .prog2 {
     font-style: normal;
-    color: #960a0a;
+    color: #490202;
     border-left: 1px solid #292929;
     font-weight: normal;
 }
