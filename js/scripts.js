@@ -38,8 +38,8 @@ function soft() {
     document.getElementById("hellosmall").style.display = "block";
 }
 
-function tech() {
-    document.getElementById("contentToDisplay").innerHTML = document.getElementById("tech").innerHTML;
+function print() {
+    document.getElementById("contentToDisplay").innerHTML = document.getElementById("print").innerHTML;
     document.getElementById("opts").style.display = "none";
     document.getElementById("hellosmall").style.display = "block";
 }
