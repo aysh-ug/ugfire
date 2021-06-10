@@ -17,6 +17,12 @@ body {
 .gtit2{
     font-size: large; color: #705c5c; border-top: 1px dotted #272727;padding-top: 30px;
 }
+.gtable {
+    font-size: 150%; margin:20px auto;
+}
+.pric{
+    border-left: 1px solid rgb(31, 30, 30);
+}
 .gpcs{
     margin: 10px; margin-bottom: 30px;
 }
@@ -32,6 +38,7 @@ body {
     color: rgb(236, 235, 235);
     padding-bottom: 30px !important;
     margin-bottom: 20px !important;
+    height: 450px;
     
 }
 
@@ -59,6 +66,7 @@ body {
 
 h1 {
     color: #d5e454;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -73,7 +81,7 @@ h3 {
 }
 
 h4 {
-    color: rgb(8, 85, 136);
+    color: rgb(248, 243, 219);
     font-weight: bold;
 }
 
@@ -320,6 +328,9 @@ li i {
 }
 
 @media only screen and (max-width: 769px) {
+    .gtable {
+        font-size: 110%;
+    }
     .esamp {
         margin-top: 30px;
     }
