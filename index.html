@@ -26,6 +26,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/carousel.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/modal.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165426784-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -125,10 +127,58 @@
 
     </header>
 
+  <!-----------------------------------------------------------------------OFFERS BUTTON----------------------------------------------------------------------->
 
+    <p class="w3-right w3-margin">
+        <a href="" data-modal="#modal" class="modal__trigger">Promotional Offers</a>
+                        </p>
+
+
+                        <div id="modal" class="modal modal__bg" role="dialog" aria-hidden="true">
+                            <div class="modal__dialog">
+                                <div class="modal__content">
+                                    <p>	<!-- modal close button -->
+                                        <a href="" class="modal__close demo-close">
+                                            <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+                                        </a></p>
+                                    <h1 style="text-align: center; color: black;"><em style="font-style: normal; font-weight: bold; color: #db3a52;text-align: center;">Website Design</em> <br>
+                                    + Hosting & Domain Name</h1>
+                                    <h1 style="background-color: rgb(247, 245, 155); padding: 10px;color: black;">UGX <i  style="color: brown; font-style: normal; font-weight: bold;">650,000 </i> per year</h1>
+                                    
+                                
+                                    <p class=""><a href="https://wa.me/256773913902?text=Hello%20Aysh,..." class="call w3-center w3-btn"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp us: +256773913902</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <script  src="js/modal.js"></script>                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------------------------------------------------------------END OFFERS BUTTON----------------------------------------------------------------------->
 
     <div class="w3-half">
-        <button onclick="menu()" id="hellosmall">Options <i class="fa fa-database" aria-hidden="true"></i></button>
+        <button onclick="menu()" id="hellosmall" class="w3-btn w3-margin">Options <i class="fa fa-database" aria-hidden="true"></i></button>
 
     </div>
 
@@ -1340,7 +1390,7 @@
                     </div>
 
                     <div class="carousel-item w3-margin-bottom w3-margin-top" data-bs-interval="12000">
-                        <img src="images/efliers/bigezo.jpg" class="center-block img-fluid w3-center" alt="...">
+                        <img src="images/efliers/weboffers.jpg" class="center-block img-fluid w3-center" alt="...">
 
                     </div>
 
