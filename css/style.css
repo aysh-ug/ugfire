@@ -515,14 +515,14 @@ li i {
         display: block
     }
     #optslarge button {
-        background-color: #000;
+        background-color: transparent;
         margin-top: 20px;
         border: none;
         border-right: rgb(70, 20, 20) 1px solid;
         padding: 20px;
     }
     #optslarge button:hover {
-        background-color: rgb(70, 20, 20);
+        background-color: rgb(131, 50, 50);
     }
     .alogo h3 {
         color: rgb(165, 15, 15);
