@@ -81,8 +81,9 @@ h3 {
 }
 
 h4 {
-    color: rgb(248, 243, 219);
+    color: rgb(60, 138, 148);
     font-weight: bold;
+    margin-top: 20px !important;
 }
 
 #down {
@@ -321,7 +322,7 @@ li i {
         margin: 3px;
     }
     .cdesc h4 {
-        color: #f8f548 !important;
+        color: #146268 !important;
         font-size: 18px !important;
         padding: 5px;
     }
@@ -437,7 +438,7 @@ li i {
 
 #courses h4 {
     font-weight: bold !important;
-    color: #000 !important;
+    color: rgb(168, 57, 57) !important;
 }
 
 #courses p {

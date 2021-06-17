@@ -91,7 +91,7 @@ a {
   right: 0;
   bottom: 0;
   color: #a01f32;
-  background: #f8f6f6;
+  background: rgba(0,0,0,0.25);
   transform: none;
   opacity: 1;
   transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
